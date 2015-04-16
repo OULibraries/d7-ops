@@ -60,6 +60,7 @@ projects[node_clone][version] = "1.0-rc2"
 projects[media][version] = "1.4"
 projects[file_formatters][version] = "1.0"
 projects[ezproxy][version] = "2.2"
+projects[realname][version] = "1.2"
 
 ; Themes
 projects[bootstrap][version] = "3.0"
