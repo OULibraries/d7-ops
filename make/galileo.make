@@ -87,9 +87,9 @@ projects[leaflet][download][branch] = "7.x-1.x-oulib"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-projects[loginblock][download][type] = "git"
-projects[loginblock][download][url] = "https://github.com/OULibraries/loginblock.git"
-projects[loginblock][type] = "module"
+projects[loginblock_GW][download][type] = "git"
+projects[loginblock_GW][download][url] = "https://github.com/OULibraries/loginblock_GW.git"
+projects[loginblock_GW][type] = "module"
 
 projects[views_bootstrap][download][type] = "git"
 projects[views_bootstrap][download][url] = "https://github.com/OULibraries/views_bootstrap.git"
