@@ -34,6 +34,7 @@ projects[panels][version] = "3.4"
 projects[imagefield_focus][version] = "1.0"
 projects[job_scheduler][version] = "2.0-alpha3"
 projects[jquery_update][version] = "2.4"
+projects[google_analytics][version] = "2.1"
 
 ;projects[ldap][version] = "2.0-beta8"
 projects[leaflet_more_maps][version] = "1.10"
