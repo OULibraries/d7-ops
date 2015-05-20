@@ -64,7 +64,8 @@ projects[ezproxy][version] = "2.2"
 projects[fitvids][version] = "1.17"
 projects[oembed][version] = "0.1-beta3"
 projects[file_entity][version] = "2.0-beta1"
-projects[sharethis][version] = "7.x-2.10"
+projects[sharethis][version] = "2.10"
+projects[metatag][version] = "1.x-dev"
 
 
 ; Themes
