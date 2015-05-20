@@ -63,6 +63,8 @@ projects[file_formatters][version] = "1.0"
 projects[ezproxy][version] = "2.2"
 projects[fitvids][version] = "1.17"
 projects[oembed][version] = "0.1-beta3"
+projects[file_entity][version] = "2.0-beta1"
+
 
 ; Themes
 projects[bootstrap][version] = "3.0"
