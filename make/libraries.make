@@ -62,8 +62,7 @@ projects[media][version] = "2.0-alpha4"
 projects[file_formatters][version] = "1.0"
 projects[ezproxy][version] = "2.2"
 projects[realname][version] = "1.2"
-
-
+projects[google_analytics][version] = "2.1"
 
 
 ; Themes
