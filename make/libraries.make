@@ -64,6 +64,7 @@ projects[ezproxy][version] = "2.2"
 projects[realname][version] = "1.2"
 projects[google_analytics][version] = "2.1"
 projects[metatag][version] = "1.4"
+Projects[pathauto][version] = "1.2"
 
 ; Themes
 projects[bootstrap][version] = "3.0"
