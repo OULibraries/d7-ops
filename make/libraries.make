@@ -5,7 +5,7 @@ api = 2
 projects[drupal][version] = "7.34"
 
 ; Modules
-projects[addressfield][version] = "1.0-beta5"
+projects[addressfield][version] = "1.1"
 projects[admin_menu][version] = "3.0-rc4"
 projects[bootstrap_carousel][version] = "1.0"
 projects[ctools][version] = "1.5"
