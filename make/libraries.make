@@ -66,7 +66,7 @@ projects[google_analytics][version] = "2.1"
 projects[metatag][version] = "1.4"
 projects[pathauto][version] = "1.2"
 projects[node_export][version] = "3.0"
-projects[UUID][version] = "1.0-alpha6"
+projects[uuid][version] = "1.0-alpha6"
 
 ; Themes
 projects[bootstrap][version] = "3.0"
