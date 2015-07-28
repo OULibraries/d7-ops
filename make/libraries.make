@@ -67,6 +67,7 @@ projects[metatag][version] = "1.4"
 projects[pathauto][version] = "1.2"
 projects[node_export][version] = "3.0"
 projects[uuid][version] = "1.0-alpha6"
+projects[redirect][version] = "1.0-rc3"
 
 ; Themes
 projects[bootstrap][version] = "3.0"
