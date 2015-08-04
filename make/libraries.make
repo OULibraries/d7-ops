@@ -68,6 +68,7 @@ projects[pathauto][version] = "1.2"
 projects[node_export][version] = "3.0"
 projects[uuid][version] = "1.0-alpha6"
 projects[redirect][version] = "1.0-rc3"
+projects[fitvids][version] = "1.17"
 
 ; Themes
 projects[bootstrap][version] = "3.0"
@@ -144,6 +145,14 @@ libraries[iCalcreator][download][branch] = "master"
 libraries[iCalcreator][download][revision] = "e3dbec2cb3bb91a8bde989e467567ae8831a4026"
 libraries[iCalcreator][directory_name] = "iCalcreator"
 libraries[iCalcreator][type] = "library"
+
+; Please fill the following out. Type may be one of get, git, bzr or svn,
+; and url is the url of the download.
+libraries[fitvids][download][type] = "git"
+libraries[fitvids][download][url] = "https://github.com/davatron5000/FitVids.js.git"
+libraries[fitvids][download][branch] = "master"
+libraries[fitvids][directory_name] = "fitvids"
+libraries[fitvids][type] = "library"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
