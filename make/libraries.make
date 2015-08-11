@@ -70,6 +70,7 @@ projects[uuid][version] = "1.0-alpha6"
 projects[redirect][version] = "1.0-rc3"
 projects[fitvids][version] = "1.17"
 projects[primo_sso][version] = "1.0"
+projects[user_import][version] = "2.3"
 
 ; Themes
 projects[bootstrap][version] = "3.0"
