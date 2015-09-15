@@ -135,7 +135,7 @@ projects[oulib_bootstrap][download][branch] = "master"
 ;libraries[leaflet][download][branch] = "master"
 ;libraries[leaflet][download][revision] = "8a5fdfc6e3db2807b8f0dd617474e4ab2949142b"
 libraries[leaflet][download][type] = "get"
-libraries[leaflet][download][url] = "http://leaflet-cdn.s3.amazonaws.com/build/leaflet-0.7.3.zip"
+libraries[leaflet][download][url] = "https://lib.ou.edu/documents/leaflet-0.7.3.zip"
 libraries[leaflet][directory_name] = "leaflet"
 libraries[leaflet][type] = "library"
  
