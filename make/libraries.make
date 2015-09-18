@@ -35,6 +35,7 @@ projects[imagefield_focus][version] = "1.0"
 projects[job_scheduler][version] = "2.0-alpha3"
 projects[jquery_update][version] = "2.4"
 
+
 ;projects[ldap][version] = "2.0-beta8"
 projects[leaflet_more_maps][version] = "1.10"
 projects[libraries][version] = "2.2"
@@ -120,6 +121,10 @@ projects[oulib_blocks][download][type] = "git"
 projects[oulib_blocks][download][url] = "https://github.com/OULibraries/oulib_blocks.git"
 projects[oulib_blocks][download][branch] = "7.x-0.x"
 ;projects[oulib_blocks][download][revision] = "2dac3ec5b5ece8707eb62db4ecfa9ab5f6f48bd9"
+
+projects[bettercontact][type] = "module"
+projects[bettercontact][download][type] = "git"
+projects[bettercontact][download][url] = "https://github.com/OULibraries/bettercontact.git"
 
 ; Themes
 projects[oulib_bootstrap][type] = "theme"
