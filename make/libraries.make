@@ -122,9 +122,9 @@ projects[oulib_blocks][download][url] = "https://github.com/OULibraries/oulib_bl
 projects[oulib_blocks][download][branch] = "7.x-0.x"
 ;projects[oulib_blocks][download][revision] = "2dac3ec5b5ece8707eb62db4ecfa9ab5f6f48bd9"
 
-projects[bettercontact][type] = "module"
-projects[bettercontact][download][type] = "git"
-projects[bettercontact][download][url] = "https://github.com/OULibraries/bettercontact.git"
+projects[better_contact][type] = "module"
+projects[better_contact][download][type] = "git"
+projects[better_contact][download][url] = "https://github.com/OULibraries/better_contact.git"
 
 ; Themes
 projects[oulib_bootstrap][type] = "theme"
