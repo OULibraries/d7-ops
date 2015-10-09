@@ -73,6 +73,11 @@ projects[fitvids][version] = "1.17"
 projects[primo_sso][version] = "1.0"
 projects[user_import][version] = "2.3"
 projects[userprotect][version] = "1.2"
+projects[field_permissions][version] = "1.0-beta2"
+projects[field_conditional_state][version] = "2.1"
+projects[editableviews][version] = "1.0-beta10"
+projects[field_default_token][version] = "1.2"
+
 
 ; Themes
 projects[bootstrap][version] = "3.0"
