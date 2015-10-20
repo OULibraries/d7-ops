@@ -65,6 +65,7 @@ projects[filefield_paths][version] = "1.0-beta4"
 projects[file_entity][version] = "2.0-beta1"
 projects[pathauto][version] = "1.2"
 projects[private][version] = "1.2"
+projects[google_analytics][version] = "2.1"
 
 
 ; Themes
