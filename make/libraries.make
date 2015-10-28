@@ -77,6 +77,9 @@ projects[field_permissions][version] = "1.0-beta2"
 projects[field_conditional_state][version] = "2.1"
 projects[editableviews][version] = "1.0-beta10"
 projects[field_default_token][version] = "1.2"
+projects[mass_contact][version] = "1.1"
+projects[mail_headers][version] = "1.0"
+projects[custom_search][version] = "1.18"
 
 
 ; Themes
