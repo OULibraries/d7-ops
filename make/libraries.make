@@ -80,6 +80,7 @@ projects[field_default_token][version] = "1.2"
 projects[mass_contact][version] = "1.1"
 projects[mail_headers][version] = "1.0"
 projects[custom_search][version] = "1.18"
+projects[mass_contact][version] = "1.1"
 
 
 ; Themes
