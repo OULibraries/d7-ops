@@ -33,7 +33,7 @@ projects[getdirections][version] = "3.2"
 projects[panels][version] = "3.4"
 projects[imagefield_focus][version] = "1.0"
 projects[job_scheduler][version] = "2.0-alpha3"
-projects[jquery_update][version] = "2.4"
+projects[jquery_update][version] = "2.7"
 
 
 ;projects[ldap][version] = "2.0-beta8"
