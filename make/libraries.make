@@ -78,54 +78,44 @@ projects[webform][version] = "4.12"
 ; Themes
 projects[bootstrap][version] = "3.0"
 
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
-; just a local file.
-; projects[ldap_importer][download][type] = "get"
-; projects[ldap_importer][download][url] = "ldap_importer.tar.gz"
-; projects[ldap_importer][type] = "module"
+; Modules
+projects[better_contact][type] = "module"
+projects[better_contact][download][type] = "git"
+projects[better_contact][download][url] = "https://github.com/OULibraries/better_contact.git"
+projects[better_contact][download][revision] = "f3ce22e4ed7db2f2e046286e050e85c1617e823f"
 
 projects[ldap][type] = "module"
 projects[ldap][download][type] = "git"
 projects[ldap][download][url] = "https://github.com/OULibraries/ldap.git"
 projects[ldap][download][branch] = "7.x-2.x-oulib"
-;projects[ldap][download][revision] = "6f6c7c6a2bf6d2cadcefa1f0567554b68b190aeb"
+projects[ldap][download][revision] = "6f6c7c6a2bf6d2cadcefa1f0567554b68b190aeb"
 
 projects[leaflet][type] = "module"
 projects[leaflet][download][type] = "git"
 projects[leaflet][download][url] = "https://github.com/OULibraries/leaflet.git"
 projects[leaflet][download][branch] = "7.x-1.x-oulib"
-;projects[leaflet][download][revision] = "bef9d5cba1850e69d1b40369f81ef5a4a640ef25"
+projects[leaflet][download][revision] = "bef9d5cba1850e69d1b40369f81ef5a4a640ef25"
 
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
+projects[loginblock][type] = "module"
 projects[loginblock][download][type] = "git"
 projects[loginblock][download][url] = "https://github.com/OULibraries/loginblock.git"
-projects[loginblock][type] = "module"
-
-projects[views_bootstrap][download][type] = "git"
-projects[views_bootstrap][download][url] = "https://github.com/OULibraries/views_bootstrap.git"
-projects[views_bootstrap][type] = "module"
+projects[loginblock][download][revision] = "f5291d5a03f77878535d93f6fd2e2be49c31ec87"
 
 projects[ou_layouts][type] = "module"
 projects[ou_layouts][download][type] = "git"
 projects[ou_layouts][download][url] = "https://github.com/OULibraries/ou_layouts.git"
-;projects[ou_layouts][download][revision] = "4005a71973ad1bcc246a83bbcc89213322a996ce"
-
-projects[opening_hours][type] = "module"
-projects[opening_hours][download][type] = "git"
-projects[opening_hours][download][url] = "https://github.com/OULibraries/openinghours.git"
-;projects[opening_hours][download][revision] = "f5139efd337f7bb514886da30d32616b9cf00c7c"
+projects[ou_layouts][download][revision] = "ed0919ea139cca9fe04535abbc5f31ca66f1ab54"
 
 projects[oulib_blocks][type] = "module"
 projects[oulib_blocks][download][type] = "git"
 projects[oulib_blocks][download][url] = "https://github.com/OULibraries/oulib_blocks.git"
 projects[oulib_blocks][download][branch] = "7.x-0.x"
-;projects[oulib_blocks][download][revision] = "2dac3ec5b5ece8707eb62db4ecfa9ab5f6f48bd9"
+projects[oulib_blocks][download][revision] = "4173dc543968d3ab9a5a34b6208432ad43b7b301"
 
-projects[better_contact][type] = "module"
-projects[better_contact][download][type] = "git"
-projects[better_contact][download][url] = "https://github.com/OULibraries/better_contact.git"
+projects[oulib_config_e_resources][type] = "module"
+projects[oulib_config_e_resources][download][type] = "git"
+projects[oulib_config_e_resources][download][url] = "https://github.com/OULibraries/oulib_config_e_resources.git"
+projects[oulib_config_e_resources][download][revision] = "2eff252fba75b04038a5ba0bcb66d7531354ac60"
 
 ; Themes
 projects[oulib_bootstrap][type] = "theme"
@@ -215,7 +205,3 @@ libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/release
 libraries[bootstrap][directory_name] = "bootstrap"
 libraries[bootstrap][type] = "library"
 
-; Features
-projects[oulib_config_e_resources][download][type] = "git"
-projects[oulib_config_e_resources][download][url] = "https://github.com/OULibraries/oulib_config_e_resources.git"
-projects[oulib_config_e_resources][type] = "module"
