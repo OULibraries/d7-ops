@@ -79,43 +79,40 @@ projects[webform][version] = "4.12"
 projects[bootstrap][version] = "3.0"
 
 ; Modules
-projects[better_contact][type] = "module"
-projects[better_contact][download][type] = "git"
-projects[better_contact][download][url] = "https://github.com/OULibraries/better_contact.git"
-projects[better_contact][download][revision] = "f3ce22e4ed7db2f2e046286e050e85c1617e823f"
+ projects[ldap][type] = "module"
+ projects[ldap][download][type] = "git"
+ projects[ldap][download][url] = "https://github.com/OULibraries/ldap.git"
+ projects[ldap][download][branch] = "7.x-2.x-oulib"
 
-projects[ldap][type] = "module"
-projects[ldap][download][type] = "git"
-projects[ldap][download][url] = "https://github.com/OULibraries/ldap.git"
-projects[ldap][download][branch] = "7.x-2.x-oulib"
-projects[ldap][download][revision] = "6f6c7c6a2bf6d2cadcefa1f0567554b68b190aeb"
+ projects[leaflet][type] = "module"
+ projects[leaflet][download][type] = "git"
+ projects[leaflet][download][url] = "https://github.com/OULibraries/leaflet.git"
+ projects[leaflet][download][branch] = "7.x-1.x-oulib"
 
-projects[leaflet][type] = "module"
-projects[leaflet][download][type] = "git"
-projects[leaflet][download][url] = "https://github.com/OULibraries/leaflet.git"
-projects[leaflet][download][branch] = "7.x-1.x-oulib"
-projects[leaflet][download][revision] = "bef9d5cba1850e69d1b40369f81ef5a4a640ef25"
+ projects[loginblock][download][type] = "git"
+ projects[loginblock][download][url] = "https://github.com/OULibraries/loginblock.git"
+ projects[loginblock][type] = "module"
+ 
+ projects[views_bootstrap][download][type] = "git"
+ projects[views_bootstrap][download][url] = "https://github.com/OULibraries/views_bootstrap.git"
+ projects[views_bootstrap][type] = "module"
+ 
+ projects[ou_layouts][type] = "module"
+ projects[ou_layouts][download][type] = "git"
+ projects[ou_layouts][download][url] = "https://github.com/OULibraries/ou_layouts.git"
 
-projects[loginblock][type] = "module"
-projects[loginblock][download][type] = "git"
-projects[loginblock][download][url] = "https://github.com/OULibraries/loginblock.git"
-projects[loginblock][download][revision] = "f5291d5a03f77878535d93f6fd2e2be49c31ec87"
+ projects[opening_hours][type] = "module"
+ projects[opening_hours][download][type] = "git"
+ projects[opening_hours][download][url] = "https://github.com/OULibraries/openinghours.git"
 
-projects[ou_layouts][type] = "module"
-projects[ou_layouts][download][type] = "git"
-projects[ou_layouts][download][url] = "https://github.com/OULibraries/ou_layouts.git"
-projects[ou_layouts][download][revision] = "ed0919ea139cca9fe04535abbc5f31ca66f1ab54"
+ projects[oulib_blocks][type] = "module"
+ projects[oulib_blocks][download][type] = "git"
+ projects[oulib_blocks][download][url] = "https://github.com/OULibraries/oulib_blocks.git"
+ projects[oulib_blocks][download][branch] = "7.x-0.x"
 
-projects[oulib_blocks][type] = "module"
-projects[oulib_blocks][download][type] = "git"
-projects[oulib_blocks][download][url] = "https://github.com/OULibraries/oulib_blocks.git"
-projects[oulib_blocks][download][branch] = "7.x-0.x"
-projects[oulib_blocks][download][revision] = "4173dc543968d3ab9a5a34b6208432ad43b7b301"
-
-projects[oulib_config_e_resources][type] = "module"
-projects[oulib_config_e_resources][download][type] = "git"
-projects[oulib_config_e_resources][download][url] = "https://github.com/OULibraries/oulib_config_e_resources.git"
-projects[oulib_config_e_resources][download][revision] = "2eff252fba75b04038a5ba0bcb66d7531354ac60"
+ projects[better_contact][type] = "module"
+ projects[better_contact][download][type] = "git"
+ projects[better_contact][download][url] = "https://github.com/OULibraries/better_contact.git"
 
 ; Themes
 projects[oulib_bootstrap][type] = "theme"
@@ -125,19 +122,11 @@ projects[oulib_bootstrap][download][branch] = "master"
 ;projects[oulib_bootstrap][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
 
 ; Libraries
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
-;libraries[leaflet][download][type] = "git"
-;libraries[leaflet][download][url] = "https://github.com/Leaflet/Leaflet.git"
-;libraries[leaflet][download][branch] = "master"
-;libraries[leaflet][download][revision] = "8a5fdfc6e3db2807b8f0dd617474e4ab2949142b"
 libraries[leaflet][download][type] = "get"
 libraries[leaflet][download][url] = "https://lib.ou.edu/documents/leaflet-0.7.3.zip"
 libraries[leaflet][directory_name] = "leaflet"
 libraries[leaflet][type] = "library"
 
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
 libraries[iCalcreator][download][type] = "git"
 libraries[iCalcreator][download][url] = "https://github.com/iCalcreator/iCalcreator.git"
 libraries[iCalcreator][download][branch] = "master"
@@ -145,16 +134,12 @@ libraries[iCalcreator][download][revision] = "e3dbec2cb3bb91a8bde989e467567ae883
 libraries[iCalcreator][directory_name] = "iCalcreator"
 libraries[iCalcreator][type] = "library"
 
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
 libraries[fitvids][download][type] = "git"
 libraries[fitvids][download][url] = "https://github.com/davatron5000/FitVids.js.git"
 libraries[fitvids][download][branch] = "master"
 libraries[fitvids][directory_name] = "fitvids"
 libraries[fitvids][type] = "library"
 
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
 libraries[fontawesome][download][type] = "git"
 libraries[fontawesome][download][url] = "https://github.com/FortAwesome/Font-Awesome.git"
 libraries[fontawesome][download][branch] = "master"
@@ -162,8 +147,6 @@ libraries[fontawesome][download][revision] = "a65bd93d81e9e6bd5ebfa41757a4474960
 libraries[fontawesome][directory_name] = "fontawesome"
 libraries[fontawesome][type] = "library"
 
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
 libraries[colorbox][download][type] = "git"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
 libraries[colorbox][download][branch] = "master"
@@ -171,8 +154,6 @@ libraries[colorbox][download][revision]= "d9a4e2dfaabc63751eb82eb37f0fb4de6f31f2
 libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][type] = "library"
 
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
 libraries[owl-carousel][download][type] = "get"
 libraries[owl-carousel][download][url] = "https://github.com/OwlFonk/OwlCarousel/raw/f79d5de318f2848cf24b547ec1d48d44e55b2846/owl-carousel/owl.carousel.js"
 libraries[owl-carousel][directory_name] = "owl-carousel"
@@ -198,8 +179,6 @@ libraries[owl-carousel-trans][download][url] = "https://github.com/OwlFonk/OwlCa
 libraries[owl-carousel-trans][directory_name] = "owl-carousel"
 libraries[owl-carousel-trans][type] = "library"
 
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
 libraries[bootstrap][download][type] = "get"
 libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/releases/download/v3.3.1/bootstrap-3.3.1-dist.zip"
 libraries[bootstrap][directory_name] = "bootstrap"
