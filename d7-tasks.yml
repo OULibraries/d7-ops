@@ -9,6 +9,7 @@
   - httpd
   - mariadb
   - mariadb-server
+  - MySQL-python
   - php
   - mod_php
   - php-mysql
@@ -30,10 +31,35 @@
   sudo_user: vagrant
   git: repo=git@github.com:OULibraries/d7-ops.git
        dest=/opt/d7-ops force=yes version=dev-ansible
-## MariaDB
-- name: set mysql password insecurely
-  command: mysql --execute "SET PASSWORD FOR 'root'@'localhost' = PASSWORD('vagrant');" # TODO: use secure MySQL package instead
-## Apache config
+- name: Ensure /etc/profile.d/d7-ops.sh exists
+  file: path=/etc/profile.d/d7-ops.sh state=touch mode=0644 owner=root group=root
+- name: Add d7-ops scripts to path
+  lineinfile: "dest=/etc/profile.d/d7-ops.sh line='export PATH=/opt/d7-ops/bin/:$PATH'"
+# Equivilant to mysql_secure_installation
+- name: delete anonymous MySQL server user for *
+  action: mysql_user user="" host="*" state="absent"
+  ignore_errors: yes
+- name: delete anonymous MySQL server user for localhost
+  action: mysql_user user="" state="absent"
+  ignore_errors: yes
+- name: remove the MySQL test database
+  action: mysql_db db=test state=absent
+  ignore_errors: yes
+# 'localhost' needs to be the last item for idempotency, see
+# http://ansible.cc/docs/modules.html#mysql-user  
+- name: Change root user password on first run
+  mysql_user: login_user=root
+              login_password=''
+              name=root
+              password={{ mysql_root_password }}
+              priv=*.*:ALL,GRANT
+              host={{ item }}
+  with_items:
+    - 127.0.0.1
+    - ::1
+    - localhost
+  ignore_errors: yes
+# Apache config
 - name: Include Apache config magic
   copy:
     src: ./template_init_oulib_drupal

@@ -10,6 +10,10 @@
     encrypt: "sha512_crypt"
     confirm: yes
     salt_size: 7
+  - name: mysql_root_password
+    prompt: "mysql root password"
+    private: yes
+    confirm: yes
   tasks:
   - include: base-server-tasks.yml
   - include: d7-tasks.yml
