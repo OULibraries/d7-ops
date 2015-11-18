@@ -1,0 +1,50 @@
+---
+- name: Install packages necessary to run Drupal
+  yum:
+    name: "{{ item }}"
+    state: latest
+  with_items:
+  - net-tools
+  - bind-utils
+  - httpd
+  - mariadb
+  - mariadb-server
+  - php
+  - mod_php
+  - php-mysql
+  - php-ldap
+  - php-pear
+  - php-gd
+  - php-drush-drush
+- name: Start database server on boot
+  service:
+    name: mariadb
+    state: started
+    enabled: yes
+- name: Run Apache httpd on boot
+  service:
+    name: httpd
+    state: started
+    enabled: yes
+- name: Git d7-ops.
+  sudo_user: vagrant
+  git: repo=git@github.com:OULibraries/d7-ops.git
+       dest=/opt/d7-ops force=yes version=dev-ansible
+## MariaDB
+- name: set mysql password insecurely
+  command: mysql --execute "SET PASSWORD FOR 'root'@'localhost' = PASSWORD('vagrant');" # TODO: use secure MySQL package instead
+## Apache config
+- name: Include Apache config magic
+  copy:
+    src: ./template_init_oulib_drupal
+    dest: /etc/httpd/conf.d/template_init_oulib_drupal
+- name: Don't use ou.edu TLD in magic config
+  command: sed -i "s/ou\.edu/vagrant.dev/" /etc/httpd/conf.d/template_init_oulib_drupal
+- name: Comment out the welcome conf
+  command: sed -i "s/^[^#]/#&/" /etc/httpd/conf.d/welcome.conf
+- name: Give vagrant user too much permission
+  command: usermod -a -G apache vagrant
+- name: Set ownership of service directory
+  command: chown apache:apache /srv
+- name: Allow apache users to write to service directory
+  command: chmod g+w /srv

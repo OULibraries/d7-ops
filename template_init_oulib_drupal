@@ -1,0 +1,13 @@
+<VirtualHost *:80>
+  ServerName __SITE_DIR__.ou.edu
+  DocumentRoot /srv/__SITE_DIR__/drupal
+
+  <Directory "/srv/__SITE_DIR__/drupal">
+    Options Indexes FollowSymLinks
+    AllowOverride All
+    Order allow,deny
+    Allow from all
+    Require all granted
+  </Directory>
+
+</VirtualHost>

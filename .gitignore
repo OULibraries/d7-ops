@@ -1,3 +1,10 @@
+# Ignore vagrant build files
+.vagrant
+
+# Ignore linked keys
+libdev_rsa
+libdev_rsa.pub
+
 # Ignore configuration files that may contain sensitive information.
 sites/*/*settings*.php
 

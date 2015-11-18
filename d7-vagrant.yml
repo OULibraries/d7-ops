@@ -1,0 +1,17 @@
+---
+- hosts: all
+  sudo: yes
+  vars_files:
+  - base-server-vars.yml
+  vars_prompt:
+  - name: libacct_pass
+    prompt: "password for libacct"
+    private: yes
+    encrypt: "sha512_crypt"
+    confirm: yes
+    salt_size: 7
+  tasks:
+  - include: base-server-tasks.yml
+  - include: d7-tasks.yml
+  handlers:
+  - include: base-server-handlers.yml
