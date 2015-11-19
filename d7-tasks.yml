@@ -30,7 +30,7 @@
     enabled: yes
 - name: Git d7-ops.
   sudo_user: vagrant
-  git: repo=git@github.com:OULibraries/d7-ops.git
+  git: repo=https://github.com/OULibraries/d7-ops.git
        dest=/opt/d7-ops force=yes version=dev-ansible
 - name: Ensure /etc/profile.d/d7-ops.sh exists
   file: path=/etc/profile.d/d7-ops.sh state=touch mode=0644 owner=root group=root
