@@ -6,7 +6,7 @@ libdev_rsa
 libdev_rsa.pub
 
 # Ignore ngrok
-ngrok
+ngrok*
 
 # Ignore configuration files that may contain sensitive information.
 sites/*/*settings*.php
