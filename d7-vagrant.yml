@@ -14,8 +14,34 @@
     prompt: "mysql root password"
     private: yes
     confirm: yes
+  - name: ngrok_authtoken
+    prompt: "ngrok authtoken"
+    private: yes
   tasks:
   - include: base-server-tasks.yml
   - include: d7-tasks.yml
+  - name: Check for ngrok
+    stat: path=/vagrant/ngrok_2.0.19_linux_amd64.zip
+    register: ngrok
+  - name: Get ngrok
+    get_url: url=https://dl.ngrok.com/ngrok_2.0.19_linux_amd64.zip dest=/vagrant
+    when: ngrok.stat.exists == False
+  - name: Unpack ngrok
+    unarchive: src=/vagrant/ngrok_2.0.19_linux_amd64.zip dest=/vagrant/ copy=no
+    when: ngrok.stat.exists == False
+  - name: Check for ngrok config
+    stat: path=/home/vagrant/.ngrok2/ngrok.yml
+    register: ngrok_config
+  - name: Configure ngrok
+    shell: /vagrant/./ngrok authtoken "{{ ngrok_authtoken }}"
+  - name: Check for ngrok process
+    sudo: yes
+    command: pgrep ngrok
+    ignore_errors: yes
+    register: ngrok_pid
+  - name: Start ngrok
+    sudo_user: vagrant
+    shell: nohup /vagrant/./ngrok http 80 > /dev/null &
+    when: ngrok_pid.stdout == ""
   handlers:
   - include: base-server-handlers.yml
