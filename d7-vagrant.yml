@@ -15,7 +15,7 @@
     private: yes
     confirm: yes
   - name: ngrok_authtoken
-    prompt: "ngrok authtoken"
+    prompt: "ngrok authtoken. Signup at https://dashboard.ngrok.com/user/signup"
     private: yes
   tasks:
   - include: base-server-tasks.yml
