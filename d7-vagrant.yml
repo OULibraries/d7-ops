@@ -15,7 +15,7 @@
     private: yes
     confirm: yes
   - name: ngrok_authtoken
-    prompt: "ngrok authtoken. Signup at https://dashboard.ngrok.com/user/signup"
+    prompt: "Ngrok signup https://dashboard.ngrok.com/user/signup\nngrok authtoken"
     private: yes
   tasks:
   - include: base-server-tasks.yml
@@ -33,6 +33,7 @@
     stat: path=/home/vagrant/.ngrok2/ngrok.yml
     register: ngrok_config
   - name: Configure ngrok
+    sudo_user: vagrant
     shell: /vagrant/./ngrok authtoken "{{ ngrok_authtoken }}"
   - name: Check for ngrok process
     sudo: yes
@@ -41,7 +42,19 @@
     register: ngrok_pid
   - name: Start ngrok
     sudo_user: vagrant
-    shell: nohup /vagrant/./ngrok http 80 > /dev/null &
+#    shell: nohup /vagrant/./ngrok http 80 > /dev/null &
+    shell: nohup /vagrant/./ngrok http 80 --log ngrok.log --log-level debug --log-format "json" & chdir=/home/vagrant
     when: ngrok_pid.stdout == ""
+  - name: Grab ngrok hostname
+    sudo_user: vagrant
+#    shell: grep -m1 'URL' /home/vagrant/ngrok.log | cut -d ':' -f 11 | cut -d ' ' -f 1 | cut -c 3-
+    shell: grep Hostname /home/vagrant/ngrok.log | tail -1 |  cut -d ':' -f 8 | cut -d ' ' -f 1 | xargs
+    register: ngrok_hostname
+  - name: Vagrant-specific apache ServerName
+    lineinfile: dest=/etc/httpd/conf.d/template_init_oulib_drupal state=absent line='ServerName __SITE_DIR__.ou.edu'
+  - name: Access
+    debug: msg="http://{{ ngrok_hostname.stdout }}"
+  - name: Access
+    debug: msg="https://{{ ngrok_hostname.stdout }}"
   handlers:
   - include: base-server-handlers.yml

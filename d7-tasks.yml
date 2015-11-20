@@ -65,8 +65,8 @@
   copy:
     src: ./template_init_oulib_drupal
     dest: /etc/httpd/conf.d/template_init_oulib_drupal
-- name: Don't use ou.edu TLD in magic config
-  command: sed -i "s/ou\.edu/vagrant.dev/" /etc/httpd/conf.d/template_init_oulib_drupal
+#- name: Don't use ou.edu TLD in magic config
+#  command: sed -i "s/ou\.edu/vagrant.dev/" /etc/httpd/conf.d/template_init_oulib_drupal
 - name: Comment out the welcome conf
   command: sed -i "s/^[^#]/#&/" /etc/httpd/conf.d/welcome.conf
 - name: Give vagrant user too much permission
