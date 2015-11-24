@@ -213,7 +213,3 @@ libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/release
 libraries[bootstrap][directory_name] = "bootstrap"
 libraries[bootstrap][type] = "library"
 
-; Features
-projects[oulib_config_e_resources][download][type] = "git"
-projects[oulib_config_e_resources][download][url] = "https://github.com/OULibraries/oulib_config_e_resources.git"
-projects[oulib_config_e_resources][type] = "module"
