@@ -72,8 +72,6 @@ projects[views_accordion][version] = "1.0"
 projects[views_bootstrap][version] = "3.1"
 projects[webform][version] = "4.12"
 
-
-
 ; Themes
 projects[bootstrap][version] = "3.0"
 
@@ -89,6 +87,10 @@ projects[ldap][download][type] = "git"
 projects[ldap][download][url] = "https://github.com/OULibraries/ldap.git"
 projects[ldap][download][branch] = "7.x-2.x-oulib"
 ;projects[ldap][download][revision] = "6f6c7c6a2bf6d2cadcefa1f0567554b68b190aeb"
+
+projects[ldap][type] = "module"
+projects[ldap][download][type] = "git"
+projects[ldap][download][url] = "https://github.com/OULibraries/illiad_sso.git"
 
 projects[leaflet][type] = "module"
 projects[leaflet][download][type] = "git"
