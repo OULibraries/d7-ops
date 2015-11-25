@@ -88,10 +88,6 @@ projects[ldap][download][url] = "https://github.com/OULibraries/ldap.git"
 projects[ldap][download][branch] = "7.x-2.x-oulib"
 ;projects[ldap][download][revision] = "6f6c7c6a2bf6d2cadcefa1f0567554b68b190aeb"
 
-projects[illiad_sso][type] = "module"
-projects[illiad_sso][download][type] = "git"
-projects[illiad_sso][download][url] = "https://github.com/OULibraries/illiad_sso.git"
-
 projects[leaflet][type] = "module"
 projects[leaflet][download][type] = "git"
 projects[leaflet][download][url] = "https://github.com/OULibraries/leaflet.git"
