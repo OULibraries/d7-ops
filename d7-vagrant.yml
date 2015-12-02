@@ -1,5 +1,10 @@
 ---
-- hosts: all
+- hosts: localhost
+  tasks:
+  - include: lastpass-tasks.yml
+#  handlers:
+#  - include: lastpass-handlers.yml
+- hosts: default
   sudo: yes
   vars_files:
   - base-server-vars.yml
@@ -10,10 +15,6 @@
     encrypt: "sha512_crypt"
     confirm: yes
     salt_size: 7
-  - name: mysql_root_password
-    prompt: "mysql root password"
-    private: yes
-    confirm: yes
   - name: ngrok_authtoken
     prompt: "Ngrok signup https://dashboard.ngrok.com/user/signup\nngrok authtoken"
     private: yes

@@ -1,0 +1,9 @@
+---
+- name: Set MariaDB root credentials
+  shell: >
+    /usr/bin/lpass generate --sync=now --username=root 'myvagrant/mariadb-root' --no-symbols 32
+  register: mariadb_set_root_pw
+  failed_when: "'lpass: No such file or directory' in mariadb_set_root_pw.stderr"
+#- name: Set password as fact that can be passed to target VM
+#  set_fact:
+#    mariadb_root: "{{ mariadb_set_root_pw.stdout }}"
