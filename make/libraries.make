@@ -6,6 +6,10 @@ api = 2
 projects[drupal][version] = "7.41"
 
 ; Modules
+
+projects[drupal][version] = "7.41"
+
+; Modules
 projects[addressfield][version] = "1.1"
 projects[admin_menu][version] = "3.0-rc4"
 projects[ctools][version] = "1.9"
@@ -72,7 +76,6 @@ projects[views][version] = "3.11"
 projects[views_accordion][version] = "1.0"
 projects[views_bootstrap][version] = "3.1"
 projects[webform][version] = "4.12"
-
 
 ; Themes
 projects[bootstrap][version] = "3.0"
