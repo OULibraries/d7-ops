@@ -31,10 +31,10 @@
       - { line: 'host github.com' }
       - { line: 'User git' }
       - { line: 'IdentityFile ~/.ssh/libdev_rsa' }
-  - name: Ensure vagrant user has private machine key
-    copy: src=libdev_rsa dest=/home/vagrant/.ssh/ owner=vagrant group=vagrant mode=0600
-  - name: Ensure vagrant user has public machine key
-    copy: src=libdev_rsa.pub dest=/home/vagrant/.ssh/ owner=vagrant group=vagrant mode=0600
+#  - name: Ensure vagrant user has private machine key
+#    copy: src=libdev_rsa dest=/home/vagrant/.ssh/ owner=vagrant group=vagrant mode=0600
+#  - name: Ensure vagrant user has public machine key
+#    copy: src=libdev_rsa.pub dest=/home/vagrant/.ssh/ owner=vagrant group=vagrant mode=0600
   - name: Ensure .ssh/known_hosts exists for libacct
     sudo_user: libacct
     file: path=/home/libacct/.ssh/known_hosts state=touch mode=0600 owner=libacct group=libacct
