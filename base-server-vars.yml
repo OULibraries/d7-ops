@@ -1,7 +1,7 @@
 ---
 server_timezone: 'America/Chicago'
 user_name: libacct
-user_pass: "{{ libacct_pass }}"
+user_pass: "{{ hostvars['localhost']['libacct_pw_crypt'] }}"
 is_temp_user_pass: false
 user_groups: 'wheel'
 user_pubkey: '"ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAtkaGGkonm3HJmRoupKgM0A04uZu3aPhFyWmyMWCHTk1TtDskTgO0krOgUKuxAB2G/d39Xz6oISL9+dQdZt5aEJK7WoHpkK8l8xXfrIJ8OiWuJ+IRygjjLsib8tVTRsEIvMrQUtnhGzVNM7lQNXaEviGmR+ZunH68fv/QpomR5qW/veLFsR0KQLnd8yoG2+Tm8EdYouDcUPTS1nr9XdPSWGcsvpDq48JdxSmtXXC/8NHfdhpmCMmoC/IXbFl7typeLd9gt7EFvqOLWEbysEF3hD6hMAV3MEWaDnhf25n2cUgdAvdk086REgg2bXx1dBdeSi+wq5MadfP80UuPuaN2lw== libacct@ou.edu"'

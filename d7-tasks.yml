@@ -1,5 +1,4 @@
 ---
-- debug: msg="{{ hostvars['localhost']['mariadb_root'] }}"
 - name: Install packages necessary to run Drupal
   yum:
     name: "{{ item }}"
