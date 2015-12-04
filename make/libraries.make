@@ -6,10 +6,6 @@ api = 2
 projects[drupal][version] = "7.41"
 
 ; Modules
-
-projects[drupal][version] = "7.41"
-
-; Modules
 projects[addressfield][version] = "1.1"
 projects[admin_menu][version] = "3.0-rc4"
 projects[ctools][version] = "1.9"
