@@ -1,7 +1,8 @@
 # Drupal 7 Ops Scripts, Makefiles, and Docs
 
 ## NB
-* Vagrant provisioner wants Vagrant, Ansible, Lastpass-cli, and ngrock
+* Vagrant provisioner wants Vagrant, Ansible, Lastpass-cli, and ngrok
+* Ansible wants passlib
 * Shell scripts want SELinux, MySQL, Apache, and Drush
 * Shell scripts should be run on the host where you want the change to occur.
 * The Apache config magic that we use in production insn't included here, instead we have a special vagrant version.
