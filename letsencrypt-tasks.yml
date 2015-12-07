@@ -10,7 +10,7 @@
 - name: Generate key and CSR, and get a signed cert.
   sudo: yes
   command: >
-    ./letsencrypt-auto certonly --text --config-dir /vagrant/letsencrypt/etc --standalone --standalone-supported-challenges http-01 --email {{ email }} --agree-tos -d "{{ site }}."{{ httpd_dn_suffix }}"
+    ./letsencrypt-auto certonly --text --config-dir /vagrant/letsencrypt/etc --standalone --standalone-supported-challenges http-01 --email "{{ email }}" --agree-tos -d "{{ site }}."{{ httpd_dn_suffix }}"
   args:
     chdir: /vagrant/letsencrypt/build
 - name: Ensure Apache is started
