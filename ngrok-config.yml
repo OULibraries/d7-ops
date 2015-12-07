@@ -9,7 +9,7 @@
   command: kill "{{ ngrok_pid.stdout }}"
   when: ngrok_pid.stdout != ""
 - name: Ensure /home/vagrant/.ngrok2 exists
-  file: /home/vagrant/.ngrok2 state=directory
+  file: path=/home/vagrant/.ngrok2 state=directory
 - name: Configure ngrok
   template:
     src: assets/ngrok.yml.j2

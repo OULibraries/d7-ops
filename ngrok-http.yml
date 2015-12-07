@@ -11,11 +11,3 @@
 - name: Start ngrok
   sudo_user: vagrant
   shell: nohup /vagrant/./ngrok start "{{ site }}"-http & chdir=/home/vagrant
-- name: Grab ngrok hostname
-  sudo_user: vagrant
-  shell: grep Hostname /home/vagrant/ngrok.log | tail -1 |  cut -d ':' -f 8 | cut -d ' ' -f 1 | xargs
-  register: ngrok_hostname
-- name: Access
-  debug: msg="http://{{ ngrok_hostname.stdout }}"
-- name: Access
-  debug: msg="https://{{ ngrok_hostname.stdout }}"
