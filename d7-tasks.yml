@@ -59,13 +59,19 @@
 - name: Remove default apache listeners
   lineinfile: dest=/etc/httpd/conf/httpd.conf state=present regexp='^Listen(.*)' line='#Listen\1' backrefs='yes'
 - name: Set environment variables for apache
-  lineinfile: "dest=/etc/sysconfig/httpd line='export HTTPD_DN_SUFFIX={{ httpd_dn_suffix }}'"
-  lineinfile: "dest=/etc/sysconfig/httpd line='export HTTPD_CERT_PATH={{ httpd_cert_path }}'"
-  lineinfile: "dest=/etc/sysconfig/httpd line='export HTTPD_KEY_PATH={{ httpd_key_path }}'"
+  template:
+    src: ./assets/sysconfig-httpd.j2
+    dest: /etc/sysconfig/httpd
 - name: Copy ssl config
   copy:
     src: ./assets/ssl.conf
     dest: /etc/httpd/conf.d/ssl.conf
+    mode: 0644
+    owner: root
+    group: root
+  copy:
+    src: ./assets/00ssl.include
+    dest: /etc/httpd/conf.d/00ssl.include
     mode: 0644
     owner: root
     group: root
