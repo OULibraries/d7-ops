@@ -1,0 +1,14 @@
+---
+- name: Check for ngrok process
+  sudo: yes
+  command: pgrep ngrok
+  ignore_errors: yes
+  register: ngrok_pid
+- name: Kill ngrok if running
+  sudo_user: vagrant
+  command: kill "{{ ngrok_pid.stdout }}"
+  when: ngrok_pid.stdout != ""
+- name: Configure ngrok
+  template:
+    src: assets/ngrok.yml.j2
+    dest: /home/vagrant/.ngrok2/ngrok.yml

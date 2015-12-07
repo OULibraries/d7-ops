@@ -1,0 +1,5 @@
+---
+httpd_dn_suffix: 'ngrok.example.com'
+email: 'user@example.com'
+ngrok_authtoken: ''
+site: 'drupal-test'

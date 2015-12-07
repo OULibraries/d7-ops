@@ -1,6 +1,9 @@
 # Ignore vagrant build files
 .vagrant
 
+# Ignore vagrant downloads files
+downloads/
+
 # Ignore linked keys
 libdev_rsa
 libdev_rsa.pub
@@ -9,6 +12,12 @@ libdev_rsa.pub
 ngrok
 ngrok*.zip
 ngrok*.log
+
+# Ignore letsencrypt
+letsencrypt/
+
+# Ignore local variables
+my-vars.yml
 
 # Ignore configuration files that may contain sensitive information.
 sites/*/*settings*.php

@@ -8,6 +8,11 @@
 * The Apache config magic that we use in production insn't included here, instead we have a special vagrant version.
 
 
+## Ansible + Vagrant setup placeholder
+
+copy my-vars.default.yml to my-vars.yml and insert your information
+
+
 ## To install these tools
 
 Clone this repository and add it to your path. 

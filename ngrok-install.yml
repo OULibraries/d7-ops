@@ -1,0 +1,10 @@
+---
+- name: Check for ngrok
+  stat: path=/vagrant/ngrok_2.0.19_linux_amd64.zip
+  register: ngrok
+- name: Get ngrok
+  get_url: url=https://dl.ngrok.com/ngrok_2.0.19_linux_amd64.zip dest=/vagrant
+  when: ngrok.stat.exists == False
+- name: Unpack ngrok
+  unarchive: src=/vagrant/ngrok_2.0.19_linux_amd64.zip dest=/vagrant/ copy=no
+  when: ngrok.stat.exists == False

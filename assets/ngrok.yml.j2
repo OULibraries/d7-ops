@@ -1,0 +1,13 @@
+authtoken: {{ ngrok_authtoken }}
+log_format: json
+log_level: debug
+log: /vagrant/ngrok.log
+tunnels:
+  jsherman-tls:
+    hostname: jsherman.{{ httpd_dn_suffix }}
+    proto: tls
+    addr: 443
+  jsherman-http:
+    hostname: jsherman.{{ httpd_dn_suffix }}
+    proto: http
+    addr: 80

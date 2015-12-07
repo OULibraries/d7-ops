@@ -18,16 +18,6 @@
   - php-pear
   - php-gd
   - php-drush-drush
-- name: Start database server on boot
-  service:
-    name: mariadb
-    state: started
-    enabled: yes
-- name: Run Apache httpd on boot
-  service:
-    name: httpd
-    state: started
-    enabled: yes
 - name: Git d7-ops.
   sudo_user: vagrant
   git: repo=https://github.com/OULibraries/d7-ops.git
@@ -36,6 +26,11 @@
   file: path=/etc/profile.d/d7-ops.sh state=touch mode=0644 owner=root group=root
 - name: Add d7-ops scripts to path
   lineinfile: "dest=/etc/profile.d/d7-ops.sh line='export PATH=/opt/d7-ops/bin/:$PATH'"
+- name: Start database server on boot
+  service:
+    name: mariadb
+    state: started
+    enabled: yes
 # Equivilant to mysql_secure_installation
 - name: delete anonymous MySQL server user for *
   action: mysql_user user="" host="*" state="absent"
@@ -61,12 +56,23 @@
     - localhost
   ignore_errors: yes
 # Apache config
-- name: Include Apache config magic
+- name: Remove default apache listeners
+  lineinfile: dest=/etc/httpd/conf/httpd.conf state=present regexp='^Listen(.*)' line='#Listen\1' backrefs='yes'
+- name: Set environment variables for apache
+  lineinfile: "dest=/etc/sysconfig/httpd line='export HTTPD_DN_SUFFIX={{ httpd_dn_suffix }}'"
+  lineinfile: "dest=/etc/sysconfig/httpd line='export HTTPD_CERT_PATH={{ httpd_cert_path }}'"
+  lineinfile: "dest=/etc/sysconfig/httpd line='export HTTPD_KEY_PATH={{ httpd_key_path }}'"
+- name: Copy ssl config
   copy:
-    src: ./template_init_oulib_drupal
-    dest: /etc/httpd/conf.d/template_init_oulib_drupal
-#- name: Don't use ou.edu TLD in magic config
-#  command: sed -i "s/ou\.edu/vagrant.dev/" /etc/httpd/conf.d/template_init_oulib_drupal
+    src: ./assets/ssl.conf
+    dest: /etc/httpd/conf.d/ssl.conf
+    mode: 0644
+    owner: root
+    group: root
+- name: Copy apache config template
+  copy:
+    src: ./assets/d7_init_httpd_template
+    dest: /etc/httpd/conf.d/d7_init_httpd_template
 - name: Comment out the welcome conf
   command: sed -i "s/^[^#]/#&/" /etc/httpd/conf.d/welcome.conf
 - name: Give vagrant user too much permission
@@ -74,4 +80,9 @@
 - name: Set ownership of service directory
   command: chown apache:apache /srv
 - name: Allow apache users to write to service directory
-  command: chmod g+w /srv
+  command: chmod g+wt /srv
+- name: Run Apache httpd on boot
+  service:
+    name: httpd
+    state: started
+    enabled: yes

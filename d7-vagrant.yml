@@ -6,13 +6,10 @@
   sudo: yes
   vars_files:
   - base-server-vars.yml
-  vars_prompt:
-  - name: ngrok_authtoken
-    prompt: "Ngrok signup https://dashboard.ngrok.com/user/signup\nngrok authtoken"
-    private: yes
+  - my-vars.yml
   tasks:
   - include: base-server-tasks.yml
   - include: d7-tasks.yml
-  - include: ngrok-tasks.yml
+  - include: secure-tunnel-tasks.yml
   handlers:
   - include: base-server-handlers.yml
