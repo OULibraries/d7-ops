@@ -2,5 +2,10 @@
 httpd_dn_suffix: 'ngrok.example.com'
 email: 'user@example.com'
 ngrok_authtoken: ''
-site: 'drupal-test'
-## demo change for twila
+sites: ['drupal-dev1', 'drupal-dev2']
+## Let's encrypt cert paths
+#httpd_cert_path: '/vagrant/letsencrypt/etc/live/'
+#httpd_key_path: '/vagrant/letsencrypt/etc/live/'
+## Self-signed cert paths
+httpd_cert_path: '/etc/pki/tls/certs/'
+httpd_key_path: '/etc/pki/tls/private/'

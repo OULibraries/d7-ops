@@ -1,13 +1,9 @@
 ---
-- name: Check for ngrok process
-  sudo: yes
-  command: pgrep ngrok
-  ignore_errors: yes
-  register: ngrok_pid
 - name: Kill ngrok if running
   sudo_user: vagrant
-  command: kill "{{ ngrok_pid.stdout }}"
-  when: ngrok_pid.stdout != ""
+  command: killall ngrok 
+  ignore_errors: yes
 - name: Start ngrok
   sudo_user: vagrant
-  shell: nohup /vagrant/./ngrok start "{{ site }}"-http & chdir=/home/vagrant
+  shell: nohup /vagrant/./ngrok start "{{ item }}"-http & chdir=/home/vagrant
+  with_items: "{{ sites }}"

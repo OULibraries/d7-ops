@@ -2,5 +2,6 @@
 - include: ngrok-install.yml
 - include: ngrok-config.yml
 - include: ngrok-http.yml
-- include: letsencrypt-tasks.yml
+#- include: letsencrypt-tasks.yml
+- include: ssl-self-sign.yml
 - include: ngrok-tls.yml

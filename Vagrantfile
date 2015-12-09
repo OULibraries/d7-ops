@@ -15,7 +15,7 @@ Vagrant.configure(2) do |config|
   config.vm.box = "geerlingguy/centos7" # TODO: link to the instructions that built this box
 
 #  config.landrush.enabled = true
-  config.vm.hostname = "drupal-test.vagrant.dev"
+#  config.vm.hostname = "drupal-test.vagrant.dev"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
@@ -73,6 +73,9 @@ Vagrant.configure(2) do |config|
   # SHELL
 
   config.vm.provision "ansible" do |ansible|
+    ## Uncomment to add verbosity to ansible output
+    ## Note that this will print your lastpass credentials to the screen
+    #ansible.verbose = "v"
     ansible.playbook = "d7-vagrant.yml"
   end
 end
