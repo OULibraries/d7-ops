@@ -75,6 +75,7 @@ projects[views_accordion][version] = "1.0"
 projects[views_bootstrap][version] = "3.1"
 projects[views_data_export][version] = "3.0-beta9"
 projects[webform][version] = "4.12"
+projects[spamspan][version] = "1.2"
 
 
 ; Themes
