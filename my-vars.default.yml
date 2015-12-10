@@ -1,7 +1,15 @@
 ---
+## The configuration below would get you a server ready to run
+## d7_init.sh /srv/drupal-dev1 and d7_init.sh /srv/drupal-dev2
+## the sites would then be accessible at:
+## drupal-dev1.ngrok.example.com and drupal-dev2.ngrok.example.com
+## the domain or subdomain where the sites you build will be accessed
 httpd_dn_suffix: 'ngrok.example.com'
+## Your email address
 email: 'user@example.com'
+## Your ngrok token
 ngrok_authtoken: ''
+## The hostnames of the sites you will build.
 sites: ['drupal-dev1', 'drupal-dev2']
 ## Let's encrypt cert paths
 #httpd_cert_path: '/vagrant/letsencrypt/etc/live/'

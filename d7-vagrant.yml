@@ -8,8 +8,14 @@
   - base-server-vars.yml
   - my-vars.yml
   tasks:
+  - name: Link /srv to /vagrant/srv
+    file: src=/vagrant/srv dest=/srv state=link force=yes
   - include: base-server-tasks.yml
   - include: d7-tasks.yml
   - include: secure-tunnel-tasks.yml
+  - name: Disable selinux for vagrant
+    selinux: state=disabled
+  - name: Add apache user to vagrant group
+    command: usermod -a -G vagrant apache
   handlers:
   - include: base-server-handlers.yml

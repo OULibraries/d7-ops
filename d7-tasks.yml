@@ -81,7 +81,7 @@
     dest: /etc/httpd/conf.d/d7_init_httpd_template
 - name: Comment out the welcome conf
   command: sed -i "s/^[^#]/#&/" /etc/httpd/conf.d/welcome.conf
-- name: Give vagrant user too much permission
+- name: Add vagrant user to apache group
   command: usermod -a -G apache vagrant
 - name: Set ownership of service directory
   command: chown apache:apache /srv
