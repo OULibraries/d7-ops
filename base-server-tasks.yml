@@ -61,10 +61,34 @@
     lineinfile:
       dest: /home/libacct/.ssh/known_hosts
       line: "{{ git_fingerprints.stdout }}"
-  - name: Ensure base packages are installed.
-    yum: name={{ item }} state=latest
+  - name: Packages for yum.
+    yum: name={{ item }} state=present
     with_items:
     - deltarpm
+    - yum-priorities
+    ## Specifying version to avoid package conflict
+    - yum-3.4.3-125.el7.centos.noarch
+  - name: yum-cron set for security updates
+    lineinfile: "dest=/etc/yum/yum-cron.conf state=present regexp='^update_cmd = default$' line='update_cmd = security'"
+  - name: yum-cron enabled
+    lineinfile: "dest=/etc/yum/yum-cron.conf state=present regexp='^apply_updates = no$' line='apply_updates = yes'"
+  - name: CentOS-Base has priority
+    ini_file:
+      dest: /etc/yum.repos.d/CentOS-Base.repo
+      section: base
+      option: priority
+      value: 1
+      backup: yes
+  - name: CentOS-Updates has priority
+    ini_file:
+      dest: /etc/yum.repos.d/CentOS-Base.repo
+      section: updates
+      option: priority
+      value: 1
+      backup: yes
+  - name: Utility packages.
+    yum: name={{ item }} state=present
+    with_items:
     - epel-release
     - python-pip
     - nload
@@ -72,7 +96,6 @@
     - sysstat
     - psmisc
     - iotop
-    - yum-cron
     - policycoreutils-python
     - git
     - wget
@@ -84,6 +107,8 @@
     - tmux
     - screen
     - unzip
+  - name: Security updates
+    command: yum -y update --security
   - name: Ensure /usr/local belongs to root:wheel 0775
     file: path=/usr/local state=directory mode=0775 owner=root group=wheel recurse=yes
   - name: Ensure /opt belongs to root:wheel 0775
