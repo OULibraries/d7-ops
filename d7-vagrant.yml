@@ -5,8 +5,9 @@
 - hosts: default
   sudo: yes
   vars_files:
-  - base-server-vars.yml
   - my-vars.yml
+  roles:
+  - jsnshrmn.centos7
   tasks:
   - name: Link /srv to /vagrant/srv
     file: src=/vagrant/srv dest=/srv state=link force=yes
@@ -17,5 +18,3 @@
     selinux: state=disabled
   - name: Add apache user to vagrant group
     command: usermod -a -G vagrant apache
-  handlers:
-  - include: base-server-handlers.yml

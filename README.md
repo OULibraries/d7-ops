@@ -8,21 +8,25 @@
 * The Apache config magic that we use in production insn't included here, instead we have a special vagrant version.
 
 
-## Ansible + Vagrant setup placeholder
+## Ansible + Vagrant setup
+Requires OU Libraries centos7 role. To install:
+ansible-galaxy install jsnshrmn.centos7
 
+### Configuration
 copy my-vars.default.yml to my-vars.yml and insert your information
 
 
-## To install these tools
-
-Clone this repository and add it to your path. 
-
+## To use
+vagrant up
+vagrant ssh
 
 ## To initize a new Drupal site
 
 ```
 d7_init.sh /srv/$site
 ```
+
+where $site == one of the configured sites in my-vars.yml
 
 This script will install a fresh Drupal site.
 * Accepts a path as its sole argument and will install the site at that location. 
