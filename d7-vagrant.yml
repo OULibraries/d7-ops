@@ -11,7 +11,6 @@
   tasks:
   - name: Link /srv to /vagrant/srv
     file: src=/vagrant/srv dest=/srv state=link force=yes
-  - include: base-server-tasks.yml
   - include: d7-tasks.yml
   - include: secure-tunnel-tasks.yml
   - name: Disable selinux for vagrant
