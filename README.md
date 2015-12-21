@@ -10,7 +10,9 @@
 
 ## Ansible + Vagrant setup
 Requires OU Libraries centos7 role. To install:
-ansible-galaxy install jsnshrmn.centos7
+```
+ansible-galaxy install -r requirements.yml
+```
 
 ## Note
 You can actually skip lastpass-cli and use var prompts instead, by adding the following to d7-vagrant.yml
