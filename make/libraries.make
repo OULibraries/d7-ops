@@ -61,6 +61,7 @@ projects[realname][version] = "1.2"
 projects[redirect][version] = "1.0-rc3"
 projects[rules][version] = "2.7"
 projects[simplehtmldom][version] = "1.12"
+projects[spamspan][version] = "1.2"
 projects[strongarm][version] = "2.0"
 projects[telephone][version] = "1.0-alpha1"
 projects[tipsy][version] = "1.0-rc1"
@@ -75,7 +76,6 @@ projects[views_accordion][version] = "1.0"
 projects[views_bootstrap][version] = "3.1"
 projects[views_data_export][version] = "3.0-beta9"
 projects[webform][version] = "4.12"
-projects[spamspan][version] = "1.2"
 
 
 ; Themes
