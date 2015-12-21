@@ -1,4 +1,6 @@
 ---
+- name: Check for lpass in path
+  command: which lpass
 - name: Verify user is logged into lastpass-cli
   shell: lpass ls
 - name: Check for MariaDB root credentials

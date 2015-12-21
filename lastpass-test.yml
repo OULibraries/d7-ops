@@ -1,4 +1,0 @@
----
-- hosts: localhost
-  tasks:
-  - include: lastpass-tasks.yml

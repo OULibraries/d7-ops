@@ -1,0 +1,13 @@
+---
+## Get OS Family.  Settting hosts to localhost didn't work.
+## By setting connection to local, we should be limiting to our machine.
+- hosts: all
+  connection: local
+  tasks:
+  - group_by: "key=vagranthost_os_{{ ansible_os_family }}"
+## Perform local tasks for Redhat/CentOS/Fedora, etc.
+- hosts: vagranthost_os_RedHat
+  connection: local
+  gather_facts: False
+  tasks:
+  - include: lastpass-setup-rhel.yml
