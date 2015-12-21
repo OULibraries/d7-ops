@@ -9,7 +9,7 @@
 
 
 ## Ansible + Vagrant setup
-Requires OU Libraries centos7 role. To install:
+Requires OU Libraries centos7 and d7 roles. To install:
 ```
 ansible-galaxy install -r requirements.yml
 ```
