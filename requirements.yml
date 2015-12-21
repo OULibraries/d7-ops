@@ -3,3 +3,8 @@
 - src: https://github.com/OULibraries/ansible-role-centos7
   version: master
   name: jsnshrmn.centos7
+---
+# fetch jsnshrmn.d7 from github
+- src: https://github.com/OULibraries/ansible-role-d7
+  version: master
+  name: jsnshrmn.d7
