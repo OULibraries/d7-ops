@@ -21,7 +21,7 @@
 - name: Git lastpass-cli.
   sudo: yes
   git: repo=https://github.com/lastpass/lastpass-cli.git
-       dest=/usr/src/lastpass-cli force=yes version=v0.7.0
+       dest=/usr/src/lastpass-cli force=yes version=master
   when: lpass.rc != 0
 - name: install lpass
   sudo: yes
