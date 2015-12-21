@@ -12,6 +12,29 @@
 Requires OU Libraries centos7 role. To install:
 ansible-galaxy install jsnshrmn.centos7
 
+## Note
+You can actually skip lastpass-cli and use var prompts instead, by adding the following to d7-vagrant.yml
+```
+  vars_prompt:
+  - name: user_pass
+    prompt: "password for libacct"
+    private: yes
+    encrypt: "sha512_crypt"
+    confirm: yes
+    salt_size: 7
+  - name: mariadb_pass
+    prompt: "root password for mariadb"
+    private: yes
+    confirm: yes
+  tasks:
+  - name: Set libacct password crypt as fact
+    set_fact:
+      libacct_pw_crypt: "{{ user_pass }}"
+  - name: Set mariadb root pw as fact
+    set_fact:
+      mariadb_root: "{{ mariadb_pass }}"
+```
+
 ### Configuration
 copy my-vars.default.yml to my-vars.yml and insert your information
 
