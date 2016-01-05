@@ -83,6 +83,8 @@ drush -y dis update -r $SITEPATH/drupal || exit 1;
 
 ## Clear the caches
 drush -y cc all -r $SITEPATH/drupal || exit 1;
+## Including APC if it's there.
+drush php-eval "apc_clear_cache('opcode');" -r $SITEPATH/drupal
 
 ## Avoid a known performance-crusher in our environment
 drush eval 'variable_set('drupal_http_request_fails', 0)' -r $SITEPATH/drupal || exit 1;
