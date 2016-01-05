@@ -53,6 +53,7 @@ $SUDO find $SITEPATH/default -type f -exec chmod u=rw,g=rw,o= '{}' \;
 # Set SELinux or die
 echo "Setting SELinux policy of the default site."
 $SUDO semanage fcontext -a -t httpd_sys_content_t  "$SITEPATH/default(/.*)?" || exit 1;
+$SUDO semanage fcontext -a -t httpd_sys_content_t  "$SITEPATH/default/files/ctools(/.*)?" || exit 1;
 $SUDO restorecon -R $SITEPATH/default || exit 1;
 
 # Set owner
