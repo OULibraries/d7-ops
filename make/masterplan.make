@@ -110,11 +110,12 @@ projects[better_contact][download][type] = "git"
 projects[better_contact][download][url] = "https://github.com/OULibraries/better_contact.git"
 
 ; Themes
-projects[oulib_bootstrap][type] = "theme"
-projects[oulib_bootstrap][download][type] = "git"
-projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/oulib_bootstrap.git"
-projects[oulib_bootstrap][download][branch] = "master"
-;projects[oulib_bootstrap][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
+
+projects[oulib_masterplan][type] = "theme"
+projects[oulib_masterplan][download][type] = "git"
+projects[oulib_masterplan][download][url] = "https://github.com/OULibraries/oulib_masterplan.git"
+projects[oulib_masterplan][download][branch] = "master"
+;projects[oulib_masterplan][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
 
 ; Libraries
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
