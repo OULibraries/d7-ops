@@ -53,6 +53,12 @@ $SUDO find $SITEPATH/default -type d -exec chmod u=rwx,g=rwx,o= '{}' \;
 $SUDO find $SITEPATH/default -type f -exec chmod u=rw,g=rw,o= '{}' \;
 $SUDO chmod 444 $SITEPATH/default/settings.php
 
+# Set SELinux of default site dir
+echo "Setting SELinux policy of the default site."
+$SUDO semanage fcontext -a -t httpd_sys_content_t  "$SITEPATH/default(/.*)?" || exit 1;
+$SUDO semanage fcontext -a -t httpd_sys_content_t  "$SITEPATH/default/files/ctools(/.*)?" || exit 1;
+$SUDO restorecon -R $SITEPATH/default || exit 1;
+
 ## Enable update manager.
 drush -y en update -r $SITEPATH/drupal || exit 1;
 
