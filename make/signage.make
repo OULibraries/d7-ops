@@ -40,10 +40,10 @@ projects[loginblock][download][type] = "git"
 projects[loginblock][download][url] = "https://github.com/OULibraries/loginblock.git"
 projects[loginblock][download][revision] = "f5291d5a03f77878535d93f6fd2e2be49c31ec87"
 
-;projects[ldap][type] = "module"
-;projects[ldap][download][type] = "git"
-;projects[ldap][download][url] = "https://github.com/OULibraries/ldap.git"
-;projects[ldap][download][branch] = "7.x-2.x-oulib"
+projects[ldap][type] = "module"
+projects[ldap][download][type] = "git"
+projects[ldap][download][url] = "https://github.com/OULibraries/ldap.git"
+projects[ldap][download][branch] = "7.x-2.x-oulib"
 ;projects[ldap][download][revision] = "6f6c7c6a2bf6d2cadcefa1f0567554b68b190aeb"
 
 ; Themes
