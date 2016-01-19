@@ -5,33 +5,32 @@
   shell: lpass ls
 - name: Check for MariaDB root credentials
   shell: >
-    lpass show 'myvagrant/mariadb/root' | grep Username | cut -d ' ' -f 2 | xargs
+    lpass show 'mariadb-root' | grep Username | cut -d ' ' -f 2 | xargs
   register: mariadb_get_root_user
 - name: Set MariaDB root credentials
   shell: >
-    lpass generate --sync=now --username=root 'myvagrant/mariadb/root' --no-symbols 32
+    lpass generate --sync=now --username=root 'mariadb-root' --no-symbols 32
   register: mariadb_set_root_pw
   when: mariadb_get_root_user.stdout != 'root'
 - name: Fetch MariaDB root credentials
   shell: >
-    lpass show --sync=now 'myvagrant/mariadb/root' | grep Password | cut -d ' ' -f 2 | xargs
+    lpass show --sync=now 'mariadb-root' | grep Password | cut -d ' ' -f 2 | xargs
   register: mariadb_get_root_pw
 - name: Set MariaDB root password as fact
   set_fact:
     mariadb_root: "{{ mariadb_get_root_pw.stdout }}"
-
 - name: Check for libacct credentials
   shell: >
-    lpass show 'myvagrant/unix/libacct' | grep Username | cut -d ' ' -f 2 | xargs
+    lpass show 'vmware\unix/libacct' | grep Username | cut -d ' ' -f 2 | xargs
   register: libacct_get_user
 - name: Set libacct password
   shell: >
-    lpass generate --sync=now --username=libacct 'myvagrant/unix/libacct' --no-symbols 32
+    lpass generate --sync=now --username=libacct 'vmware\unix/libacct' --no-symbols 32
   register: libacct_set_pw
   when: libacct_get_user.stdout != 'libacct'
 - name: Fetch libacct password
   shell: >
-    lpass show --sync=now 'myvagrant/unix/libacct' | grep Password | cut -d ' ' -f 2 | xargs
+    lpass show --sync=now 'vmware\unix/libacct' | grep Password | cut -d ' ' -f 2 | xargs
   register: libacct_get_pw
 - name: Crypt libacct password for unix
   shell: >
