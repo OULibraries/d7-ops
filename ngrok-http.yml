@@ -1,9 +1,0 @@
----
-- name: Kill ngrok if running
-  sudo_user: vagrant
-  command: killall ngrok 
-  ignore_errors: yes
-- name: Start ngrok
-  sudo_user: vagrant
-  shell: nohup /vagrant/./ngrok start "{{ item }}"-http & chdir=/home/vagrant
-  with_items: "{{ sites }}"
