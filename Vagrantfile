@@ -73,11 +73,30 @@ Vagrant.configure(2) do |config|
   #   sudo apt-get update
   #   sudo apt-get install -y apache2
   # SHELL
-
-  config.vm.provision "ansible" do |ansible|
-    ## Uncomment to add verbosity to ansible output
-    ## Note that this will print your lastpass credentials to the screen
-    #ansible.verbose = "v"
-    ansible.playbook = "d7-vagrant.yml"
+  
+  # Cross-platform way of finding an executable in the $PATH.
+  # copied from https://github.com/geerlingguy/drupal-vm/blob/master/Vagrantfile
+  def which(cmd)
+    exts = ENV['PATHEXT'] ? ENV['PATHEXT'].split(';') : ['']
+    ENV['PATH'].split(File::PATH_SEPARATOR).each do |path|
+      exts.each { |ext|
+        exe = File.join(path, "#{cmd}#{ext}")
+        return exe if File.executable?(exe) && !File.directory?(exe)
+      }
+    end
+    return nil
   end
+
+  if which('ansible-playbook')
+    config.vm.provision "ansible" do |ansible|
+      ansible.playbook = "d7-vagrant.yml"
+    end
+  else
+    config.vm.provision "ansible_local" do |ansible|
+      ansible.provisioning_path = "/vagrant"
+      ansible.galaxy_role_file = "requirements.yml"
+      ansible.playbook = "d7-vagrant.yml"
+    end
+  end
+  
 end
