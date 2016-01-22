@@ -7,3 +7,7 @@
 - src: https://github.com/OULibraries/ansible-role-d7
   version: master
   name: jsnshrmn.d7
+# fetch jsnshrmn.ngrok from github
+- src: https://github.com/OULibraries/ansible-role-ngrok
+  version: master
+  name: jsnshrmn.ngrok

@@ -16,10 +16,10 @@
   roles:
   - jsnshrmn.centos7
   - jsnshrmn.d7
+  - jsnshrmn.ngrok
   tasks:
   - name: Link /srv to /vagrant/srv
     file: src=/vagrant/srv dest=/srv state=link force=yes
-  - include: secure-tunnel-tasks.yml
   - name: Disable selinux for vagrant
     selinux: state=disabled
   - name: Add apache user to vagrant group
