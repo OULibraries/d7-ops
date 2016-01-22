@@ -88,10 +88,13 @@ Vagrant.configure(2) do |config|
   end
 
   if which('ansible-playbook')
+    # working host ansible, so dive right in
     config.vm.provision "ansible" do |ansible|
       ansible.playbook = "d7-vagrant.yml"
     end
   else
+    # bootstrap some requirements and then run ansible on the guest
+    config.vm.provision :shell, :path => "./bootstrap.sh"
     config.vm.provision "ansible_local" do |ansible|
       ansible.provisioning_path = "/vagrant"
       ansible.galaxy_role_file = "requirements.yml"
