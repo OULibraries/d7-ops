@@ -1,9 +1,4 @@
 ---
-## Run lastpass-cli from host machine
-- hosts: localhost
-  connection: local
-  tasks:
-  - include: lastpass-tasks.yml
 - hosts: default
   sudo: yes
   vars_files:
