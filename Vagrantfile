@@ -14,9 +14,9 @@ Vagrant.configure(2) do |config|
   # boxes at https://atlas.hashicorp.com/search.
   config.vm.box = "geerlingguy/centos7" # TODO: link to the instructions that built this box
 
-#  if config.landrush.enabled  then 
-#    config.vm.hostname = "drupal.vm.test"
-#  end
+  if Vagrant.has_plugin?("landrush") && config.landrush.enabled  then 
+    config.vm.hostname = "drupal.vm.test"
+  end
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
