@@ -4,6 +4,9 @@
 # Ignore vagrant downloads files
 downloads/
 
+# Ignore ansible_local downloaded roles 
+roles/
+
 # Ignore linked keys
 libdev_rsa
 libdev_rsa.pub
