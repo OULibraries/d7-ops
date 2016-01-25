@@ -1,3 +1,6 @@
+# Ignore ansible roles in the vagrant directory
+roles/
+
 # Ignore vagrant build files
 .vagrant
 
