@@ -19,7 +19,7 @@ Vagrant.configure(2) do |config|
   #   v.cpus = 2
   # end
 
-  # For lucky people who can use landrush, we'll read in the name to use
+  # For lucky people who can use landrush for local DNS, read in the hostname to use
   if Vagrant.has_plugin?("landrush") && config.landrush.enabled  then
     config.vm.hostname = myvars["httpd_dn_suffix"] || "drupal.vagrant.test"
   end
