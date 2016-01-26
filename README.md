@@ -6,7 +6,7 @@
 * Uses the Ansible local provisioner, so you don't need a working Ansible install, but you do need at least Vagrant 1.8.
 
 
-## Install and Configure
+## Installation
 
 1. Install Vagrant.
 1. Clone this repo to a local folder.
