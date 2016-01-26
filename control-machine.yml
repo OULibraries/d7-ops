@@ -1,8 +1,8 @@
 ---
 - hosts: default
   tasks:
-  - name: Install git
-    yum:
-      name: git
-      state: present
-    sudo: yes
+    - name: Install git
+      yum:
+        name: git
+        state: present
+      sudo: yes
