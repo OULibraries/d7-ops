@@ -1,93 +1,29 @@
-# Drupal 7 Ops Scripts, Makefiles, and Docs
+# Drupal 7 Vagrant + Ansible
 
-## NB
-* Vagrant provisioner wants Vagrant, Ansible, Lastpass-cli, and ngrok
-* Ansible wants passlib
-* Shell scripts want SELinux, MySQL, Apache, and Drush
-* Shell scripts should be run on the host where you want the change to occur.
-* The Apache config magic that we use in production insn't included here, instead we have a special vagrant version.
+##  Notes
+
+* Requires [Vagrant](https://www.vagrantup.com/downloads.html). 
+* Uses the Ansible local provisioner, so you don't need a working Ansible install, but you do need at least Vagrant 1.8.
 
 
-## Ansible + Vagrant setup
-Requires OU Libraries centos7 and d7 roles. To install:
-```
-ansible-galaxy install -r requirements.yml
-```
+## Install and Configure
 
-## Note
-You can actually skip lastpass-cli and use var prompts instead, by adding the following to d7-vagrant.yml
-```
-  vars_prompt:
-  - name: user_pass
-    prompt: "password for libacct"
-    private: yes
-    encrypt: "sha512_crypt"
-    confirm: yes
-    salt_size: 7
-  - name: mariadb_pass
-    prompt: "root password for mariadb"
-    private: yes
-    confirm: yes
-  tasks:
-  - name: Set libacct password crypt as fact
-    set_fact:
-      libacct_pw_crypt: "{{ user_pass }}"
-  - name: Set mariadb root pw as fact
-    set_fact:
-      mariadb_root: "{{ mariadb_pass }}"
-```
-
-### Configuration
-copy my-vars.default.yml to my-vars.yml and insert your information
+1. Install Vagrant.
+1. Clone this repo to a local folder.
+1. Copy `my-vars.default.yml` to `my-vars.yml` and insert your particulars.
 
 
-## To use
-vagrant up
-vagrant ssh
+## Usage 
 
-## To initize a new Drupal site
+The following vagrant commands are likely to see the most use. 
 
-```
-d7_init.sh /srv/$site
-```
+* `vagrant up` to start the vm. The box will build itself on first startup. 
+* `vagrant ssh` to log in
+* `vagrant halt` to shut the VM Down
+* `vagrant reload` bounces the box
 
-where $site == one of the configured sites in my-vars.yml
+It maybe be neccessary to do a `halt` or `reload` if the guest VM gets confused about its network, or loses its fileshares. This most frequently happens when the host machine goes to sleep and/or moves between networks.
 
-This script will install a fresh Drupal site.
-* Accepts a path as its sole argument and will install the site at that location. 
-* You will be prompted for MySQL root credentials.
-* You will find your site at: http://____.$hostname
-* You will need to enable all the relevent modules and set the theme.
-
-## To apply a Drush Makefile to sync code
-
-```
-d7_make.sh /srv/$site $makefile
-```
-This script will apply a Drush Makefile.
-* You will need to specify the path to an existing Drupal site and the path or url of a Drush Makefile.
-* Libraries and Drupal modules and themes will be replaced with those specified in the Makefile, but neither database content, nor your `sites/default` folder will be modified.
-
-The [`make`](./make) directory of this repository contains our Makefiles. 
-
-
-
-
-## To sync content (files and database) between sites
-
-```
-d7_sync.sh /srv/$site $remotehost
-```
-
-This script will sync content *to* a local site *from* a remote host
-* you will need to specify a path and a remote host. 
-* Sites on both the local and remote host be at the same path. 
-
-
-## To delete site (files and database)
-
-```
-d7_clean.sh /srv/$site
-```
-
-Don't do this accidentally.
+Less frequently, you'll may want to reprovision to get the lastest changes, or rebuild your VM Completely. In that case, you'll need these commands:
+* `vagrant provision` will re-run the ansible provisioners
+* `vagrant destroy` to delete the VM, in case you want to start over
