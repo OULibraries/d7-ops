@@ -1,18 +1,29 @@
 ---
-## The configuration below would get you a server ready to run
-## d7_init.sh /srv/drupal-dev1 and d7_init.sh /srv/drupal-dev2
-## the sites would then be accessible at:
-## drupal-dev1.ngrok.io and drupal-dev2.ngrok.io
-## the domain or subdomain where the sites you build will be accessed
-## Internally, the server will consider these sites to be at
-## drupal-dev1.drupal.vm.test and drupal-dev2.drupal.vm.test
-mariadb_root_pass: 'root'
-## crypt value of 'libacct'
-user_pass: '$6$rounds=100000$qrlkLzoJAmDl4q46$8lUP.o5oe8Cmr/OCy8/pdIvbuSP8KaC8cqVHvmsMzObotRakn2lSMEnu/z0bI4NbXJ4zPoQ.8yUWvw2SqveDJ1'
-httpd_dn_suffix: 'drupal.vm.test'
-## Your email address
+# The configuration below would get you a server ready to run
+# d7_init.sh /srv/drupal-dev1 and d7_init.sh /srv/drupal-dev2
+# the sites would then be accessible at:
+# drupal-dev1.ngrok.io and drupal-dev2.ngrok.io
+
+# Internally, the server will consider these sites to be at
+# drupal-dev1.drupal.vm.test and drupal-dev2.drupal.vm.test
+
+
+# Developer ID and Auth
+
+# Your email address
 email: 'user@example.com'
-## Your ngrok token
+# Your ngrok token
 ngrok_authtoken: ''
-## The hostnames of the sites you will build.
+
+# Passwords
+
+mariadb_root_pass: 'root'
+# crypt value of 'libacct' because ansible
+user_pass: '$6$rounds=100000$qrlkLzoJAmDl4q46$8lUP.o5oe8Cmr/OCy8/pdIvbuSP8KaC8cqVHvmsMzObotRakn2lSMEnu/z0bI4NbXJ4zPoQ.8yUWvw2SqveDJ1'
+
+# Web Server Settings
+
+# local domain for drupal sites, mainly for landrush users
+httpd_dn_suffix: 'drupal.vm.test'
+# The hostnames of the sites you will build.
 sites: ['drupal-dev1', 'drupal-dev2']

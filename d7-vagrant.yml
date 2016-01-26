@@ -2,20 +2,20 @@
 - hosts: default
   sudo: yes
   vars_files:
-  - my-vars.yml
+    - my-vars.yml
   pre_tasks:
-  - name: Remove /srv
-    file: path=/srv state=absent
-  - name: /srv is a directory 
-    file: path=/srv state=directory mode=0755 force=yes
+    - name: Remove /srv
+      file: path=/srv state=absent
+    - name: /srv is a directory
+      file: path=/srv state=directory mode=0755 force=yes
   roles:
-  - jsnshrmn.centos7
-  - jsnshrmn.d7
-  - jsnshrmn.ngrok
+    - jsnshrmn.centos7
+    - jsnshrmn.d7
+    - jsnshrmn.ngrok
   tasks:
-  - name: Link /srv to /vagrant/srv
-    file: src=/vagrant/srv dest=/srv state=link force=yes
-  - name: Disable selinux for vagrant
-    selinux: state=disabled
-  - name: Add apache user to vagrant group
-    command: usermod -a -G vagrant apache
+    - name: Link /srv to /vagrant/srv
+      file: src=/vagrant/srv dest=/srv state=link force=yes
+    - name: Disable selinux for vagrant
+      selinux: state=disabled
+    - name: Add apache user to vagrant group
+      command: usermod -a -G vagrant apache
