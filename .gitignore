@@ -1,8 +1,14 @@
+# Ignore ansible roles in the vagrant directory
+roles/
+
 # Ignore vagrant build files
 .vagrant
 
 # Ignore vagrant downloads files
 downloads/
+
+# Ignore ansible_local downloaded roles 
+roles/
 
 # Ignore linked keys
 libdev_rsa
