@@ -183,4 +183,9 @@ libraries[bootstrap][download][type] = "get"
 libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/releases/download/v3.3.1/bootstrap-3.3.1-dist.zip"
 libraries[bootstrap][directory_name] = "bootstrap"
 libraries[bootstrap][type] = "library"
- 
+
+projects[oulib_config_e_resources][type] = "module"
+projects[oulib_config_e_resources][download][type] = "git"
+projects[oulib_config_e_resources][download][url] = "https://github.com/OULibraries/oulib_config_e_resources.git"
+projects[oulib_config_e_resources][download][revision] = "2eff252fba75b04038a5ba0bcb66d7531354ac60"
+
