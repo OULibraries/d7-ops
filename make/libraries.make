@@ -6,6 +6,7 @@ api = 2
 projects[drupal][version] = "7.41"
 
 ; Modules
+projects[views_bulk_operations][version] = "3.3"
 projects[addressfield][version] = "1.1"
 projects[admin_menu][version] = "3.0-rc4"
 projects[ctools][version] = "1.9"
@@ -48,6 +49,7 @@ projects[jquery_update][version] = "2.7"
 projects[leaflet_more_maps][version] = "1.10"
 projects[libraries][version] = "2.2"
 projects[link][version] = "1.3"
+projects[mass_contact][version] = "1.1"
 projects[node_expire][version] = "1.7"
 projects[node_export][version] = "3.0"
 projects[opening_hours][version] = "1.4"
@@ -59,6 +61,7 @@ projects[realname][version] = "1.2"
 projects[redirect][version] = "1.0-rc3"
 projects[rules][version] = "2.7"
 projects[simplehtmldom][version] = "1.12"
+projects[spamspan][version] = "1.2"
 projects[strongarm][version] = "2.0"
 projects[telephone][version] = "1.0-alpha1"
 projects[tipsy][version] = "1.0-rc1"
@@ -71,6 +74,7 @@ projects[variable][version] = "2.5"
 projects[views][version] = "3.11"
 projects[views_accordion][version] = "1.0"
 projects[views_bootstrap][version] = "3.1"
+projects[views_data_export][version] = "3.0-beta9"
 projects[webform][version] = "4.12"
 
 ; Themes
@@ -133,7 +137,7 @@ projects[better_contact][download][url] = "https://github.com/OULibraries/better
 projects[oulib_bootstrap][type] = "theme"
 projects[oulib_bootstrap][download][type] = "git"
 projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/oulib_bootstrap.git"
-projects[oulib_bootstrap][download][branch] = "master"
+projects[oulib_bootstrap][download][branch] = "prod"
 ;projects[oulib_bootstrap][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
 
 ; Libraries
