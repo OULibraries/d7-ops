@@ -108,7 +108,7 @@ projects[file_aliases][download][branch] = "master"
 projects[oulib_docreg][type] = "theme"
 projects[oulib_docreg][download][type] = "git"
 projects[oulib_docreg][download][url] = "https://github.com/OULibraries/oulib_docreg.git"
-projects[oulib_docreg][download][branch] = "master"
+projects[oulib_docreg][download][branch] = "dev-findingaids"
 ;projects[oulib_docreg][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
  
 ; Libraries

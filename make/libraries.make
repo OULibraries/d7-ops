@@ -76,17 +76,19 @@ projects[views_accordion][version] = "1.0"
 projects[views_bootstrap][version] = "3.1"
 projects[views_data_export][version] = "3.0-beta9"
 projects[webform][version] = "4.12"
+projects[field_group][version] = "1.5"
 
 ; Themes
 projects[bootstrap][version] = "3.0"
 
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
-; just a local file.
-; projects[ldap_importer][download][type] = "get"
-; projects[ldap_importer][download][url] = "ldap_importer.tar.gz"
-; projects[ldap_importer][type] = "module"
+; Themes
+projects[oulib_bootstrap][type] = "theme"
+projects[oulib_bootstrap][download][type] = "git"
+projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/oulib_bootstrap.git"
+projects[oulib_bootstrap][download][branch] = "user-acceptance"
+;projects[oulib_bootstrap][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
 
+; Projects
 projects[ldap][type] = "module"
 projects[ldap][download][type] = "git"
 projects[ldap][download][url] = "https://github.com/OULibraries/ldap.git"
@@ -133,13 +135,6 @@ projects[better_contact][type] = "module"
 projects[better_contact][download][type] = "git"
 projects[better_contact][download][url] = "https://github.com/OULibraries/better_contact.git"
 
-; Themes
-projects[oulib_bootstrap][type] = "theme"
-projects[oulib_bootstrap][download][type] = "git"
-projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/oulib_bootstrap.git"
-projects[oulib_bootstrap][download][branch] = "master"
-;projects[oulib_bootstrap][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
-
 ; Libraries
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
@@ -178,8 +173,6 @@ libraries[fontawesome][download][revision] = "a65bd93d81e9e6bd5ebfa41757a4474960
 libraries[fontawesome][directory_name] = "fontawesome"
 libraries[fontawesome][type] = "library"
 
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
 libraries[colorbox][download][type] = "git"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
 libraries[colorbox][download][branch] = "master"
@@ -187,8 +180,6 @@ libraries[colorbox][download][revision]= "d9a4e2dfaabc63751eb82eb37f0fb4de6f31f2
 libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][type] = "library"
 
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
 libraries[owl-carousel][download][type] = "get"
 libraries[owl-carousel][download][url] = "https://github.com/OwlFonk/OwlCarousel/raw/f79d5de318f2848cf24b547ec1d48d44e55b2846/owl-carousel/owl.carousel.js"
 libraries[owl-carousel][directory_name] = "owl-carousel"
@@ -214,8 +205,6 @@ libraries[owl-carousel-trans][download][url] = "https://github.com/OwlFonk/OwlCa
 libraries[owl-carousel-trans][directory_name] = "owl-carousel"
 libraries[owl-carousel-trans][type] = "library"
 
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
 libraries[bootstrap][download][type] = "get"
 libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/releases/download/v3.3.1/bootstrap-3.3.1-dist.zip"
 libraries[bootstrap][directory_name] = "bootstrap"
