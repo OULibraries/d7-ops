@@ -53,6 +53,7 @@ $SUDO find $SITEPATH/default -type f -exec chmod u=rw,g=rw,o= '{}' \;
 # Set SELinux or die
 echo "Setting SELinux policy of the default site."
 $SUDO semanage fcontext -a -t httpd_sys_content_t  "$SITEPATH/default(/.*)?" || exit 1;
+$SUDO semanage fcontext -a -t httpd_sys_rw_content_t  "$SITEPATH/default/files(/.*)?" || exit 1;
 $SUDO restorecon -R $SITEPATH/default || exit 1;
 
 # Set owner
@@ -82,6 +83,8 @@ drush -y dis update -r $SITEPATH/drupal || exit 1;
 
 ## Clear the caches
 drush -y cc all -r $SITEPATH/drupal || exit 1;
+## Including APC if it's there.
+drush php-eval "apc_clear_cache('opcode');" -r $SITEPATH/drupal
 
 ## Avoid a known performance-crusher in our environment
 drush eval 'variable_set('drupal_http_request_fails', 0)' -r $SITEPATH/drupal || exit 1;

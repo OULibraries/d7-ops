@@ -100,6 +100,12 @@ drush -y sql-create --db-su=root --db-su-pw=$ROOTDBPSSWD -r $SITEPATH/drupal || 
 ## Do the Drupal install
 drush -y -r $SITEPATH/drupal site-install --site-name=$SITE || exit 1;
 
+# Set SELinux of default site dir
+echo "Setting SELinux policy of the default site."
+$SUDO semanage fcontext -a -t httpd_sys_content_t  "$SITEPATH/default(/.*)?" || exit 1;
+$SUDO semanage fcontext -a -t httpd_sys_rw_content_t  "$SITEPATH/default/files(/.*)?" || exit 1;
+$SUDO restorecon -R $SITEPATH/default || exit 1;
+
 ## Make the apache config
 echo "Generating Apache Config."
 #$SUDO rm /etc/httpd/conf.d/srv_$SITE.conf
