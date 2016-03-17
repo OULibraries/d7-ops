@@ -121,7 +121,7 @@ projects[oulib_blocks][download][branch] = "7.x-0.x"
 projects[oulib_galileotheme][type] = "theme"
 projects[oulib_galileotheme][download][type] = "git"
 projects[oulib_galileotheme][download][url] = "https://github.com/OULibraries/oulib_galileotheme.git"
-projects[oulib_galileotheme][download][branch] = "master"
+projects[oulib_galileotheme][download][branch] = "user-acceptance"
 ;projects[oulib_galileotheme][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
 
 ; Libraries
