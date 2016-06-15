@@ -117,6 +117,7 @@ projects[views_bootstrap][type] = "module"
 projects[ou_layouts][type] = "module"
 projects[ou_layouts][download][type] = "git"
 projects[ou_layouts][download][url] = "https://github.com/OULibraries/ou_layouts.git"
+projects[ou_layouts][download][branch] = "user-acceptance"
 ;projects[ou_layouts][download][revision] = "4005a71973ad1bcc246a83bbcc89213322a996ce"
 
 projects[opening_hours][type] = "module"
