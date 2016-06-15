@@ -76,6 +76,8 @@ projects[views_data_export][version] = "3.0-beta9"
 projects[webform][version] = "4.12"
 projects[field_group][version] = "1.5"
 projects[paragraphs][version] = "1.0-rc4"
+projects[google_analytics_reports][version] = "3.0"
+projects[highcharts][version] = "1.0-alpha6"
 
 ; Themes
 projects[bootstrap][version] = "3.5"
