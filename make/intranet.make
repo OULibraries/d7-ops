@@ -78,6 +78,7 @@ projects[field_group][version] = "1.5"
 projects[paragraphs][version] = "1.0-rc4"
 projects[google_analytics_reports][version] = "3.0"
 projects[highcharts][version] = "1.0-alpha6"
+projects[charts][version] = "2.0-rc1"
 
 ; Themes
 projects[bootstrap][version] = "3.5"
