@@ -108,11 +108,11 @@ projects[suma_stats][download][type] = "git"
 projects[suma_stats][download][url] = "https://github.com/OULibraries/suma_stats.git"
 projects[suma_stats][download][branch] = "user-acceptance"
 
-projects[suma_stats][type] = "module"
-projects[suma_stats][download][type] = "git"
-projects[suma_stats][download][url] = "https://github.com/OULibraries/gastats.git"
-projects[suma_stats][download][branch] = "user-acceptance"
-;projects[suma_stats][download][revision] = "6f6c7c6a2bf6d2cadcefa1f0567554b68b190aeb"
+projects[gastats][type] = "module"
+projects[gastats][download][type] = "git"
+projects[gastats][download][url] = "https://github.com/OULibraries/gastats.git"
+projects[gastats][download][branch] = "user-acceptance"
+;projects[gastats][download][revision] = "6f6c7c6a2bf6d2cadcefa1f0567554b68b190aeb"
 
 
 projects[oulib_blocks][type] = "module"
