@@ -67,14 +67,13 @@ projects[field_group][version] = "1.5"
 projects[paragraphs][version] = "1.0-rc4"
 
 ; Themes
-projects[bootstrap][version] = "3.0"
+projects[bootstrap][version] = "3.5"
 
 ; Themes
 projects[oulib_intranet][type] = "theme"
 projects[oulib_intranet][download][type] = "git"
 projects[oulib_intranet][download][url] = "https://github.com/OULibraries/oulib_intranet.git"
 projects[oulib_intranet][download][branch] = "user-acceptance"
-;projects[oulib_intranet][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
 
 ; Projects
 projects[ldap][type] = "module"
@@ -103,13 +102,11 @@ projects[ou_layouts][type] = "module"
 projects[ou_layouts][download][type] = "git"
 projects[ou_layouts][download][url] = "https://github.com/OULibraries/ou_layouts.git"
 projects[ou_layouts][download][branch] = "user-acceptance"
-;projects[ou_layouts][download][revision] = "4005a71973ad1bcc246a83bbcc89213322a996ce"
 
 projects[suma_stats][type] = "module"
 projects[suma_stats][download][type] = "git"
 projects[suma_stats][download][url] = "https://github.com/OULibraries/suma_stats.git"
 projects[suma_stats][download][branch] = "user-acceptance"
-;projects[suma_stats][download][revision] = "6f6c7c6a2bf6d2cadcefa1f0567554b68b190aeb"
 
 projects[suma_stats][type] = "module"
 projects[suma_stats][download][type] = "git"
