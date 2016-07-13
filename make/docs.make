@@ -58,7 +58,7 @@ projects[bootstrap][version] = "3.0"
 projects[oulib_intranet][type] = "theme"
 projects[oulib_intranet][download][type] = "git"
 projects[oulib_intranet][download][url] = "https://github.com/OULibraries/oulib_intranet.git"
-projects[oulib_intranet][download][branch] = "master"
+projects[oulib_intranet][download][branch] = "user-acceptance"
 ;projects[oulib_intranet][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
  
  
