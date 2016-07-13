@@ -55,11 +55,11 @@ projects[webform][version] = "4.11"
 projects[bootstrap][version] = "3.0"
 
 ; Themes
-projects[oulib_docreg][type] = "theme"
-projects[oulib_docreg][download][type] = "git"
-projects[oulib_docreg][download][url] = "https://github.com/OULibraries/oulib_docreg.git"
-projects[oulib_docreg][download][branch] = "devbuttonfix"
-;projects[oulib_docreg][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
+projects[oulib_intranet][type] = "theme"
+projects[oulib_intranet][download][type] = "git"
+projects[oulib_intranet][download][url] = "https://github.com/OULibraries/oulib_intranet.git"
+projects[oulib_intranet][download][branch] = "master"
+;projects[oulib_intranet][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
  
  
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
