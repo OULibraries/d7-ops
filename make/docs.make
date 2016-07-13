@@ -112,13 +112,6 @@ projects[file_aliases][download][type] = "git"
 projects[file_aliases][download][url] = "https://github.com/eaton/file_aliases.git"
 projects[file_aliases][download][branch] = "master"
 
-; Themes
-projects[oulib_intranet][type] = "theme"
-projects[oulib_intranet][download][type] = "git"
-projects[oulib_intranet][download][url] = "https://github.com/OULibraries/oulib_intranet.git"
-projects[oulib_intranet][download][branch] = "user-acceptance"
-;projects[oulib_intranet][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
- 
 ; Libraries
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
