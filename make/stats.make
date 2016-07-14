@@ -108,6 +108,11 @@ projects[suma_stats][download][type] = "git"
 projects[suma_stats][download][url] = "https://github.com/OULibraries/suma_stats.git"
 projects[suma_stats][download][branch] = "user-acceptance"
 
+projects[labstats_stats][type] = "module"
+projects[labstats_stats][download][type] = "git"
+projects[labstats_stats][download][url] = "https://github.com/OULibraries/labstats_stats.git"
+projects[labstats_stats][download][branch] = "user-acceptance"
+
 projects[gastats][type] = "module"
 projects[gastats][download][type] = "git"
 projects[gastats][download][url] = "https://github.com/OULibraries/gastats.git"
