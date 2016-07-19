@@ -213,3 +213,8 @@ libraries[bootstrap][download][type] = "get"
 libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/releases/download/v3.3.1/bootstrap-3.3.1-dist.zip"
 libraries[bootstrap][directory_name] = "bootstrap"
 libraries[bootstrap][type] = "library"
+
+; required by Charts module
+libraries[highcharts][download][type] = "file"
+libraries[highcharts][download][url] = "http://code.highcharts.com/highcharts.js"
+libraries[highcharts][directory_name] = "highcharts/js"
