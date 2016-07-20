@@ -13,6 +13,7 @@ projects[captcha][version] = "1.2"
 projects[ckeditor][version] = "1.16"
 projects[node_clone][version] = "1.0-rc2"
 projects[colorbox][version] = "2.10"
+projects[devel_generate][version] = "1.5"
 projects[fontyourface][version] = "2.8"
 projects[email][version] = "1.3"
 projects[entity][version] = "1.6"
@@ -28,6 +29,8 @@ projects[filefield_paths][version] = "1.0-beta4"
 projects[find_content][version] = "1.4"
 projects[flag][version] = "3.5"
 projects[fontawesome][version] = "1.0"
+project[media][version] = "1.5"
+projects[paragraphs][version] = "1.0"
 projects[panels][version] = "3.4"
 projects[imagefield_focus][version] = "1.0"
 projects[job_scheduler][version] = "2.0-alpha3"
@@ -49,7 +52,9 @@ projects[views][version] = "3.11"
 projects[views_accordion][version] = "1.0"
 projects[views_bootstrap][version] = "3.1"
 projects[webform][version] = "4.11"
-projects[paragraphs][version] = "7.1"
+
+
+
 
 
 
