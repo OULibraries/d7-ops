@@ -81,6 +81,7 @@ projects[google_analytics_reports][version] = "3.0"
 projects[highcharts][version] = "1.0-alpha6"
 projects[charts][version] = "2.0-rc1"
 projects[label_help][version] = "1.2"
+projects[manualcrop][version] = "1.5"
 
 ; Themes
 projects[bootstrap][version] = "3.5"
@@ -219,3 +220,15 @@ libraries[bootstrap][type] = "library"
 libraries[highcharts][download][type] = "file"
 libraries[highcharts][download][url] = "http://code.highcharts.com/highcharts.js"
 libraries[highcharts][directory_name] = "highcharts/js"
+
+; required by ManualCrop
+libraries[jquery.imagesloaded][download][type] = "git"
+libraries[jquery.imagesloaded][download][url] = "https://github.com/desandro/imagesloaded.git"
+libraries[jquery.imagesloaded][directory_name] = "jquery.imagesloaded"
+libraries[jquery.imagesloaded][type] = "library"
+
+; required by ManualCrop
+libraries[jquery.imgareaselect][download][type] = "get"
+libraries[jquery.imgareaselect][download][url] = "http://odyniec.net/projects/imgareaselect/jquery.imgareaselect-0.9.10.zip"
+libraries[jquery.imgareaselect][directory_name] = "jquery.imgareaselect"
+libraries[jquery.imgareaselect][type] = "library"
