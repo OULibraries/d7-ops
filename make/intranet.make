@@ -82,6 +82,7 @@ projects[highcharts][version] = "1.0-alpha6"
 projects[charts][version] = "2.0-rc1"
 projects[label_help][version] = "1.2"
 projects[manualcrop][version] = "1.5"
+projects[user_picture_field][version] = "1.0-rc1"
 
 ; Themes
 projects[bootstrap][version] = "3.5"
