@@ -120,6 +120,10 @@ projects[ou_layouts][download][type] = "git"
 projects[ou_layouts][download][url] = "https://github.com/OULibraries/ou_layouts.git"
 ;projects[ou_layouts][download][revision] = "4005a71973ad1bcc246a83bbcc89213322a996ce"
 
+projects[bi_stats][type] = "module"
+projects[bi_stats][download][type] = "git"
+projects[bi_stats][download][url] = "https://github.com/OULibraries/bi_stats.git"
+
 projects[opening_hours][type] = "module"
 projects[opening_hours][download][type] = "git"
 projects[opening_hours][download][url] = "https://github.com/OULibraries/openinghours.git"
