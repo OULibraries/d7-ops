@@ -77,6 +77,8 @@ projects[views_data_export][version] = "3.0-beta9"
 projects[webform][version] = "4.12"
 projects[field_group][version] = "1.5"
 projects[paragraphs][version] = "1.0-rc4"
+projects[rate][version] = "1.7"
+projects[votingapi] = "2.12"
 
 ; Themes
 projects[bootstrap][version] = "3.5"
