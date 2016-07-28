@@ -225,7 +225,7 @@ libraries[highcharts][directory_name] = "highcharts/js"
 ; required by ManualCrop
 libraries[jquery.imagesloaded][download][type] = "git"
 libraries[jquery.imagesloaded][download][url] = "https://github.com/desandro/imagesloaded.git"
-libraries[jquery.imagesloaded][directory_name] = "jquery.imagesloaded"
+libraries[jquery.imagesloaded][directory_name] = "jquery.imagesLoaded"
 libraries[jquery.imagesloaded][type] = "library"
 
 ; required by ManualCrop
