@@ -106,7 +106,13 @@ projects[oulib_blocks][download][type] = "git"
 projects[oulib_blocks][download][url] = "https://github.com/OULibraries/oulib_blocks.git"
 projects[oulib_blocks][download][branch] = "7.x-0.x"
 ;projects[oulib_blocks][download][revision] = "2dac3ec5b5ece8707eb62db4ecfa9ab5f6f48bd9"
-  
+
+projects[oulib_authorizedsender][type] = "module"
+projects[oulib_authorizedsender][download][type] = "git"
+projects[oulib_authorizedsender][download][url] = "https://github.com/OULibraries/oulib_authorizedsender.git"
+projects[oulib_authorizedsender][download][branch] = "7.x-1.x"
+;projects[oulib_authorizedsender][download][revision] = "6f6c7c6a2bf6d2cadcefa1f0567554b68b190aeb"
+
 projects[file_aliases][type] = "module"
 projects[file_aliases][download][type] = "git"
 projects[file_aliases][download][url] = "https://github.com/eaton/file_aliases.git"
