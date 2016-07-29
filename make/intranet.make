@@ -101,6 +101,12 @@ projects[ldap][download][url] = "https://github.com/OULibraries/ldap.git"
 projects[ldap][download][branch] = "7.x-2.x-oulib"
 ;projects[ldap][download][revision] = "6f6c7c6a2bf6d2cadcefa1f0567554b68b190aeb"
 
+projects[oulib_authorizedsender][type] = "module"
+projects[oulib_authorizedsender][download][type] = "git"
+projects[oulib_authorizedsender][download][url] = "https://github.com/OULibraries/oulib_authorizedsender.git"
+projects[oulib_authorizedsender][download][branch] = "7.x-1.x"
+;projects[oulib_authorizedsender][download][revision] = "6f6c7c6a2bf6d2cadcefa1f0567554b68b190aeb"
+
 projects[illiad_sso][type] = "module"
 projects[illiad_sso][download][type] = "git"
 projects[illiad_sso][download][url] = "https://github.com/OULibraries/illiad_sso.git"
