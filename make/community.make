@@ -210,7 +210,7 @@ libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/release
 libraries[bootstrap][directory_name] = "bootstrap"
 libraries[bootstrap][type] = "library"
 
-; required by MosiacFlow
+; required by MosaicFlow
 libraries[jquery.imgareaselect][download][type] = "get"
 libraries[jquery.imgareaselect][download][url] = "https://github.com/MJCO/jquery.mosaicflow/releases/download/0.2.5/jquery.mosaicflow.zip"
 libraries[jquery.imgareaselect][directory_name] = "jquery.mosaicflow"
