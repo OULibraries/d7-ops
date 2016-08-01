@@ -141,7 +141,6 @@ projects[oulib_authorizedsender][type] = "module"
 projects[oulib_authorizedsender][download][type] = "git"
 projects[oulib_authorizedsender][download][url] = "https://github.com/OULibraries/oulib_authorizedsender.git"
 projects[oulib_authorizedsender][download][branch] = "7.x-1.x"
-;projects[oulib_authorizedsender][download][revision] = "6f6c7c6a2bf6d2cadcefa1f0567554b68b190aeb"
 
 ; Libraries
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
