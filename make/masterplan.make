@@ -60,12 +60,10 @@ projects[webform][version] = "4.12"
 ; Themes
 projects[bootstrap][version] = "3.0"
 
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
-; just a local file.
-; projects[ldap_importer][download][type] = "get"
-; projects[ldap_importer][download][url] = "ldap_importer.tar.gz"
-; projects[ldap_importer][type] = "module"
+projects[oulib_authorizedsender][type] = "module"
+projects[oulib_authorizedsender][download][type] = "git"
+projects[oulib_authorizedsender][download][url] = "https://github.com/OULibraries/oulib_authorizedsender.git"
+projects[oulib_authorizedsender][download][branch] = "7.x-1.x"
 
 projects[ldap][type] = "module"
 projects[ldap][download][type] = "git"
