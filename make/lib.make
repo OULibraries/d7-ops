@@ -61,13 +61,10 @@ projects[oulib_docreg][download][url] = "https://github.com/OULibraries/oulib_do
 projects[oulib_docreg][download][branch] = "devbuttonfix"
 ;projects[oulib_docreg][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
  
- 
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
-; just a local file.
-; projects[ldap_importer][download][type] = "get"
-; projects[ldap_importer][download][url] = "ldap_importer.tar.gz"
-; projects[ldap_importer][type] = "module"
+projects[oulib_authorizedsender][type] = "module"
+projects[oulib_authorizedsender][download][type] = "git"
+projects[oulib_authorizedsender][download][url] = "https://github.com/OULibraries/oulib_authorizedsender.git"
+projects[oulib_authorizedsender][download][branch] = "7.x-1.x"
  
 projects[ldap][type] = "module"
 projects[ldap][download][type] = "git"
@@ -191,9 +188,4 @@ libraries[bootstrap][download][type] = "get"
 libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/releases/download/v3.3.1/bootstrap-3.3.1-dist.zip"
 libraries[bootstrap][directory_name] = "bootstrap"
 libraries[bootstrap][type] = "library"
-
-projects[oulib_config_e_resources][type] = "module"
-projects[oulib_config_e_resources][download][type] = "git"
-projects[oulib_config_e_resources][download][url] = "https://github.com/OULibraries/oulib_config_e_resources.git"
-projects[oulib_config_e_resources][download][revision] = "2eff252fba75b04038a5ba0bcb66d7531354ac60"
 
