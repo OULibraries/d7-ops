@@ -53,3 +53,8 @@ projects[oulib_signage][download][type] = "git"
 projects[oulib_signage][download][url] = "https://github.com/OULibraries/oulib_signage.git"
 projects[oulib_signage][type] = "theme"
 projects[oulib_signage][download][branch] = "master"
+
+projects[oulib_authorizedsender][type] = "module"
+projects[oulib_authorizedsender][download][type] = "git"
+projects[oulib_authorizedsender][download][url] = "https://github.com/OULibraries/oulib_authorizedsender.git"
+projects[oulib_authorizedsender][download][branch] = "7.x-1.x"
