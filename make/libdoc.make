@@ -56,12 +56,11 @@ projects[webform][version] = "4.11"
 projects[bootstrap][version] = "3.0"
 
 ; Themes
-projects[oulib_docreg][type] = "theme"
-projects[oulib_docreg][download][type] = "git"
-projects[oulib_docreg][download][url] = "https://github.com/OULibraries/oulib_docreg.git"
-projects[oulib_docreg][download][branch] = "devbuttonfix"
-;projects[oulib_docreg][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
- 
+projects[oulib_intranet][type] = "theme"
+projects[oulib_intranet][download][type] = "git"
+projects[oulib_intranet][download][url] = "https://github.com/OULibraries/oulib_intranet.git"
+projects[oulib_intranet][download][branch] = "user-acceptance"
+
  
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
@@ -197,9 +196,4 @@ libraries[bootstrap][download][type] = "get"
 libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/releases/download/v3.3.1/bootstrap-3.3.1-dist.zip"
 libraries[bootstrap][directory_name] = "bootstrap"
 libraries[bootstrap][type] = "library"
-
-projects[oulib_config_e_resources][type] = "module"
-projects[oulib_config_e_resources][download][type] = "git"
-projects[oulib_config_e_resources][download][url] = "https://github.com/OULibraries/oulib_config_e_resources.git"
-projects[oulib_config_e_resources][download][revision] = "2eff252fba75b04038a5ba0bcb66d7531354ac60"
 
