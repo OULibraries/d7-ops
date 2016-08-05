@@ -106,6 +106,11 @@ projects[oulib_authorizedsender][download][type] = "git"
 projects[oulib_authorizedsender][download][url] = "https://github.com/OULibraries/oulib_authorizedsender.git"
 projects[oulib_authorizedsender][download][branch] = "7.x-1.x"
 
+projects[bi_stats][type] = "module"
+projects[bi_stats][download][type] = "git"
+projects[bi_stats][download][url] = "https://github.com/OULibraries/bi_stats.git"
+projects[bi_stats][download][branch] = "user-acceptance"
+
 projects[illiad_sso][type] = "module"
 projects[illiad_sso][download][type] = "git"
 projects[illiad_sso][download][url] = "https://github.com/OULibraries/illiad_sso.git"
