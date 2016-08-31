@@ -78,6 +78,7 @@ projects[views_data_export][version] = "3.0-beta9"
 projects[webform][version] = "4.12"
 projects[field_group][version] = "1.5"
 projects[paragraphs][version] = "1.0-rc4"
+projects[feeds_entity_processor][version] = "1.x-dev"
 
 ; Themes
 projects[bootstrap][version] = "3.0"
@@ -116,6 +117,12 @@ projects[leaflet][download][branch] = "7.x-1.x-oulib"
 projects[loginblock][download][type] = "git"
 projects[loginblock][download][url] = "https://github.com/OULibraries/loginblock.git"
 projects[loginblock][type] = "module"
+
+; Please fill the following out. Type may be one of get, git, bzr or svn,
+; and url is the url of the download.
+projects[giscodes][download][type] = "git"
+projects[giscodes][download][url] = "https://github.com/OULibraries/giscodes.git"
+projects[giscodes][type] = "module"
 
 projects[views_bootstrap][download][type] = "git"
 projects[views_bootstrap][download][url] = "https://github.com/OULibraries/views_bootstrap.git"
