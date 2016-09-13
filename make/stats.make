@@ -132,6 +132,11 @@ projects[gastats][download][url] = "https://github.com/OULibraries/gastats.git"
 projects[gastats][download][branch] = "user-acceptance"
 ;projects[gastats][download][revision] = "6f6c7c6a2bf6d2cadcefa1f0567554b68b190aeb"
 
+projects[stats_cron_caching][type] = "module"
+projects[stats_cron_caching][download][type] = "git"
+projects[stats_cron_caching][download][url] = "https://github.com/OULibraries/stats_cron_caching.git"
+projects[stats_cron_caching][download][branch] = "user-acceptance"
+
 
 projects[oulib_blocks][type] = "module"
 projects[oulib_blocks][download][type] = "git"
