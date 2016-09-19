@@ -59,6 +59,7 @@ projects[views][version] = "3.11"
 projects[views_bootstrap][version] = "3.1"
 projects[views_data_export][version] = "3.0-beta9"
 projects[webform][version] = "4.10"
+projects[paragraphs][version] = "1.0-rc4"
 
 
 
