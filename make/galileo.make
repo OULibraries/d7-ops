@@ -57,6 +57,7 @@ projects[token_filter][version] = "1.1"
 projects[variable][version] = "2.5"
 projects[views][version] = "3.11"
 projects[views_bootstrap][version] = "3.1"
+projects[views_data_export][version] = "3.0-beta9"
 projects[webform][version] = "4.10"
 
 
