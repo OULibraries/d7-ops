@@ -18,9 +18,7 @@ projects[colorbox][version] = "2.10"
 projects[custom_search][version] = "1.18"
 projects[date][version] = "2.8"
 projects[date_ical][version] = "3.3"
-- projects[devel][version] = "1.5"
 projects[fontyourface][version] = "2.8"
-- projects[editableviews][version] = "1.0-beta10"
 projects[email][version] = "1.3"
 projects[entity][version] = "1.6"
 projects[entity_view_mode][version] = "1.0-rc1"
@@ -78,7 +76,7 @@ projects[views_accordion][version] = "1.0"
 projects[views_bootstrap][version] = "3.1"
 projects[views_data_export][version] = "3.0"
 projects[webform][version] = "4.12"
-projects[feeds_entity_processor][version] = "1.x-dev"
+; projects[feeds_entity_processor][version] = "1.x-dev"
 
 ; Themes
 projects[bootstrap][version] = "3.0"
@@ -138,10 +136,10 @@ projects[oulib_bootstrap][download][branch] = "master"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-projects[giscodes][download][type] = "git"
-projects[giscodes][download][url] = "https://github.com/OULibraries/giscodes.git"
-projects[giscodes][download][branch] = "master"
-projects[giscodes][type] = "module"
+; projects[giscodes][download][type] = "git"
+; projects[giscodes][download][url] = "https://github.com/OULibraries/giscodes.git"
+; projects[giscodes][download][branch] = "master"
+; projects[giscodes][type] = "module"
 
 projects[views_bootstrap][download][type] = "git"
 projects[views_bootstrap][download][url] = "https://github.com/OULibraries/views_bootstrap.git"
