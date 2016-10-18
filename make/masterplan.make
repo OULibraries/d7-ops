@@ -119,7 +119,7 @@ projects[better_contact][download][url] = "https://github.com/OULibraries/better
 projects[oulib_masterplan][type] = "theme"
 projects[oulib_masterplan][download][type] = "git"
 projects[oulib_masterplan][download][url] = "https://github.com/OULibraries/oulib_masterplan.git"
-projects[oulib_masterplan][download][branch] = "master"
+projects[oulib_masterplan][download][branch] = "user-acceptance"
 ;projects[oulib_masterplan][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
 
 ; Libraries
