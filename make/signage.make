@@ -6,7 +6,7 @@ projects[drupal][version] = "7.41"
 
 ; Modules
 projects[admin_menu][version] = "3.0-rc5"
-projects[ctools][version] = "1.9"
+projects[ctools][version] = "1.11"
 projects[captcha][version] = "1.3"
 projects[ckeditor][version] = "1.17"
 projects[date][version] = "2.9"
