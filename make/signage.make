@@ -26,7 +26,7 @@ projects[pdf_to_imagefield][version] = "3.3"
 projects[rules][version] = "2.9"
 projects[token][version] = "1.6"
 projects[token_filter][version] = "1.1"
-projects[views][version] = "3.13"
+projects[views][version] = "3.14"
 projects[webform][version] = "4.12"
 projects[webform_entity][version] = "1.x-dev"
 
