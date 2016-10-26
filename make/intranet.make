@@ -2,7 +2,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.43"
+projects[drupal][version] = "7.51"
 
 ; Modules
 projects[views_bulk_operations][version] = "3.3"
@@ -38,7 +38,7 @@ projects[file_formatters][version] = "1.0"
 projects[find_content][version] = "1.4"
 projects[fitvids][version] = "1.17"
 projects[flag][version] = "3.8"
-projects[panels][version] = "3.7"
+projects[panels][version] = "3.8"
 projects[fontawesome][version] = "1.0"
 projects[geofield][version] = "2.3"
 projects[geophp][version] = "1.7"
