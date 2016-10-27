@@ -12,6 +12,7 @@ projects[admin_menu][version] = "3.0-rc4"
 projects[ctools][version] = "1.11"
 projects[calendar][version] = "3.5"
 projects[captcha][version] = "1.2"
+projects[conditional_fields][version] = "3.0-alpha2"
 projects[ckeditor][version] = "1.16"
 projects[node_clone][version] = "1.0-rc2"
 projects[colorbox][version] = "2.10"
@@ -80,6 +81,7 @@ projects[views_bootstrap][version] = "3.1"
 projects[views_data_export][version] = "3.0"
 projects[webform][version] = "4.12"
 projects[webform_rules][version] = "1.6"
+
 
 ; Themes
 projects[bootstrap][version] = "3.0"
