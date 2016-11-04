@@ -107,7 +107,7 @@ projects[oulib_blocks][download][branch] = "7.x-0.x"
   
 projects[file_aliases][type] = "module"
 projects[file_aliases][download][type] = "git"
-projects[file_aliases][download][url] = "https://github.com/eaton/file_aliases.git"
+projects[file_aliases][download][url] = "https://github.com/OULibraries/file_aliases.git"
 projects[file_aliases][download][branch] = "master"
  
 ; Libraries
