@@ -32,7 +32,7 @@ projects[webform_entity][version] = "1.x-dev"
 
 
 ; Themes
-projects[bootstrap][version] = "3.0"
+projects[bootstrap][version] = "3.8"
 
 ; Modules
 projects[loginblock][type] = "module"
