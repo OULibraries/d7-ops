@@ -88,6 +88,12 @@ projects[oulib_intranet][download][url] = "https://github.com/OULibraries/oulib_
 projects[oulib_intranet][download][branch] = "master"
 ;projects[oulib_intranet][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
 
+projects[oulib_admin_intranet][type] = "theme"
+projects[oulib_admin_intranet][download][type] = "git"
+projects[oulib_admin_intranet][download][url] = "https://github.com/OULibraries/oulib_admin_intranet.git"
+projects[oulib_admin_intranet][download][branch] = "master"
+;projects[oulib_admin_intranet][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
+
 ; Projects
 projects[ldap][type] = "module"
 projects[ldap][download][type] = "git"
