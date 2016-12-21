@@ -15,7 +15,6 @@ projects[bootstrap][version] = "3.10"
 projects[oulib_bento][type] = "module"
 projects[oulib_bento][download][type] = "git"
 projects[oulib_bento][download][url] = "git@github.com:OULibraries/oulib_bento.git"
-projects[oulib_bento][download][revision] = "b1fe0a063bd85293e836cf18c51344ced84c43e0"
 
 ; Libraries
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
