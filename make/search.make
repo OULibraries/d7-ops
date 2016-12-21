@@ -5,8 +5,18 @@ api = 2
 projects[drupal][version] = "7.53"
 
 ; Modules
+
+projects[ctools][version] = "1.12"
+projects[fontyourface][version] = "2.8"
+projects[fontawesome][version] = "1.0"
 projects[jquery_update][version] = "2.7"
 projects[libraries][version] = "2.3"
+projects[panels][version] = "3.6"
+projects[panels_bootstrap_layouts][version] = "3.0"
+projects[views][version] = "3.14"
+projects[views_accordion][version] = "1.0"
+projects[views_bootstrap][version] = "3.1"
+projects[views_data_export][version] = "3.0"
 
 ; Themes
 projects[bootstrap][version] = "3.10"
@@ -16,6 +26,23 @@ projects[oulib_bento][type] = "module"
 projects[oulib_bento][download][type] = "git"
 projects[oulib_bento][download][url] = "https://github.com/OULibraries/oulib_bento.git"
 
+;Projects
+projects[ou_layouts][type] = "module"
+projects[ou_layouts][download][type] = "git"
+projects[ou_layouts][download][url] = "https://github.com/OULibraries/ou_layouts.git"
+;projects[ou_layouts][download][revision] = "4005a71973ad1bcc246a83bbcc89213322a996ce"
+
+projects[oulib_bootstrap][type] = "theme"
+projects[oulib_bootstrap][download][type] = "git"
+projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/oulib_bootstrap.git"
+projects[oulib_bootstrap][download][branch] = "master"
+;projects[oulib_bootstrap][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
+
+projects[views_bootstrap][download][type] = "git"
+projects[views_bootstrap][download][url] = "https://github.com/OULibraries/views_bootstrap.git"
+projects[views_bootstrap][type] = "module"
+
+
 ; Libraries
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
@@ -23,3 +50,5 @@ libraries[mustache.js][download][type] = "git"
 libraries[mustache.js][download][url] = "https://github.com/janl/mustache.js.git"
 libraries[mustache.js][directory_name] = "mustache.js"
 libraries[mustache.js][type] = "library"
+
+
