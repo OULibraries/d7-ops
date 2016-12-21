@@ -14,12 +14,12 @@ projects[bootstrap][version] = "3.10"
 ; Modules
 projects[oulib_bento][type] = "module"
 projects[oulib_bento][download][type] = "git"
-projects[oulib_bento][download][url] = "git@github.com:OULibraries/oulib_bento.git"
+projects[oulib_bento][download][url] = "https://github.com/OULibraries/oulib_bento.git"
 
 ; Libraries
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
 libraries[mustache.js][download][type] = "git"
-libraries[mustache.js][download][url] = "git@github.com:janl/mustache.js.git"
+libraries[mustache.js][download][url] = "https://github.com/janl/mustache.js.git"
 libraries[mustache.js][directory_name] = "mustache.js"
 libraries[mustache.js][type] = "library"
