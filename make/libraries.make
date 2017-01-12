@@ -83,7 +83,7 @@ projects[webform_rules][version] = "1.6"
 
 
 ; Themes
-projects[bootstrap][version] = "3.0"
+projects[bootstrap][version] = "3.8"
 
 
 ; Themes
