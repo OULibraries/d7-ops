@@ -12,10 +12,9 @@ projects[admin_menu][version] = "3.0-rc4"
 projects[ctools][version] = "1.11"
 projects[calendar][version] = "3.5"
 projects[captcha][version] = "1.2"
-projects[conditional_fields][version] = "3.0-alpha2"
 projects[ckeditor][version] = "1.16"
-projects[node_clone][version] = "1.0-rc2"
 projects[colorbox][version] = "2.10"
+projects[conditional_fields][version] = "3.0-alpha2"
 projects[custom_search][version] = "1.18"
 projects[date][version] = "2.8"
 projects[date_ical][version] = "3.3"
@@ -93,9 +92,19 @@ projects[oulib_bootstrap][download][branch] = "master"
 ;projects[oulib_bootstrap][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
 
 ; Modules
+projects[assignment-calculator][type] = "module"
+projects[assignment-calculator][download][type] = "git"
+projects[assignment-calculator][download][url] = "https://github.com/OULibraries/assignment-calculator.git"
+projects[assignment-calculator][download][branch] = "master"
+
 projects[better_contact][type] = "module"
 projects[better_contact][download][type] = "git"
 projects[better_contact][download][url] = "https://github.com/OULibraries/better_contact.git"
+
+projects[giscodes][download][type] = "git"
+projects[giscodes][download][url] = "https://github.com/OULibraries/giscodes.git"
+projects[giscodes][download][branch] = "master"
+projects[giscodes][type] = "module"
 
 projects[illiad_sso][type] = "module"
 projects[illiad_sso][download][type] = "git"
@@ -125,6 +134,7 @@ projects[opening_hours][download][url] = "https://github.com/OULibraries/opening
 projects[ou_layouts][type] = "module"
 projects[ou_layouts][download][type] = "git"
 projects[ou_layouts][download][url] = "https://github.com/OULibraries/ou_layouts.git"
+projects[ou_layouts][download][branch] = "master"
 ;projects[ou_layouts][download][revision] = "4005a71973ad1bcc246a83bbcc89213322a996ce"
 
 projects[oulib_authorizedsender][type] = "module"
@@ -138,13 +148,6 @@ projects[oulib_blocks][download][url] = "https://github.com/OULibraries/oulib_bl
 projects[oulib_blocks][download][branch] = "7.x-0.x"
 ;projects[oulib_blocks][download][revision] = "2dac3ec5b5ece8707eb62db4ecfa9ab5f6f48bd9"
 
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
- projects[giscodes][download][type] = "git"
- projects[giscodes][download][url] = "https://github.com/OULibraries/giscodes.git"
- projects[giscodes][download][branch] = "master"
- projects[giscodes][type] = "module"
-
 projects[views_bootstrap][download][type] = "git"
 projects[views_bootstrap][download][url] = "https://github.com/OULibraries/views_bootstrap.git"
 projects[views_bootstrap][type] = "module"
@@ -157,8 +160,6 @@ libraries[colorbox][download][revision]= "d9a4e2dfaabc63751eb82eb37f0fb4de6f31f2
 libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][type] = "library"
 
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
 libraries[iCalcreator][download][type] = "git"
 libraries[iCalcreator][download][url] = "https://github.com/iCalcreator/iCalcreator.git"
 libraries[iCalcreator][download][branch] = "master"
@@ -166,8 +167,6 @@ libraries[iCalcreator][download][revision] = "e3dbec2cb3bb91a8bde989e467567ae883
 libraries[iCalcreator][directory_name] = "iCalcreator"
 libraries[iCalcreator][type] = "library"
 
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
 ;libraries[leaflet][download][type] = "git"
 ;libraries[leaflet][download][url] = "https://github.com/Leaflet/Leaflet.git"
 ;libraries[leaflet][download][branch] = "master"
@@ -177,16 +176,12 @@ libraries[leaflet][download][url] = "https://lib.ou.edu/documents/leaflet-0.7.3.
 libraries[leaflet][directory_name] = "leaflet"
 libraries[leaflet][type] = "library"
 
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
 libraries[fitvids][download][type] = "git"
 libraries[fitvids][download][url] = "https://github.com/davatron5000/FitVids.js.git"
 libraries[fitvids][download][branch] = "master"
 libraries[fitvids][directory_name] = "fitvids"
 libraries[fitvids][type] = "library"
 
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
 libraries[fontawesome][download][type] = "git"
 libraries[fontawesome][download][url] = "https://github.com/FortAwesome/Font-Awesome.git"
 libraries[fontawesome][download][branch] = "master"
