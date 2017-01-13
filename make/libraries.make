@@ -3,7 +3,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.50"
+projects[drupal][version] = "7.53"
 
 ; Modules
 projects[views_bulk_operations][version] = "3.3"
@@ -83,7 +83,7 @@ projects[webform_rules][version] = "1.6"
 
 
 ; Themes
-projects[bootstrap][version] = "3.8"
+projects[bootstrap][version] = "3.10"
 
 
 ; Themes
