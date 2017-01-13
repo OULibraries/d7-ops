@@ -3,7 +3,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.50"
+projects[drupal][version] = "7.53"
 
 ; Modules
 projects[views_bulk_operations][version] = "3.3"
@@ -84,7 +84,13 @@ projects[webform_rules][version] = "1.6"
 
 
 ; Themes
-projects[bootstrap][version] = "3.0"
+projects[bootstrap][version] = "3.10"
+
+projects[oulib_bootstrap][type] = "theme"
+projects[oulib_bootstrap][download][type] = "git"
+projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/oulib_bootstrap.git"
+projects[oulib_bootstrap][download][branch] = "master"
+;projects[oulib_bootstrap][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
 
 ; Modules
 projects[better_contact][type] = "module"
@@ -131,13 +137,6 @@ projects[oulib_blocks][download][type] = "git"
 projects[oulib_blocks][download][url] = "https://github.com/OULibraries/oulib_blocks.git"
 projects[oulib_blocks][download][branch] = "7.x-0.x"
 ;projects[oulib_blocks][download][revision] = "2dac3ec5b5ece8707eb62db4ecfa9ab5f6f48bd9"
-
-projects[oulib_bootstrap][type] = "theme"
-projects[oulib_bootstrap][download][type] = "git"
-projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/oulib_bootstrap.git"
-projects[oulib_bootstrap][download][branch] = "master"
-;projects[oulib_bootstrap][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
-
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
