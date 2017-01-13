@@ -94,15 +94,29 @@ projects[oulib_bootstrap][download][branch] = "user-acceptance"
 ;projects[oulib_bootstrap][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
 
 ; Projects
+projects[assignment-calculator][type] = "module"
+projects[assignment-calculator][download][type] = "git"
+projects[assignment-calculator][download][url] = "https://github.com/OULibraries/assignment-calculator.git"
+projects[assignment-calculator][download][branch] = "user-acceptance"
+
+projects[better_contact][type] = "module"
+projects[better_contact][download][type] = "git"
+projects[better_contact][download][url] = "https://github.com/OULibraries/better_contact.git"
+
+projects[giscodes][download][type] = "git"
+projects[giscodes][download][url] = "https://github.com/OULibraries/giscodes.git"
+projects[giscodes][download][branch] = "user-acceptance"
+projects[giscodes][type] = "module"
+
+projects[illiad_sso][type] = "module"
+projects[illiad_sso][download][type] = "git"
+projects[illiad_sso][download][url] = "https://github.com/OULibraries/illiad_sso.git"
+
 projects[ldap][type] = "module"
 projects[ldap][download][type] = "git"
 projects[ldap][download][url] = "https://github.com/OULibraries/ldap.git"
 projects[ldap][download][branch] = "7.x-2.x-oulib"
 ;projects[ldap][download][revision] = "6f6c7c6a2bf6d2cadcefa1f0567554b68b190aeb"
-
-projects[illiad_sso][type] = "module"
-projects[illiad_sso][download][type] = "git"
-projects[illiad_sso][download][url] = "https://github.com/OULibraries/illiad_sso.git"
 
 projects[leaflet][type] = "module"
 projects[leaflet][download][type] = "git"
@@ -110,15 +124,14 @@ projects[leaflet][download][url] = "https://github.com/OULibraries/leaflet.git"
 projects[leaflet][download][branch] = "7.x-1.x-oulib"
 ;projects[leaflet][download][revision] = "bef9d5cba1850e69d1b40369f81ef5a4a640ef25"
 
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
 projects[loginblock][download][type] = "git"
 projects[loginblock][download][url] = "https://github.com/OULibraries/loginblock.git"
 projects[loginblock][type] = "module"
 
-projects[views_bootstrap][download][type] = "git"
-projects[views_bootstrap][download][url] = "https://github.com/OULibraries/views_bootstrap.git"
-projects[views_bootstrap][type] = "module"
+projects[opening_hours][type] = "module"
+projects[opening_hours][download][type] = "git"
+projects[opening_hours][download][url] = "https://github.com/OULibraries/openinghours.git"
+;projects[opening_hours][download][revision] = "f5139efd337f7bb514886da30d32616b9cf00c7c"
 
 projects[ou_layouts][type] = "module"
 projects[ou_layouts][download][type] = "git"
@@ -126,15 +139,10 @@ projects[ou_layouts][download][url] = "https://github.com/OULibraries/ou_layouts
 projects[ou_layouts][download][branch] = "user-acceptance"
 ;projects[ou_layouts][download][revision] = "4005a71973ad1bcc246a83bbcc89213322a996ce"
 
-projects[assignment-calculator][type] = "module"
-projects[assignment-calculator][download][type] = "git"
-projects[assignment-calculator][download][url] = "https://github.com/OULibraries/assignment-calculator.git"
-projects[assignment-calculator][download][branch] = "user-acceptance"
-
-projects[opening_hours][type] = "module"
-projects[opening_hours][download][type] = "git"
-projects[opening_hours][download][url] = "https://github.com/OULibraries/openinghours.git"
-;projects[opening_hours][download][revision] = "f5139efd337f7bb514886da30d32616b9cf00c7c"
+projects[oulib_authorizedsender][type] = "module"
+projects[oulib_authorizedsender][download][type] = "git"
+projects[oulib_authorizedsender][download][url] = "https://github.com/OULibraries/oulib_authorizedsender.git"
+projects[oulib_authorizedsender][download][branch] = "7.x-1.x"
 
 projects[oulib_blocks][type] = "module"
 projects[oulib_blocks][download][type] = "git"
@@ -142,18 +150,26 @@ projects[oulib_blocks][download][url] = "https://github.com/OULibraries/oulib_bl
 projects[oulib_blocks][download][branch] = "7.x-0.x"
 ;projects[oulib_blocks][download][revision] = "2dac3ec5b5ece8707eb62db4ecfa9ab5f6f48bd9"
 
-projects[better_contact][type] = "module"
-projects[better_contact][download][type] = "git"
-projects[better_contact][download][url] = "https://github.com/OULibraries/better_contact.git"
+projects[views_bootstrap][download][type] = "git"
+projects[views_bootstrap][download][url] = "https://github.com/OULibraries/views_bootstrap.git"
+projects[views_bootstrap][type] = "module"
 
-projects[oulib_authorizedsender][type] = "module"
-projects[oulib_authorizedsender][download][type] = "git"
-projects[oulib_authorizedsender][download][url] = "https://github.com/OULibraries/oulib_authorizedsender.git"
-projects[oulib_authorizedsender][download][branch] = "7.x-1.x"
 
 ; Libraries
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
+libraries[colorbox][download][type] = "git"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
+libraries[colorbox][download][branch] = "master"
+libraries[colorbox][download][revision]= "d9a4e2dfaabc63751eb82eb37f0fb4de6f31f203"
+libraries[colorbox][directory_name] = "colorbox"
+libraries[colorbox][type] = "library"
+
+libraries[iCalcreator][download][type] = "git"
+libraries[iCalcreator][download][url] = "https://github.com/iCalcreator/iCalcreator.git"
+libraries[iCalcreator][download][branch] = "master"
+libraries[iCalcreator][download][revision] = "e3dbec2cb3bb91a8bde989e467567ae8831a4026"
+libraries[iCalcreator][directory_name] = "iCalcreator"
+libraries[iCalcreator][type] = "library"
+
 ;libraries[leaflet][download][type] = "git"
 ;libraries[leaflet][download][url] = "https://github.com/Leaflet/Leaflet.git"
 ;libraries[leaflet][download][branch] = "master"
@@ -163,38 +179,18 @@ libraries[leaflet][download][url] = "https://lib.ou.edu/documents/leaflet-0.7.3.
 libraries[leaflet][directory_name] = "leaflet"
 libraries[leaflet][type] = "library"
 
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
-libraries[iCalcreator][download][type] = "git"
-libraries[iCalcreator][download][url] = "https://github.com/iCalcreator/iCalcreator.git"
-libraries[iCalcreator][download][branch] = "master"
-libraries[iCalcreator][download][revision] = "e3dbec2cb3bb91a8bde989e467567ae8831a4026"
-libraries[iCalcreator][directory_name] = "iCalcreator"
-libraries[iCalcreator][type] = "library"
-
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
 libraries[fitvids][download][type] = "git"
 libraries[fitvids][download][url] = "https://github.com/davatron5000/FitVids.js.git"
 libraries[fitvids][download][branch] = "master"
 libraries[fitvids][directory_name] = "fitvids"
 libraries[fitvids][type] = "library"
 
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
 libraries[fontawesome][download][type] = "git"
 libraries[fontawesome][download][url] = "https://github.com/FortAwesome/Font-Awesome.git"
 libraries[fontawesome][download][branch] = "master"
 libraries[fontawesome][download][revision] = "a65bd93d81e9e6bd5ebfa41757a4474960b973b4"
 libraries[fontawesome][directory_name] = "fontawesome"
 libraries[fontawesome][type] = "library"
-
-libraries[colorbox][download][type] = "git"
-libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
-libraries[colorbox][download][branch] = "master"
-libraries[colorbox][download][revision]= "d9a4e2dfaabc63751eb82eb37f0fb4de6f31f203"
-libraries[colorbox][directory_name] = "colorbox"
-libraries[colorbox][type] = "library"
 
 libraries[owl-carousel][download][type] = "get"
 libraries[owl-carousel][download][url] = "https://github.com/OwlFonk/OwlCarousel/raw/f79d5de318f2848cf24b547ec1d48d44e55b2846/owl-carousel/owl.carousel.js"
@@ -226,7 +222,3 @@ libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/release
 libraries[bootstrap][directory_name] = "bootstrap"
 libraries[bootstrap][type] = "library"
 
-; Features
-; projects[oulib_config_e_resources][download][type] = "git"
-; projects[oulib_config_e_resources][download][url] = "https://github.com/OULibraries/oulib_config_e_resources.git"
-; projects[oulib_config_e_resources][type] = "module"
