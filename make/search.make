@@ -25,6 +25,7 @@ projects[bootstrap][version] = "3.10"
 projects[oulib_bento][type] = "module"
 projects[oulib_bento][download][type] = "git"
 projects[oulib_bento][download][url] = "https://github.com/OULibraries/oulib_bento.git"
+projects[oulib_bento][download][branch] = "user-acceptance"
 ; this module currently lacks a UA branch
 
 projects[ou_layouts][type] = "module"
