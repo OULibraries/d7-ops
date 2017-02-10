@@ -74,3 +74,15 @@ projects[views_bootstrap][version] = "3.1"
 projects[views_data_export][version] = "3.0"
 projects[webform][version] = "4.12"
 projects[webform_rules][version] = "1.6"
+
+; Themes
+projects[bootstrap][version] = "3.10"
+
+projects[ou_layouts][type] = "module"
+projects[ou_layouts][download][type] = "git"
+projects[ou_layouts][download][url] = "https://github.com/OULibraries/ou_layouts.git"
+projects[ou_layouts][download][branch] = "user-acceptance"
+
+projects[views_bootstrap][download][type] = "git"
+projects[views_bootstrap][download][url] = "https://github.com/OULibraries/views_bootstrap.git"
+projects[views_bootstrap][type] = "module"
