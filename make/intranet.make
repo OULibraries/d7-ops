@@ -2,7 +2,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.51"
+projects[drupal][version] = "7.53"
 
 ; Modules
 projects[views_bulk_operations][version] = "3.3"
@@ -13,7 +13,6 @@ projects[calendar][version] = "3.5"
 projects[charts][version] = "2.0-rc1"
 projects[captcha][version] = "1.2"
 projects[ckeditor][version] = "1.16"
-projects[node_clone][version] = "1.0-rc2"
 projects[colorbox][version] = "2.10"
 projects[custom_breadcrumbs] = "2.0-beta1"
 projects[custom_search][version] = "1.18"
@@ -27,7 +26,6 @@ projects[entity][version] = "1.6"
 projects[entity_view_mode][version] = "1.0-rc1"
 projects[entityreference][version] = "1.1"
 projects[exclude_node_title][version] = "1.7"
-projects[ezproxy][version] = "2.2"
 projects[feeds][version] = "2.0-beta1"
 projects[feeds_tamper][version] = "1.0"
 projects[field_conditional_state][version] = "2.1"
@@ -82,11 +80,11 @@ projects[variable][version] = "2.5"
 projects[views][version] = "3.14"
 projects[views_accordion][version] = "1.0"
 projects[views_bootstrap][version] = "3.1"
-projects[views_data_export][version] = "3.0-beta9"
+projects[views_data_export][version] = "3.1"
 projects[webform][version] = "4.12"
 
 ; Themes
-projects[bootstrap][version] = "3.5"
+projects[bootstrap][version] = "3.10"
 
 ; Themes
 projects[oulib_intranet][type] = "theme"
