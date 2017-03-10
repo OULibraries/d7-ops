@@ -213,4 +213,8 @@ libraries[highcharts][download][type] = "file"
 libraries[highcharts][download][url] = "http://code.highcharts.com/highcharts.js"
 libraries[highcharts][directory_name] = "highcharts/js"
 
+projects[oulib_cas][type] = "module"
+projects[oulib_cas][download][type] = "git"
+projects[oulib_cas][download][url] = "https://github.com/OULibraries/oulib_cas.git"
+projects[oulib_cas][download][branch] = "7.x-0.x"
 
