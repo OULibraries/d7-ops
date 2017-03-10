@@ -121,6 +121,11 @@ projects[ou_layouts][download][url] = "https://github.com/OULibraries/ou_layouts
 projects[ou_layouts][download][branch] = "user-acceptance"
 ;projects[ou_layouts][download][revision] = "4005a71973ad1bcc246a83bbcc89213322a996ce"
 
+projects[oulib_cas][type] = "module"
+projects[oulib_cas][download][type] = "git"
+projects[oulib_cas][download][url] = "https://github.com/OULibraries/oulib_cas.git"
+projects[oulib_cas][download][branch] = "7.x-0.x"
+
 projects[opening_hours][type] = "module"
 projects[opening_hours][download][type] = "git"
 projects[opening_hours][download][url] = "https://github.com/OULibraries/openinghours.git"
