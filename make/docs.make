@@ -199,3 +199,9 @@ libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/release
 libraries[bootstrap][directory_name] = "bootstrap"
 libraries[bootstrap][type] = "library"
 
+projects[oulib_cas][type] = "module"
+projects[oulib_cas][download][type] = "git"
+projects[oulib_cas][download][url] = "https://github.com/OULibraries/oulib_cas.git"
+projects[oulib_cas][download][branch] = "7.x-0.x"
+
+
