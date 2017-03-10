@@ -112,6 +112,11 @@ projects[oulib_authorizedsender][download][type] = "git"
 projects[oulib_authorizedsender][download][url] = "https://github.com/OULibraries/oulib_authorizedsender.git"
 projects[oulib_authorizedsender][download][branch] = "7.x-1.x"
 
+projects[oulib_cas][type] = "module"
+projects[oulib_cas][download][type] = "git"
+projects[oulib_cas][download][url] = "https://github.com/OULibraries/oulib_cas.git"
+projects[oulib_cas][download][branch] = "7.x-0.x"
+
 projects[bi_stats][type] = "module"
 projects[bi_stats][download][type] = "git"
 projects[bi_stats][download][url] = "https://github.com/OULibraries/bi_stats.git"
