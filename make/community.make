@@ -67,6 +67,9 @@ projects[rate][version] = "1.7"
 projects[realname][version] = "1.2"
 projects[redirect][version] = "1.0-rc3"
 projects[rules][version] = "2.7"
+projects[slick][version] = "2.0"
+projects[slick_extras] = "2.0-beta4"
+projects[slick_views] = "2.0"
 projects[simplehtmldom][version] = "1.12"
 projects[spamspan][version] = "1.2"
 projects[strongarm][version] = "2.0"
@@ -154,6 +157,18 @@ projects[better_contact][download][url] = "https://github.com/OULibraries/better
 libraries[leaflet][download][type] = "get"
 libraries[leaflet][download][url] = "https://lib.ou.edu/documents/leaflet-0.7.3.zip"
 libraries[leaflet][directory_name] = "leaflet"
+libraries[leaflet][type] = "library"
+
+libraries[leaflet][download][type] = "git"
+libraries[leaflet][download][url] = "https://github.com/kenwheeler/slick.git"
+libraries[leaflet][download][branch] = "master"
+libraries[leaflet][directory_name] = "slick"
+libraries[leaflet][type] = "library"
+
+libraries[leaflet][download][type] = "git"
+libraries[leaflet][download][url] = "https://github.com/gdsmith/jquery.easing.git"
+libraries[leaflet][download][branch] = "master"
+libraries[leaflet][directory_name] = "jquery.easing"
 libraries[leaflet][type] = "library"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
