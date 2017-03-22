@@ -74,10 +74,3 @@ projects[views_bootstrap][version] = "3.1"
 projects[views_data_export][version] = "3.0"
 projects[webform][version] = "4.12"
 projects[webform_rules][version] = "1.6"
-
-
-; Themes
-projects[oulib_bootstrap][type] = "theme"
-projects[oulib_bootstrap][download][type] = "git"
-projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/oulib_base.git"
-projects[oulib_bootstrap][download][branch] = "master"
