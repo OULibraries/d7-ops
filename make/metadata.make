@@ -79,5 +79,5 @@ projects[webform_rules][version] = "1.6"
 ; Themes
 projects[oulib_bootstrap][type] = "theme"
 projects[oulib_bootstrap][download][type] = "git"
-projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/base.git"
+projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/oulib_base.git"
 projects[oulib_bootstrap][download][branch] = "master"
