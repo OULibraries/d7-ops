@@ -104,6 +104,11 @@ projects[oulib_admin_intranet][download][branch] = "user-acceptance"
 ;projects[oulib_admin_intranet][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
 
 ; Projects
+projects[intranet_custom][type] = "module"
+projects[intranet_custom][download][type] = "git"
+projects[intranet_custom][download][url] = "https://github.com/OULibraries/intranet_custom.git"
+projects[intranet_custom][download][branch] = "user-acceptance"
+
 projects[ldap][type] = "module"
 projects[ldap][download][type] = "git"
 projects[ldap][download][url] = "https://github.com/OULibraries/ldap.git"
