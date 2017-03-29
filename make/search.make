@@ -17,30 +17,35 @@ projects[views][version] = "3.14"
 projects[views_accordion][version] = "1.0"
 projects[views_bootstrap][version] = "3.1"
 projects[views_data_export][version] = "3.0"
+projects[apachesolr][version] = "1.8"
+projects[apachesolr_multisitesearch][version] = "1.1"
+projects[apachesolr_user][version] = "1.x-dev"
 
-; Themes
-projects[bootstrap][version] = "3.10"
-
-; Modules
 projects[oulib_bento][type] = "module"
 projects[oulib_bento][download][type] = "git"
 projects[oulib_bento][download][url] = "https://github.com/OULibraries/oulib_bento.git"
 projects[oulib_bento][download][branch] = "user-acceptance"
-; this module currently lacks a UA branch
 
 projects[ou_layouts][type] = "module"
 projects[ou_layouts][download][type] = "git"
 projects[ou_layouts][download][url] = "https://github.com/OULibraries/ou_layouts.git"
 projects[ou_layouts][download][branch] = "user-acceptance"
 
+projects[views_bootstrap][type] = "module"
+projects[views_bootstrap][download][type] = "git"
+projects[views_bootstrap][download][url] = "https://github.com/OULibraries/views_bootstrap.git"
+
+projects[apachesolr_onesearch][type] = "module"
+projects[apachesolr_onesearch][download][type] = "git"
+projects[apachesolr_onesearch][download][url] = "https://github.com/OULibraries/apachesolr_onesearch.git"
+
+; Themes
+projects[bootstrap][version] = "3.10"
+
 projects[oulib_bootstrap][type] = "theme"
 projects[oulib_bootstrap][download][type] = "git"
 projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/oulib_bootstrap.git"
 projects[oulib_bootstrap][download][branch] = "user-acceptance"
-
-projects[views_bootstrap][download][type] = "git"
-projects[views_bootstrap][download][url] = "https://github.com/OULibraries/views_bootstrap.git"
-projects[views_bootstrap][type] = "module"
 
 
 ; Libraries
