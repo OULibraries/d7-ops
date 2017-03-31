@@ -81,19 +81,14 @@ projects[views_data_export][version] = "3.0"
 projects[webform][version] = "4.12"
 projects[webform_rules][version] = "1.6"
 
+projects[apachesolr][version] = "1.8"
+projects[apachesolr_multisitesearch][version] = "1.1"
+projects[apachesolr_user][version] = "1.x-dev"
 
-; Themes
-projects[bootstrap][version] = "3.10"
+projects[apachesolr_onesearch][type] = "module"
+projects[apachesolr_onesearch][download][type] = "git"
+projects[apachesolr_onesearch][download][url] = "https://github.com/OULibraries/apachesolr_onesearch.git"
 
-
-; Themes
-projects[oulib_bootstrap][type] = "theme"
-projects[oulib_bootstrap][download][type] = "git"
-projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/oulib_bootstrap.git"
-projects[oulib_bootstrap][download][branch] = "user-acceptance"
-;projects[oulib_bootstrap][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
-
-; Projects
 projects[assignment-calculator][type] = "module"
 projects[assignment-calculator][download][type] = "git"
 projects[assignment-calculator][download][url] = "https://github.com/OULibraries/assignment-calculator.git"
@@ -154,6 +149,13 @@ projects[views_bootstrap][download][type] = "git"
 projects[views_bootstrap][download][url] = "https://github.com/OULibraries/views_bootstrap.git"
 projects[views_bootstrap][type] = "module"
 
+; Themes
+projects[bootstrap][version] = "3.10"
+
+projects[oulib_bootstrap][type] = "theme"
+projects[oulib_bootstrap][download][type] = "git"
+projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/oulib_bootstrap.git"
+projects[oulib_bootstrap][download][branch] = "user-acceptance"
 
 ; Libraries
 libraries[colorbox][download][type] = "git"
