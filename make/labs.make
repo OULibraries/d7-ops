@@ -153,10 +153,10 @@ projects[views_bootstrap][type] = "module"
 ; Themes
 projects[bootstrap][version] = "3.10"
 
-projects[oulib_bootstrap][type] = "theme"
-projects[oulib_bootstrap][download][type] = "git"
-projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/oulib_labs.git"
-projects[oulib_bootstrap][download][branch] = "user-acceptance"
+projects[oulib_labs][type] = "theme"
+projects[oulib_labs][download][type] = "git"
+projects[oulib_labs][download][url] = "https://github.com/OULibraries/oulib_labs.git"
+projects[oulib_labs][download][branch] = "user-acceptance"
 
 ; Libraries
 libraries[colorbox][download][type] = "git"
