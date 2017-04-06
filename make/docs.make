@@ -52,3 +52,93 @@ projects[views][version] = "3.15"
 projects[views_accordion][version] = "1.0"
 projects[views_bootstrap][version] = "3.1"
 projects[webform][version] = "4.11"
+
+; Themes
+projects[bootstrap][version] = "3.12"
+
+; Themes
+projects[oulib_intranet][type] = "theme"
+projects[oulib_intranet][download][type] = "git"
+projects[oulib_intranet][download][url] = "https://github.com/OULibraries/oulib_intranet.git"
+projects[oulib_intranet][download][branch] = "master"
+
+projects[oulib_admin_intranet][type] = "theme"
+projects[oulib_admin_intranet][download][type] = "git"
+projects[oulib_admin_intranet][download][url] = "https://github.com/OULibraries/oulib_admin_intranet.git"
+projects[oulib_admin_intranet][download][branch] = "master"
+;projects[oulib_admin_intranet][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
+ 
+; Please fill the following out. Type may be one of get, git, bzr or svn,
+; and url is the url of the download.
+; just a local file.
+; projects[ldap_importer][download][type] = "get"
+; projects[ldap_importer][download][url] = "ldap_importer.tar.gz"
+; projects[ldap_importer][type] = "module"
+
+projects[intranet_custom][type] = "module"
+projects[intranet_custom][download][type] = "git"
+projects[intranet_custom][download][url] = "https://github.com/OULibraries/intranet_custom.git"
+projects[intranet_custom][download][branch] = "master"
+ 
+; Please fill the following out. Type may be one of get, git, bzr or svn,
+; and url is the url of the download.
+projects[loginblock][download][type] = "git"
+projects[loginblock][download][url] = "https://github.com/OULibraries/loginblock.git"
+projects[loginblock][type] = "module"
+ 
+projects[views_bootstrap][download][type] = "git"
+projects[views_bootstrap][download][url] = "https://github.com/OULibraries/views_bootstrap.git"
+projects[views_bootstrap][type] = "module"
+ 
+projects[ou_layouts][type] = "module"
+projects[ou_layouts][download][type] = "git"
+projects[ou_layouts][download][url] = "https://github.com/OULibraries/ou_layouts.git"
+projects[ou_layouts][download][branch] = "master"
+;projects[ou_layouts][download][revision] = "4005a71973ad1bcc246a83bbcc89213322a996ce"
+ 
+projects[oulib_blocks][type] = "module"
+projects[oulib_blocks][download][type] = "git"
+projects[oulib_blocks][download][url] = "https://github.com/OULibraries/oulib_blocks.git"
+projects[oulib_blocks][download][branch] = "7.x-0.x"
+;projects[oulib_blocks][download][revision] = "2dac3ec5b5ece8707eb62db4ecfa9ab5f6f48bd9"
+
+projects[oulib_authorizedsender][type] = "module"
+projects[oulib_authorizedsender][download][type] = "git"
+projects[oulib_authorizedsender][download][url] = "https://github.com/OULibraries/oulib_authorizedsender.git"
+projects[oulib_authorizedsender][download][branch] = "7.x-1.x"
+
+projects[file_aliases][type] = "module"
+projects[file_aliases][download][type] = "git"
+projects[file_aliases][download][url] = "https://github.com/eaton/file_aliases.git"
+projects[file_aliases][download][branch] = "master"
+ 
+; Libraries 
+; Please fill the following out. Type may be one of get, git, bzr or svn,
+; and url is the url of the download.
+libraries[iCalcreator][download][type] = "git"
+libraries[iCalcreator][download][url] = "https://github.com/iCalcreator/iCalcreator.git"
+libraries[iCalcreator][download][branch] = "master"
+libraries[iCalcreator][download][revision] = "e3dbec2cb3bb91a8bde989e467567ae8831a4026"
+libraries[iCalcreator][directory_name] = "iCalcreator"
+libraries[iCalcreator][type] = "library"
+ 
+; Please fill the following out. Type may be one of get, git, bzr or svn,
+; and url is the url of the download.
+libraries[colorbox][download][type] = "git"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
+libraries[colorbox][download][branch] = "master"
+libraries[colorbox][download][revision]= "d9a4e2dfaabc63751eb82eb37f0fb4de6f31f203"
+libraries[colorbox][directory_name] = "colorbox"
+libraries[colorbox][type] = "library"
+ 
+; Please fill the following out. Type may be one of get, git, bzr or svn,
+; and url is the url of the download.
+libraries[bootstrap][download][type] = "get"
+libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/releases/download/v3.3.1/bootstrap-3.3.1-dist.zip"
+libraries[bootstrap][directory_name] = "bootstrap"
+libraries[bootstrap][type] = "library"
+
+projects[oulib_cas][type] = "module"
+projects[oulib_cas][download][type] = "git"
+projects[oulib_cas][download][url] = "https://github.com/OULibraries/oulib_cas.git"
+projects[oulib_cas][download][branch] = "7.x-0.x"
