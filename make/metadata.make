@@ -1,7 +1,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.52"
+projects[drupal][version] = "7.53"
 
 ; Modules
 projects[addressfield][version] = "1.1"
@@ -74,3 +74,54 @@ projects[views_bootstrap][version] = "3.1"
 projects[views_data_export][version] = "3.0"
 projects[webform][version] = "4.12"
 projects[webform_rules][version] = "1.6"
+
+; Themes
+projects[bootstrap][version] = "3.10"
+projects[oulib_base][type] = "theme"
+projects[oulib_base][download][type] = "git"
+projects[oulib_base][download][url] = "https://github.com/OULibraries/oulib_base.git"
+
+projects[ou_layouts][type] = "module"
+projects[ou_layouts][download][type] = "git"
+projects[ou_layouts][download][url] = "https://github.com/OULibraries/ou_layouts.git"
+projects[ou_layouts][download][branch] = "user-acceptance"
+
+projects[views_bootstrap][download][type] = "git"
+projects[views_bootstrap][download][url] = "https://github.com/OULibraries/views_bootstrap.git"
+projects[views_bootstrap][type] = "module"
+
+projects[oulib_blocks][type] = "module"
+projects[oulib_blocks][download][type] = "git"
+projects[oulib_blocks][download][url] = "https://github.com/OULibraries/oulib_blocks.git"
+projects[oulib_blocks][download][branch] = "7.x-0.x"
+;projects[oulib_blocks][download][revision] = "2dac3ec5b5ece8707eb62db4ecfa9ab5f6f48bd9"
+
+projects[loginblock][download][type] = "git"
+projects[loginblock][download][url] = "https://github.com/OULibraries/loginblock.git"
+projects[loginblock][type] = "module"
+
+projects[ldap][type] = "module"
+projects[ldap][download][type] = "git"
+projects[ldap][download][url] = "https://github.com/OULibraries/ldap.git"
+projects[ldap][download][branch] = "7.x-2.x-oulib"
+;projects[ldap][download][revision] = "6f6c7c6a2bf6d2cadcefa1f0567554b68b190aeb"
+
+; Libraries
+libraries[colorbox][download][type] = "git"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
+libraries[colorbox][download][branch] = "master"
+libraries[colorbox][download][revision]= "d9a4e2dfaabc63751eb82eb37f0fb4de6f31f203"
+libraries[colorbox][directory_name] = "colorbox"
+libraries[colorbox][type] = "library"
+
+libraries[fontawesome][download][type] = "git"
+libraries[fontawesome][download][url] = "https://github.com/FortAwesome/Font-Awesome.git"
+libraries[fontawesome][download][branch] = "master"
+libraries[fontawesome][download][revision] = "a65bd93d81e9e6bd5ebfa41757a4474960b973b4"
+libraries[fontawesome][directory_name] = "fontawesome"
+libraries[fontawesome][type] = "library"
+
+libraries[bootstrap][download][type] = "get"
+libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/releases/download/v3.3.1/bootstrap-3.3.1-dist.zip"
+libraries[bootstrap][directory_name] = "bootstrap"
+libraries[bootstrap][type] = "library"
