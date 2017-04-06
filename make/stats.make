@@ -71,27 +71,19 @@ projects[views_data_export][version] = "3.1"
 projects[webform][version] = "4.12"
 
 ; Themes
-projects[bootstrap][version] = "3.0"
+projects[bootstrap][version] = "3.10"
 
 ; Themes
-projects[oulib_bootstrap][type] = "theme"
-projects[oulib_bootstrap][download][type] = "git"
-projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/oulib_intranet.git"
-projects[oulib_bootstrap][download][branch] = "master"
-;projects[oulib_bootstrap][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
+projects[oulib_intranet][type] = "theme"
+projects[oulib_intranet][download][type] = "git"
+projects[oulib_intranet][download][url] = "https://github.com/OULibraries/oulib_intranet.git"
+projects[oulib_intranet][download][branch] = "master"
 
 ; Projects
-projects[ldap][type] = "module"
-projects[ldap][download][type] = "git"
-projects[ldap][download][url] = "https://github.com/OULibraries/ldap.git"
-projects[ldap][download][branch] = "7.x-2.x-oulib"
-;projects[ldap][download][revision] = "6f6c7c6a2bf6d2cadcefa1f0567554b68b190aeb"
-
-projects[leaflet][type] = "module"
-projects[leaflet][download][type] = "git"
-projects[leaflet][download][url] = "https://github.com/OULibraries/leaflet.git"
-projects[leaflet][download][branch] = "7.x-1.x-oulib"
-;projects[leaflet][download][revision] = "bef9d5cba1850e69d1b40369f81ef5a4a640ef25"
+projects[intranet_custom][type] = "module"
+projects[intranet_custom][download][type] = "git"
+projects[intranet_custom][download][url] = "https://github.com/OULibraries/intranet_custom.git"
+projects[intranet_custom][download][branch] = "master"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
@@ -106,7 +98,39 @@ projects[views_bootstrap][type] = "module"
 projects[ou_layouts][type] = "module"
 projects[ou_layouts][download][type] = "git"
 projects[ou_layouts][download][url] = "https://github.com/OULibraries/ou_layouts.git"
-;projects[ou_layouts][download][revision] = "4005a71973ad1bcc246a83bbcc89213322a996ce"
+projects[ou_layouts][download][branch] = "master"
+
+projects[suma_stats][type] = "module"
+projects[suma_stats][download][type] = "git"
+projects[suma_stats][download][url] = "https://github.com/OULibraries/suma_stats.git"
+projects[suma_stats][download][branch] = "master"
+
+projects[combined_stats][type] = "module"
+projects[combined_stats][download][type] = "git"
+projects[combined_stats][download][url] = "https://github.com/OULibraries/combined_stats.git"
+projects[combined_stats][download][branch] = "master"
+
+projects[labstats_stats][type] = "module"
+projects[labstats_stats][download][type] = "git"
+projects[labstats_stats][download][url] = "https://github.com/OULibraries/labstats_stats.git"
+projects[labstats_stats][download][branch] = "master"
+
+projects[libanswers_stats][type] = "module"
+projects[libanswers_stats][download][type] = "git"
+projects[libanswers_stats][download][url] = "https://github.com/OULibraries/libanswers_stats.git"
+projects[libanswers_stats][download][branch] = "master"
+
+projects[gastats][type] = "module"
+projects[gastats][download][type] = "git"
+projects[gastats][download][url] = "https://github.com/OULibraries/gastats.git"
+projects[gastats][download][branch] = "master"
+;projects[gastats][download][revision] = "6f6c7c6a2bf6d2cadcefa1f0567554b68b190aeb"
+
+projects[stats_cron_caching][type] = "module"
+projects[stats_cron_caching][download][type] = "git"
+projects[stats_cron_caching][download][url] = "https://github.com/OULibraries/stats_cron_caching.git"
+projects[stats_cron_caching][download][branch] = "master"
+
 
 projects[oulib_blocks][type] = "module"
 projects[oulib_blocks][download][type] = "git"
@@ -121,60 +145,26 @@ projects[better_contact][download][url] = "https://github.com/OULibraries/better
 ; Libraries
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-;libraries[leaflet][download][type] = "git"
-;libraries[leaflet][download][url] = "https://github.com/Leaflet/Leaflet.git"
-;libraries[leaflet][download][branch] = "master"
-;libraries[leaflet][download][revision] = "8a5fdfc6e3db2807b8f0dd617474e4ab2949142b"
-libraries[leaflet][download][type] = "get"
-libraries[leaflet][download][url] = "https://lib.ou.edu/documents/leaflet-0.7.3.zip"
-libraries[leaflet][directory_name] = "leaflet"
-libraries[leaflet][type] = "library"
-
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
 libraries[fitvids][download][type] = "git"
 libraries[fitvids][download][url] = "https://github.com/davatron5000/FitVids.js.git"
 libraries[fitvids][download][branch] = "master"
 libraries[fitvids][directory_name] = "fitvids"
 libraries[fitvids][type] = "library"
 
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
-libraries[fontawesome][download][type] = "git"
-libraries[fontawesome][download][url] = "https://github.com/FortAwesome/Font-Awesome.git"
-libraries[fontawesome][download][branch] = "master"
-libraries[fontawesome][download][revision] = "a65bd93d81e9e6bd5ebfa41757a4474960b973b4"
-libraries[fontawesome][directory_name] = "fontawesome"
-libraries[fontawesome][type] = "library"
-
-libraries[owl-carousel][download][type] = "get"
-libraries[owl-carousel][download][url] = "https://github.com/OwlFonk/OwlCarousel/raw/f79d5de318f2848cf24b547ec1d48d44e55b2846/owl-carousel/owl.carousel.js"
-libraries[owl-carousel][directory_name] = "owl-carousel"
-libraries[owl-carousel][type] = "library"
-
-libraries[owl-carousel-min][download][type] = "get"
-libraries[owl-carousel-min][download][url] = "https://github.com/OwlFonk/OwlCarousel/raw/f79d5de318f2848cf24b547ec1d48d44e55b2846/owl-carousel/owl.carousel.min.js"
-libraries[owl-carousel-min][directory_name] = "owl-carousel"
-libraries[owl-carousel-min][type] = "library"
-
-libraries[owl-carousel-css][download][type] = "get"
-libraries[owl-carousel-css][download][url] = "https://github.com/OwlFonk/OwlCarousel/raw/f79d5de318f2848cf24b547ec1d48d44e55b2846/owl-carousel/owl.carousel.css"
-libraries[owl-carousel-css][directory_name] = "owl-carousel"
-libraries[owl-carousel-css][type] = "library"
-
-libraries[owl-carousel-theme][download][type] = "get"
-libraries[owl-carousel-theme][download][url] = "https://github.com/OwlFonk/OwlCarousel/raw/f79d5de318f2848cf24b547ec1d48d44e55b2846/owl-carousel/owl.theme.css"
-libraries[owl-carousel-theme][directory_name] = "owl-carousel"
-libraries[owl-carousel-theme][type] = "library"
-
-libraries[owl-carousel-trans][download][type] = "get"
-libraries[owl-carousel-trans][download][url] = "https://github.com/OwlFonk/OwlCarousel/blob/f79d5de318f2848cf24b547ec1d48d44e55b2846/owl-carousel/owl.transitions.css"
-libraries[owl-carousel-trans][directory_name] = "owl-carousel"
-libraries[owl-carousel-trans][type] = "library"
-
 libraries[bootstrap][download][type] = "get"
 libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/releases/download/v3.3.1/bootstrap-3.3.1-dist.zip"
 libraries[bootstrap][directory_name] = "bootstrap"
 libraries[bootstrap][type] = "library"
+
+; required by Charts module
+libraries[highcharts][download][type] = "file"
+libraries[highcharts][download][url] = "http://code.highcharts.com/highcharts.js"
+libraries[highcharts][directory_name] = "highcharts/js"
+
+projects[oulib_cas][type] = "module"
+projects[oulib_cas][download][type] = "git"
+projects[oulib_cas][download][url] = "https://github.com/OULibraries/oulib_cas.git"
+projects[oulib_cas][download][branch] = "7.x-0.x"
+
 
 
