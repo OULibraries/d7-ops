@@ -32,7 +32,6 @@ projects[file_formatters][version] = "1.0"
 projects[filefield_paths][version] = "1.0-beta4"
 projects[find_content][version] = "1.4"
 projects[flag][version] = "3.8"
-projects[fontawesome][version] = "1.0"
 projects[panels][version] = "3.7"
 projects[imagefield_focus][version] = "1.0"
 projects[job_scheduler][version] = "2.0-alpha3"
@@ -45,7 +44,6 @@ projects[paragraphs][version] = "1.0-rc5"
 projects[pathauto][version] = "1.2"
 projects[private][version] = "1.2"
 projects[rules][version] = "2.7"
-projects[strongarm][version] = "2.0"
 projects[telephone][version] = "1.0-alpha1"
 projects[token][version] = "1.5"
 projects[token_filter][version] = "1.1"
@@ -56,7 +54,7 @@ projects[webform][version] = "4.11"
 
 
 ; Themes
-projects[bootstrap][version] = "3.0"
+projects[bootstrap][version] = "3.12"
 
 ; Themes
 projects[oulib_intranet][type] = "theme"
