@@ -8,6 +8,7 @@ projects[drupal][version] = "7.53"
 
 projects[admin_menu][version] = "3.0-rc4"
 projects[ctools][version] = "1.12"
+projects[ckeditor][version] = "1.16"
 projects[fontyourface][version] = "2.8"
 projects[fontawesome][version] = "1.0"
 projects[jquery_update][version] = "2.7"
