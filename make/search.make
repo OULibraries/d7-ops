@@ -6,6 +6,7 @@ projects[drupal][version] = "7.53"
 
 ; Modules
 
+projects[admin_menu][version] = "3.0-rc4"
 projects[ctools][version] = "1.12"
 projects[fontyourface][version] = "2.8"
 projects[fontawesome][version] = "1.0"
