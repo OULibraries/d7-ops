@@ -55,6 +55,10 @@ projects[loginblock][download][type] = "git"
 projects[loginblock][download][url] = "https://github.com/OULibraries/loginblock.git"
 projects[loginblock][type] = "module"
 
+-projects[apachesolr_onesearch][type] = "module"
+-projects[apachesolr_onesearch][download][type] = "git"
+-projects[apachesolr_onesearch][download][url] = "https://github.com/OULibraries/apachesolr_onesearch.git"
+
 projects[ou_layouts][type] = "module"
 projects[ou_layouts][download][type] = "git"
 projects[ou_layouts][download][url] = "https://github.com/OULibraries/ou_layouts.git"
