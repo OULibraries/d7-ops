@@ -74,3 +74,7 @@ projects[views_bootstrap][version] = "3.1"
 projects[views_data_export][version] = "3.0"
 projects[webform][version] = "4.12"
 projects[webform_rules][version] = "1.6"
+
+projects[cybcom][type] = "module"
+projects[cybcom][download][type] = "git"
+projects[cybcom][download][url] = "https://github.com/OULibraries/cybcom.git"
