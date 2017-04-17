@@ -7,6 +7,9 @@ projects[drupal][version] = "7.54"
 
 ; Modules
 projects[admin_menu][version] = "3.0-rc4"
+projects[apachesolr][version] = "1.8"
+projects[apachesolr_multisitesearch][version] = "1.1"
+projects[apachesolr_user][version] = "1.x-dev"
 projects[ctools][version] = "1.11"
 projects[ckeditor][version] = "1.16"
 projects[colorbox][version] = "2.10"
