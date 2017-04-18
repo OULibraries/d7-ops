@@ -23,6 +23,8 @@ projects[views_data_export][version] = "3.0"
 projects[apachesolr][version] = "1.8"
 projects[apachesolr_multisitesearch][version] = "1.1"
 projects[apachesolr_user][version] = "1.x-dev"
+projects[webform][version] = "4.12"
+projects[webform_rules][version] = "1.6"
 
 projects[oulib_bento][type] = "module"
 projects[oulib_bento][download][type] = "git"
