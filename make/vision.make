@@ -55,6 +55,7 @@ projects[token_filter][version] = "1.1"
 projects[variable][version] = "2.5"
 projects[views][version] = "3.15"
 projects[views_bootstrap][version] = "3.1"
+projects[views_data_export][version] = "3.0"
 projects[webform][version] = "4.12"
 
 ; Themes
