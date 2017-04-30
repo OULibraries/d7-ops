@@ -2,7 +2,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.34"
+projects[drupal][version] = "7.54"
 
 ; Modules
 
@@ -24,7 +24,7 @@ projects[entity][version] = "1.6"
 projects[entity_view_mode][version] = "1.0-rc1"
 projects[entityreference][version] = "1.1"
 projects[exclude_node_title][version] = "1.7"
-projects[features][version] = "2.2"
+projects[features][version] = "2.10"
 projects[feeds][version] = "2.0-beta1"
 projects[feeds_tamper][version] = "1.0"
 projects[field_formatter_settings][version] = "1.1"
@@ -32,10 +32,10 @@ projects[field_multiple_limit][version] = "1.0-alpha4"
 projects[file_formatters][version] = "1.0"
 projects[find_content][version] = "1.4"
 projects[fitvids][version] = "1.17"
-projects[flag][version] = "3.5"
+projects[flag][version] = "3.9"
 projects[fontawesome][version] = "1.0"
-projects[google_analytics][version] = "2.1"
-projects[panels][version] = "3.4"
+projects[google_analytics][version] = "2.3"
+projects[panels][version] = "3.8"
 projects[imagefield_focus][version] = "1.0"
 projects[job_scheduler][version] = "2.0-alpha3"
 projects[jquery_update][version] = "2.7"
@@ -53,8 +53,9 @@ projects[telephone][version] = "1.0-alpha1"
 projects[token][version] = "1.5"
 projects[token_filter][version] = "1.1"
 projects[variable][version] = "2.5"
-projects[views][version] = "3.11"
+projects[views][version] = "3.15"
 projects[views_bootstrap][version] = "3.1"
+projects[views_data_export][version] = "3.0"
 projects[webform][version] = "4.12"
 
 ; Themes
