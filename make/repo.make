@@ -126,9 +126,9 @@ projects[islandora_book_batch][download][type] = "git"
 projects[islandora_book_batch][download][url] = "https://github.com/Islandora/islandora_book_batch.git"
 projects[islandora_book_batch][download][tag] = "7.x-1.7"
 
-projects[ou-bagit-importer][type] = "module"
-projects[ou-bagit-importer][download][type] = "git"
-projects[ou-bagit-importer][download][url] = "https://github.com/OULibraries/ou-bagit-importer.git"
+projects[ou_bagit_importer][type] = "module"
+projects[ou_bagit_importer][download][type] = "git"
+projects[ou_bagit_importer][download][url] = "https://github.com/OULibraries/ou_bagit_importer.git"
 
 ; Libraries
 libraries[tuque][type] = "library"
