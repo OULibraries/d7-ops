@@ -200,27 +200,27 @@ libraries[fontawesome][directory_name] = "fontawesome"
 libraries[fontawesome][type] = "library"
 
 libraries[owl-carousel][download][type] = "get"
-libraries[owl-carousel][download][url] = "https://github.com/OwlFonk/OwlCarousel/raw/f79d5de318f2848cf24b547ec1d48d44e55b2846/owl-carousel/owl.carousel.js"
+libraries[owl-carousel][download][url] = "https://raw.githubusercontent.com/OULibraries/OwlCarousel/master/owl-carousel/owl.carousel.js"
 libraries[owl-carousel][directory_name] = "owl-carousel"
 libraries[owl-carousel][type] = "library"
 
 libraries[owl-carousel-min][download][type] = "get"
-libraries[owl-carousel-min][download][url] = "https://github.com/OwlFonk/OwlCarousel/raw/f79d5de318f2848cf24b547ec1d48d44e55b2846/owl-carousel/owl.carousel.min.js"
+libraries[owl-carousel-min][download][url] = "https://raw.githubusercontent.com/OULibraries/OwlCarousel/master/owl-carousel/owl.carousel.min.js"
 libraries[owl-carousel-min][directory_name] = "owl-carousel"
 libraries[owl-carousel-min][type] = "library"
 
 libraries[owl-carousel-css][download][type] = "get"
-libraries[owl-carousel-css][download][url] = "https://github.com/OwlFonk/OwlCarousel/raw/f79d5de318f2848cf24b547ec1d48d44e55b2846/owl-carousel/owl.carousel.css"
+libraries[owl-carousel-css][download][url] = "https://raw.githubusercontent.com/OULibraries/OwlCarousel/master/owl-carousel/owl.carousel.css"
 libraries[owl-carousel-css][directory_name] = "owl-carousel"
 libraries[owl-carousel-css][type] = "library"
 
 libraries[owl-carousel-theme][download][type] = "get"
-libraries[owl-carousel-theme][download][url] = "https://github.com/OwlFonk/OwlCarousel/raw/f79d5de318f2848cf24b547ec1d48d44e55b2846/owl-carousel/owl.theme.css"
+libraries[owl-carousel-theme][download][url] = "https://raw.githubusercontent.com/OULibraries/OwlCarousel/master/owl-carousel/owl.theme.css"
 libraries[owl-carousel-theme][directory_name] = "owl-carousel"
 libraries[owl-carousel-theme][type] = "library"
 
 libraries[owl-carousel-trans][download][type] = "get"
-libraries[owl-carousel-trans][download][url] = "https://github.com/OwlFonk/OwlCarousel/blob/f79d5de318f2848cf24b547ec1d48d44e55b2846/owl-carousel/owl.transitions.css"
+libraries[owl-carousel-trans][download][url] = "https://raw.githubusercontent.com/OULibraries/OwlCarousel/master/owl-carousel/owl.transitions.css"
 libraries[owl-carousel-trans][directory_name] = "owl-carousel"
 libraries[owl-carousel-trans][type] = "library"
 
@@ -228,4 +228,3 @@ libraries[bootstrap][download][type] = "get"
 libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/releases/download/v3.3.1/bootstrap-3.3.1-dist.zip"
 libraries[bootstrap][directory_name] = "bootstrap"
 libraries[bootstrap][type] = "library"
-
