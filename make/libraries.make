@@ -201,22 +201,22 @@ libraries[fontawesome][type] = "library"
 
 libraries[owl-carousel][download][type] = "get"
 libraries[owl-carousel][download][url] = "https://raw.githubusercontent.com/OwlCarousel2/OwlCarousel2/develop/dist/owl.carousel.js"
-libraries[owl-carousel][directory_name] = "owl-carousel"
+libraries[owl-carousel][directory_name] = "owlcarousel"
 libraries[owl-carousel][type] = "library"
 
 libraries[owl-carousel-min][download][type] = "get"
 libraries[owl-carousel-min][download][url] = "https://raw.githubusercontent.com/OwlCarousel2/OwlCarousel2/develop/dist/owl.carousel.min.js"
-libraries[owl-carousel-min][directory_name] = "owl-carousel"
+libraries[owl-carousel-min][directory_name] = "owlcarousel"
 libraries[owl-carousel-min][type] = "library"
 
 libraries[owl-carousel-css][download][type] = "get"
 libraries[owl-carousel-css][download][url] = "https://raw.githubusercontent.com/OwlCarousel2/OwlCarousel2/develop/dist/assets/owl.carousel.css"
-libraries[owl-carousel-css][directory_name] = "owl-carousel"
+libraries[owl-carousel-css][directory_name] = "owlcarousel/assets"
 libraries[owl-carousel-css][type] = "library"
 
 libraries[owl-carousel-theme][download][type] = "get"
 libraries[owl-carousel-theme][download][url] = "https://raw.githubusercontent.com/OwlCarousel2/OwlCarousel2/develop/dist/assets/owl.theme.default.css"
-libraries[owl-carousel-theme][directory_name] = "owl-carousel"
+libraries[owl-carousel-theme][directory_name] = "owlcarousel/assets"
 libraries[owl-carousel-theme][type] = "library"
 
 libraries[owl-carousel-theme][download][type] = "get"
