@@ -2,7 +2,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.34"
+projects[drupal][version] = "7.52"
 
 ; Modules
 projects[addressfield][version] = "1.0-beta5"
@@ -29,13 +29,13 @@ projects[file_entity][version] = "2.0-beta1"
 projects[file_formatters][version] = "1.0"
 projects[find_content][version] = "1.4"
 projects[fitvids][version] = "1.17"
-projects[flag][version] = "3.5"
+projects[flag][version] = "3.9"
 projects[fontawesome][version] = "1.0"
 projects[geofield][version] = "2.3"
 projects[geophp][version] = "1.7"
 projects[getdirections][version] = "3.2"
-projects[google_analytics][version] = "2.1"
-projects[panels][version] = "3.4"
+projects[google_analytics][version] = "2.3"
+projects[panels][version] = "3.8"
 projects[imagefield_focus][version] = "1.0"
 projects[job_scheduler][version] = "2.0-alpha3"
 projects[jquery_update][version] = "2.7"
@@ -43,7 +43,7 @@ projects[leaflet_more_maps][version] = "1.10"
 projects[libraries][version] = "2.2"
 projects[link][version] = "1.3"
 projects[oembed][version] = "0.1-beta3"
-projects[metatag][version] = "1.13"
+projects[metatag][version] = "1.21"
 projects[owlcarousel][version] = "1.2"
 projects[panels_bootstrap_layouts][version] = "3.0"
 projects[pathauto][version] = "1.2"
@@ -54,16 +54,16 @@ projects[tipsy][version] = "1.0-rc1"
 projects[token][version] = "1.5"
 projects[token_filter][version] = "1.1"
 projects[variable][version] = "2.5"
-projects[views][version] = "3.11"
+projects[views][version] = "3.15"
 projects[views_bootstrap][version] = "3.1"
 projects[views_data_export][version] = "3.0-beta9"
 projects[webform][version] = "4.10"
-projects[paragraphs][version] = "1.0-rc4"
+projects[paragraphs][version] = "1.0-rc5"
 
 
 
 ; Themes
-projects[bootstrap][version] = "3.0"
+projects[bootstrap][version] = "3.8"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
