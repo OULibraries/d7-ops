@@ -2,9 +2,8 @@
 core = 7.x
  
 api = 2
-projects[drupal][version] = "7.34"
+projects[drupal][version] = "7.52"
  
-; Modules
 ; Modules
 projects[addressfield][version] = "1.0-beta5"
 projects[admin_menu][version] = "3.0-rc4"
@@ -45,14 +44,14 @@ projects[strongarm][version] = "2.0"
 projects[telephone][version] = "1.0-alpha1"
 projects[token][version] = "1.5"
 projects[token_filter][version] = "1.1"
-projects[views][version] = "3.14"
+projects[views][version] = "3.15"
 projects[views_accordion][version] = "1.0"
 projects[views_bootstrap][version] = "3.1"
 projects[webform][version] = "4.11"
 
 
 ; Themes
-projects[bootstrap][version] = "3.0"
+projects[bootstrap][version] = "3.8"
 
 ; Themes
 projects[oulib_docreg][type] = "theme"
@@ -147,34 +146,7 @@ libraries[colorbox][download][branch] = "master"
 libraries[colorbox][download][revision]= "d9a4e2dfaabc63751eb82eb37f0fb4de6f31f203"
 libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][type] = "library"
- 
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
-libraries[owl-carousel][download][type] = "get"
-libraries[owl-carousel][download][url] = "https://github.com/OwlFonk/OwlCarousel/raw/f79d5de318f2848cf24b547ec1d48d44e55b2846/owl-carousel/owl.carousel.js"
-libraries[owl-carousel][directory_name] = "owl-carousel"
-libraries[owl-carousel][type] = "library"
- 
-libraries[owl-carousel-min][download][type] = "get"
-libraries[owl-carousel-min][download][url] = "https://github.com/OwlFonk/OwlCarousel/raw/f79d5de318f2848cf24b547ec1d48d44e55b2846/owl-carousel/owl.carousel.min.js"
-libraries[owl-carousel-min][directory_name] = "owl-carousel"
-libraries[owl-carousel-min][type] = "library"
- 
-libraries[owl-carousel-css][download][type] = "get"
-libraries[owl-carousel-css][download][url] = "https://github.com/OwlFonk/OwlCarousel/raw/f79d5de318f2848cf24b547ec1d48d44e55b2846/owl-carousel/owl.carousel.css"
-libraries[owl-carousel-css][directory_name] = "owl-carousel"
-libraries[owl-carousel-css][type] = "library"
- 
-libraries[owl-carousel-theme][download][type] = "get"
-libraries[owl-carousel-theme][download][url] = "https://github.com/OwlFonk/OwlCarousel/raw/f79d5de318f2848cf24b547ec1d48d44e55b2846/owl-carousel/owl.theme.css"
-libraries[owl-carousel-theme][directory_name] = "owl-carousel"
-libraries[owl-carousel-theme][type] = "library"
- 
-libraries[owl-carousel-trans][download][type] = "get"
-libraries[owl-carousel-trans][download][url] = "https://github.com/OwlFonk/OwlCarousel/blob/f79d5de318f2848cf24b547ec1d48d44e55b2846/owl-carousel/owl.transitions.css"
-libraries[owl-carousel-trans][directory_name] = "owl-carousel"
-libraries[owl-carousel-trans][type] = "library"
- 
+
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
 libraries[bootstrap][download][type] = "get"
