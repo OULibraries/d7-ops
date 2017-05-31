@@ -43,7 +43,7 @@ projects[libraries][version] = "2.2"
 projects[link][version] = "1.3"
 projects[maxlength][version] = "3.2"
 projects[node_expire][version] = "1.7"
-projects[owlcarousel][version] = "1.2"
+projects[owlcarousel][version] = "2.x-dev"
 projects[panels_bootstrap_layouts][version] = "3.0"
 projects[pathauto][version] = "1.2"
 projects[realname][version] = "1.2"
@@ -107,6 +107,12 @@ projects[oulib_blocks][download][branch] = "7.x-0.x"
 projects[better_contact][type] = "module"
 projects[better_contact][download][type] = "git"
 projects[better_contact][download][url] = "https://github.com/OULibraries/better_contact.git"
+
+libraries[owl-carousel][download][type] = "get"
+libraries[owl-carousel][download][url] = "https://github.com/OwlCarousel2/OwlCarousel2/archive/2.2.1.zip"
+libraries[owl-carousel][download][subtree] = "OwlCarousel2-2.2.1/dist"
+libraries[owl-carousel][directory_name] = "owlcarousel"
+libraries[owl-carousel][type] = "library"
 
 ; Themes
 
