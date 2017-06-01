@@ -73,6 +73,11 @@ projects[bootstrap][version] = "3.0"
 ; projects[ldap_importer][download][url] = "ldap_importer.tar.gz"
 ; projects[ldap_importer][type] = "module"
 
+projects[intranet_custom][type] = "module"
+projects[intranet_custom][download][type] = "git"
+projects[intranet_custom][download][url] = "https://github.com/OULibraries/intranet_custom.git"
+projects[intranet_custom][download][branch] = "user-acceptance"
+
 projects[oulib_cas][type] = "module"
 projects[oulib_cas][download][type] = "git"
 projects[oulib_cas][download][url] = "https://github.com/OULibraries/oulib_cas.git"
