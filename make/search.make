@@ -16,6 +16,12 @@ projects[apachesolr_user][version] = "1.x-dev"
 
 projects[ctools][version] = "1.12"
 
+projects[cas][version] = "1.5"
+
+projects[cas_attributes][version] = "1.0-rc3"
+
+projects[cas_roles][version] = "1.2"
+
 projects[ckeditor][version] = "1.16"
 
 projects[fontyourface][version] = "2.8"
@@ -57,6 +63,11 @@ projects[oulib_bento][type] = "module"
 projects[oulib_bento][download][type] = "git"
 projects[oulib_bento][download][url] = "https://github.com/OULibraries/oulib_bento.git"
 projects[oulib_bento][download][branch] = "user-acceptance"
+
+projects[oulib_cas][type] = "module"
+projects[oulib_cas][download][type] = "git"
+projects[oulib_cas][download][url] = "https://github.com/OULibraries/oulib_cas.git"
+projects[oulib_cas][download][branch] = "7.x-0.x"
 
 projects[views_bootstrap][type] = "module"
 projects[views_bootstrap][download][type] = "git"
