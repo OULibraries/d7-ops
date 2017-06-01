@@ -20,8 +20,6 @@ projects[ckeditor][version] = "1.16"
 
 projects[fontyourface][version] = "2.8"
 
-; projects[fontawesome][version] = "1.0"
-
 projects[panels][version] = "3.6"
 
 projects[panels_bootstrap_layouts][version] = "3.0"
@@ -42,8 +40,6 @@ projects[views_data_export][version] = "3.0"
 
 projects[webform][version] = "4.12"
 
-; projects[webform_rules][version] = "1.6"
-
 ; Themes
 projects[bootstrap][version] = "3.10"
 
@@ -62,9 +58,9 @@ projects[oulib_bento][download][type] = "git"
 projects[oulib_bento][download][url] = "https://github.com/OULibraries/oulib_bento.git"
 projects[oulib_bento][download][branch] = "user-acceptance"
 
-;projects[views_bootstrap][type] = "module"
-;projects[views_bootstrap][download][type] = "git"
-;projects[views_bootstrap][download][url] = "https://github.com/OULibraries/views_bootstrap.git"
+projects[views_bootstrap][type] = "module"
+projects[views_bootstrap][download][type] = "git"
+projects[views_bootstrap][download][url] = "https://github.com/OULibraries/views_bootstrap.git"
 
 ; Themes
 projects[oulib_bootstrap][type] = "theme"
