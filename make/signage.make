@@ -2,7 +2,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.41"
+projects[drupal][version] = "7.52"
 
 ; Modules
 projects[admin_menu][version] = "3.0-rc5"
@@ -15,18 +15,18 @@ projects[editableviews][version] = "1.0-beta10"
 projects[email][version] = "1.3"
 projects[entity][version] = "1.6"
 projects[exclude_node_title][version] = "1.9"
-projects[features][version] = "2.7"
+projects[features][version] = "2.10"
 projects[field_conditional_state][version] = "2.1"
 projects[field_permissions][version] = "1.0-beta2"
-projects[flag][version] = "3.7"
-projects[panels][version] = "3.5"
+projects[flag][version] = "3.9"
+projects[panels][version] = "3.8"
 projects[imagefield_focus][version] = "1.0"
 projects[jquery_update][version] = "3.0-alpha2"
 projects[pdf_to_imagefield][version] = "3.3"
 projects[rules][version] = "2.9"
 projects[token][version] = "1.6"
 projects[token_filter][version] = "1.1"
-projects[views][version] = "3.14"
+projects[views][version] = "3.15"
 projects[webform][version] = "4.12"
 projects[webform_entity][version] = "1.x-dev"
 
