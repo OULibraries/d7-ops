@@ -6,6 +6,9 @@ projects[drupal][version] = "7.52"
 
 ; Modules
 projects[admin_menu][version] = "3.0-rc5"
+projects[cas][version] = "1.5"
+projects[cas_attributes][version] = "1.0-rc3"
+projects[cas_roles][version] = "1.2"
 projects[ctools][version] = "1.11"
 projects[captcha][version] = "1.3"
 projects[ckeditor][version] = "1.17"
@@ -33,6 +36,11 @@ projects[webform_entity][version] = "1.x-dev"
 
 ; Themes
 projects[bootstrap][version] = "3.8"
+
+projects[oulib_cas][type] = "module"
+projects[oulib_cas][download][type] = "git"
+projects[oulib_cas][download][url] = "https://github.com/OULibraries/oulib_cas.git"
+projects[oulib_cas][download][branch] = "7.x-0.x"
 
 ; Modules
 projects[loginblock][type] = "module"
