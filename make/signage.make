@@ -42,6 +42,11 @@ projects[oulib_cas][download][type] = "git"
 projects[oulib_cas][download][url] = "https://github.com/OULibraries/oulib_cas.git"
 projects[oulib_cas][download][branch] = "7.x-0.x"
 
+projects[intranet_custom][type] = "module"
+projects[intranet_custom][download][type] = "git"
+projects[intranet_custom][download][url] = "https://github.com/OULibraries/intranet_custom.git"
+projects[intranet_custom][download][branch] = "user-acceptance"
+
 ; Modules
 projects[loginblock][type] = "module"
 projects[loginblock][download][type] = "git"
