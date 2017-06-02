@@ -105,6 +105,11 @@ projects[better_contact][type] = "module"
 projects[better_contact][download][type] = "git"
 projects[better_contact][download][url] = "https://github.com/OULibraries/better_contact.git"
 
+projects[intranet_custom][type] = "module"
+projects[intranet_custom][download][type] = "git"
+projects[intranet_custom][download][url] = "https://github.com/OULibraries/intranet_custom.git"
+projects[intranet_custom][download][branch] = "user-acceptance"
+
 projects[oulib_cas][type] = "module"
 projects[oulib_cas][download][type] = "git"
 projects[oulib_cas][download][url] = "https://github.com/OULibraries/oulib_cas.git"
