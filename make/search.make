@@ -7,43 +7,24 @@ projects[drupal][version] = "7.53"
 
 ; Modules
 projects[admin_menu][version] = "3.0-rc4"
-
 projects[apachesolr][version] = "1.8"
-
 projects[apachesolr_multisitesearch][version] = "1.1"
-
 projects[apachesolr_user][version] = "1.x-dev"
-
 projects[ctools][version] = "1.12"
-
 projects[cas][version] = "1.5"
-
 projects[cas_attributes][version] = "1.0-rc3"
-
 projects[cas_roles][version] = "1.2"
-
 projects[ckeditor][version] = "1.16"
-
 projects[fontyourface][version] = "2.8"
-
 projects[panels][version] = "3.6"
-
 projects[panels_bootstrap_layouts][version] = "3.0"
-
 projects[jquery_update][version] = "2.7"
-
 projects[libraries][version] = "2.3"
-
 projects[link][version] = "1.3"
-
 projects[views][version] = "3.14"
-
 projects[views_accordion][version] = "1.0"
-
 projects[views_bootstrap][version] = "3.1"
-
 projects[views_data_export][version] = "3.0"
-
 projects[webform][version] = "4.12"
 
 ; Themes
