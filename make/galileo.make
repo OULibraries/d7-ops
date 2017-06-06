@@ -46,6 +46,7 @@ projects[oembed][version] = "0.1-beta3"
 projects[metatag][version] = "1.21"
 projects[owlcarousel][version] = "2.x-dev"
 projects[panels_bootstrap_layouts][version] = "3.0"
+projects[paragraphs][version] = "1.0-rc5"
 projects[pathauto][version] = "1.2"
 projects[rules][version] = "2.7"
 projects[sharethis][version] = "2.10"
@@ -58,7 +59,7 @@ projects[views][version] = "3.15"
 projects[views_bootstrap][version] = "3.1"
 projects[views_data_export][version] = "3.0-beta9"
 projects[webform][version] = "4.10"
-projects[paragraphs][version] = "1.0-rc5"
+
 
 
 
