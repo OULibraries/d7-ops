@@ -102,7 +102,7 @@ projects[bootstrap][version] = "3.10"
 projects[oulib_bootstrap][type] = "theme"
 projects[oulib_bootstrap][download][type] = "git"
 projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/oulib_bootstrap.git"
-projects[oulib_bootstrap][download][branch] = "DND-discoverregion"
+projects[oulib_bootstrap][download][branch] = "user-acceptance"
 
 ; Libraries
 libraries[colorbox][download][type] = "git"
