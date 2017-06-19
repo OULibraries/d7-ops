@@ -127,10 +127,10 @@ projects[oulib_blocks][download][url] = "https://github.com/OULibraries/oulib_bl
 projects[oulib_blocks][download][branch] = "7.x-0.x"
 ;projects[oulib_blocks][download][revision] = "2dac3ec5b5ece8707eb62db4ecfa9ab5f6f48bd9"
 
-projects[oulib_blocks][type] = "module"
-projects[oulib_blocks][download][type] = "git"
-projects[oulib_blocks][download][url] = "https://github.com/OULibraries/paragraph-bundles-feature.git"
-projects[oulib_blocks][download][branch] = "user-acceptance"
+projects[paragraph_bundles_feature][type] = "module"
+projects[paragraph_bundles_feature][download][type] = "git"
+projects[paragraph_bundles_feature][download][url] = "https://github.com/OULibraries/paragraph-bundles-feature.git"
+projects[paragraph_bundles_feature][download][branch] = "user-acceptance"
 
 projects[better_contact][type] = "module"
 projects[better_contact][download][type] = "git"
