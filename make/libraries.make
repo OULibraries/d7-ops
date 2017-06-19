@@ -221,3 +221,33 @@ libraries[bootstrap][download][type] = "get"
 libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/releases/download/v3.3.1/bootstrap-3.3.1-dist.zip"
 libraries[bootstrap][directory_name] = "bootstrap"
 libraries[bootstrap][type] = "library"
+
+
+
+; Features
+projects[oulib_blocks][type] = "module"
+projects[oulib_blocks][download][type] = "git"
+projects[oulib_blocks][download][url] = "https://github.com/OULibraries/news-ct-feature.git"
+projects[oulib_blocks][download][branch] = "user-acceptance"
+
+projects[oulib_blocks][type] = "module"
+projects[oulib_blocks][download][type] = "git"
+projects[oulib_blocks][download][url] = "https://github.com/OULibraries/events-ct-features.git"
+projects[oulib_blocks][download][branch] = "user-acceptance"
+
+projects[oulib_blocks][type] = "module"
+projects[oulib_blocks][download][type] = "git"
+projects[oulib_blocks][download][url] = "https://github.com/OULibraries/videos-ct-feature.git"
+projects[oulib_blocks][download][branch] = "user-acceptance"
+
+projects[oulib_blocks][type] = "module"
+projects[oulib_blocks][download][type] = "git"
+projects[oulib_blocks][download][url] = "https://github.com/OULibraries/picture-ct-feature.git"
+projects[oulib_blocks][download][branch] = "user-acceptance"
+
+
+projects[oulib_blocks][type] = "module"
+projects[oulib_blocks][download][type] = "git"
+projects[oulib_blocks][download][url] = "https://github.com/OULibraries/library-stories-ct-feature.git"
+projects[oulib_blocks][download][branch] = "user-acceptance"
+
