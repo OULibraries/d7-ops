@@ -41,17 +41,17 @@ projects[apachesolr_onesearch][download][url] = "https://github.com/OULibraries/
 projects[intranet_custom][type] = "module"
 projects[intranet_custom][download][type] = "git"
 projects[intranet_custom][download][url] = "https://github.com/OULibraries/intranet_custom.git"
-projects[intranet_custom][download][branch] = "user-acceptance"
+projects[intranet_custom][download][branch] = "dev"
 
 projects[ou_layouts][type] = "module"
 projects[ou_layouts][download][type] = "git"
 projects[ou_layouts][download][url] = "https://github.com/OULibraries/ou_layouts.git"
-projects[ou_layouts][download][branch] = "user-acceptance"
+projects[ou_layouts][download][branch] = "dev"
 
 projects[oulib_bento][type] = "module"
 projects[oulib_bento][download][type] = "git"
 projects[oulib_bento][download][url] = "https://github.com/OULibraries/oulib_bento.git"
-projects[oulib_bento][download][branch] = "user-acceptance"
+projects[oulib_bento][download][branch] = "dev"
 
 projects[oulib_cas][type] = "module"
 projects[oulib_cas][download][type] = "git"

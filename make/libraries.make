@@ -99,7 +99,7 @@ projects[apachesolr_onesearch][download][url] = "https://github.com/OULibraries/
 projects[assignment-calculator][type] = "module"
 projects[assignment-calculator][download][type] = "git"
 projects[assignment-calculator][download][url] = "https://github.com/OULibraries/assignment-calculator.git"
-projects[assignment-calculator][download][branch] = "user-acceptance"
+projects[assignment-calculator][download][branch] = "dev"
 
 projects[better_contact][type] = "module"
 projects[better_contact][download][type] = "git"
@@ -108,7 +108,7 @@ projects[better_contact][download][url] = "https://github.com/OULibraries/better
 projects[intranet_custom][type] = "module"
 projects[intranet_custom][download][type] = "git"
 projects[intranet_custom][download][url] = "https://github.com/OULibraries/intranet_custom.git"
-projects[intranet_custom][download][branch] = "user-acceptance"
+projects[intranet_custom][download][branch] = "dev"
 
 projects[oulib_cas][type] = "module"
 projects[oulib_cas][download][type] = "git"
@@ -117,7 +117,7 @@ projects[oulib_cas][download][branch] = "7.x-0.x"
 
 projects[giscodes][download][type] = "git"
 projects[giscodes][download][url] = "https://github.com/OULibraries/giscodes.git"
-projects[giscodes][download][branch] = "user-acceptance"
+projects[giscodes][download][branch] = "dev"
 projects[giscodes][type] = "module"
 
 projects[illiad_sso][type] = "module"
@@ -148,7 +148,7 @@ projects[opening_hours][download][url] = "https://github.com/OULibraries/opening
 projects[ou_layouts][type] = "module"
 projects[ou_layouts][download][type] = "git"
 projects[ou_layouts][download][url] = "https://github.com/OULibraries/ou_layouts.git"
-projects[ou_layouts][download][branch] = "user-acceptance"
+projects[ou_layouts][download][branch] = "dev"
 ;projects[ou_layouts][download][revision] = "4005a71973ad1bcc246a83bbcc89213322a996ce"
 
 projects[oulib_authorizedsender][type] = "module"
@@ -172,7 +172,7 @@ projects[bootstrap][version] = "3.10"
 projects[oulib_bootstrap][type] = "theme"
 projects[oulib_bootstrap][download][type] = "git"
 projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/oulib_bootstrap.git"
-projects[oulib_bootstrap][download][branch] = "user-acceptance"
+projects[oulib_bootstrap][download][branch] = "dev"
 
 ; Libraries
 libraries[colorbox][download][type] = "git"
@@ -228,26 +228,26 @@ libraries[bootstrap][type] = "library"
 projects[news_ct_feature][type] = "module"
 projects[news_ct_feature][download][type] = "git"
 projects[news_ct_feature][download][url] = "https://github.com/OULibraries/news-ct-feature.git"
-projects[news_ct_feature][download][branch] = "user-acceptance"
+projects[news_ct_feature][download][branch] = "dev"
 
 projects[events_ct_features][type] = "module"
 projects[events_ct_features][download][type] = "git"
 projects[events_ct_features][download][url] = "https://github.com/OULibraries/events-ct-features.git"
-projects[events_ct_features][download][branch] = "user-acceptance"
+projects[events_ct_features][download][branch] = "dev"
 
 projects[videos_ct_feature][type] = "module"
 projects[videos_ct_feature][download][type] = "git"
 projects[videos_ct_feature][download][url] = "https://github.com/OULibraries/videos-ct-feature.git"
-projects[videos_ct_feature][download][branch] = "user-acceptance"
+projects[videos_ct_feature][download][branch] = "dev"
 
 projects[picture_ct_feature][type] = "module"
 projects[picture_ct_feature][download][type] = "git"
 projects[picture_ct_feature][download][url] = "https://github.com/OULibraries/picture-ct-feature.git"
-projects[picture_ct_feature][download][branch] = "user-acceptance"
+projects[picture_ct_feature][download][branch] = "dev"
 
 
 projects[library_stories_ct_feature][type] = "module"
 projects[library_stories_ct_feature][download][type] = "git"
 projects[library_stories_ct_feature][download][url] = "https://github.com/OULibraries/library-stories-ct-feature.git"
-projects[library_stories_ct_feature][download][branch] = "user-acceptance"
+projects[library_stories_ct_feature][download][branch] = "dev"
 

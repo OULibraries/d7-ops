@@ -77,7 +77,7 @@ projects[bootstrap][version] = "3.0"
 projects[intranet_custom][type] = "module"
 projects[intranet_custom][download][type] = "git"
 projects[intranet_custom][download][url] = "https://github.com/OULibraries/intranet_custom.git"
-projects[intranet_custom][download][branch] = "user-acceptance"
+projects[intranet_custom][download][branch] = "dev"
 
 projects[oulib_cas][type] = "module"
 projects[oulib_cas][download][type] = "git"
@@ -130,7 +130,7 @@ projects[oulib_blocks][download][branch] = "7.x-0.x"
 projects[paragraph_bundles_feature][type] = "module"
 projects[paragraph_bundles_feature][download][type] = "git"
 projects[paragraph_bundles_feature][download][url] = "https://github.com/OULibraries/paragraph-bundles-feature.git"
-projects[paragraph_bundles_feature][download][branch] = "user-acceptance"
+projects[paragraph_bundles_feature][download][branch] = "dev"
 
 projects[better_contact][type] = "module"
 projects[better_contact][download][type] = "git"
@@ -141,7 +141,7 @@ projects[better_contact][download][url] = "https://github.com/OULibraries/better
 projects[oulib_masterplan][type] = "theme"
 projects[oulib_masterplan][download][type] = "git"
 projects[oulib_masterplan][download][url] = "https://github.com/OULibraries/oulib_masterplan.git"
-projects[oulib_masterplan][download][branch] = "user-acceptance"
+projects[oulib_masterplan][download][branch] = "dev"
 ;projects[oulib_masterplan][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
 
 ; Libraries

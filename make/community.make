@@ -73,14 +73,14 @@ projects[bootstrap][version] = "3.10"
 projects[oulib_intranet][type] = "theme"
 projects[oulib_intranet][download][type] = "git"
 projects[oulib_intranet][download][url] = "https://github.com/OULibraries/oulib_intranet.git"
-projects[oulib_intranet][download][branch] = "user-acceptance"
+projects[oulib_intranet][download][branch] = "dev"
 ;projects[oulib_intranet][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
 
 ; Projects
 projects[intranet_custom][type] = "module"
 projects[intranet_custom][download][type] = "git"
 projects[intranet_custom][download][url] = "https://github.com/OULibraries/intranet_custom.git"
-projects[intranet_custom][download][branch] = "user-acceptance"
+projects[intranet_custom][download][branch] = "dev"
 
 ; Projects
 projects[ldap][type] = "module"
@@ -108,7 +108,7 @@ projects[views_bootstrap][type] = "module"
 projects[ou_layouts][type] = "module"
 projects[ou_layouts][download][type] = "git"
 projects[ou_layouts][download][url] = "https://github.com/OULibraries/ou_layouts.git"
-projects[ou_layouts][download][branch] = "user-acceptance"
+projects[ou_layouts][download][branch] = "dev"
 ;projects[ou_layouts][download][revision] = "4005a71973ad1bcc246a83bbcc89213322a996ce"
 
 projects[oulib_cas][type] = "module"

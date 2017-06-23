@@ -60,7 +60,7 @@ projects[bootstrap][version] = "3.12"
 projects[oulib_intranet][type] = "theme"
 projects[oulib_intranet][download][type] = "git"
 projects[oulib_intranet][download][url] = "https://github.com/OULibraries/oulib_intranet.git"
-projects[oulib_intranet][download][branch] = "user-acceptance"
+projects[oulib_intranet][download][branch] = "dev"
 
  
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
@@ -73,7 +73,7 @@ projects[oulib_intranet][download][branch] = "user-acceptance"
 projects[intranet_custom][type] = "module"
 projects[intranet_custom][download][type] = "git"
 projects[intranet_custom][download][url] = "https://github.com/OULibraries/intranet_custom.git"
-projects[intranet_custom][download][branch] = "user-acceptance"
+projects[intranet_custom][download][branch] = "dev"
  
 projects[ldap][type] = "module"
 projects[ldap][download][type] = "git"
@@ -100,7 +100,7 @@ projects[views_bootstrap][type] = "module"
 projects[ou_layouts][type] = "module"
 projects[ou_layouts][download][type] = "git"
 projects[ou_layouts][download][url] = "https://github.com/OULibraries/ou_layouts.git"
-projects[ou_layouts][download][branch] = "user-acceptance"
+projects[ou_layouts][download][branch] = "dev"
 ;projects[ou_layouts][download][revision] = "4005a71973ad1bcc246a83bbcc89213322a996ce"
  
 projects[opening_hours][type] = "module"

@@ -57,7 +57,7 @@ projects[bootstrap][version] = "3.0"
 projects[oulib_docreg][type] = "theme"
 projects[oulib_docreg][download][type] = "git"
 projects[oulib_docreg][download][url] = "https://github.com/OULibraries/oulib_docreg.git"
-projects[oulib_docreg][download][branch] = "user-acceptance"
+projects[oulib_docreg][download][branch] = "dev"
 ;projects[oulib_docreg][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
  
  

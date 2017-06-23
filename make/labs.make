@@ -60,7 +60,7 @@ projects[better_contact][download][url] = "https://github.com/OULibraries/better
 projects[intranet_custom][type] = "module"
 projects[intranet_custom][download][type] = "git"
 projects[intranet_custom][download][url] = "https://github.com/OULibraries/intranet_custom.git"
-projects[intranet_custom][download][branch] = "user-acceptance"
+projects[intranet_custom][download][branch] = "dev"
 
 projects[oulib_cas][type] = "module"
 projects[oulib_cas][download][type] = "git"
@@ -78,7 +78,7 @@ projects[apachesolr_onesearch][download][url] = "https://github.com/OULibraries/
 projects[ou_layouts][type] = "module"
 projects[ou_layouts][download][type] = "git"
 projects[ou_layouts][download][url] = "https://github.com/OULibraries/ou_layouts.git"
-projects[ou_layouts][download][branch] = "user-acceptance"
+projects[ou_layouts][download][branch] = "dev"
 ;projects[ou_layouts][download][revision] = "4005a71973ad1bcc246a83bbcc89213322a996ce"
 
 projects[oulib_authorizedsender][type] = "module"
@@ -102,7 +102,7 @@ projects[bootstrap][version] = "3.10"
 projects[oulib_bootstrap][type] = "theme"
 projects[oulib_bootstrap][download][type] = "git"
 projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/oulib_bootstrap.git"
-projects[oulib_bootstrap][download][branch] = "user-acceptance"
+projects[oulib_bootstrap][download][branch] = "dev"
 
 ; Libraries
 libraries[colorbox][download][type] = "git"
