@@ -130,6 +130,11 @@ projects[ou_bagit_importer][type] = "module"
 projects[ou_bagit_importer][download][type] = "git"
 projects[ou_bagit_importer][download][url] = "https://github.com/OULibraries/ou_bagit_importer.git"
 
+projects[islandora_item_manipulator][type] = "module"
+projects[islandora_item_manipulator][download][type] = "git"
+projects[islandora_item_manipulator][download][url] = "https://github.com/oulib-datacatalog/islandora_item_manipulator.git"
+projects[islandora_item_manipulator][download][tag] = "7.x-1.0"
+
 ; Libraries
 libraries[tuque][type] = "library"
 libraries[tuque][download][type] = "git"
