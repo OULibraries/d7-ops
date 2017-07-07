@@ -33,7 +33,7 @@ projects[token][version] = "1.6"
 projects[xautoload][version] = "5.7"
 
 ; Themes - drupal.org
-projects[bootstrap][version] = "3.6"
+projects[bootstrap][version] = "3.14"
 
 projects[entity_iframe_theme][version] = "1.0"
 
