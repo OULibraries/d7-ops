@@ -212,6 +212,6 @@ libraries[jquery.imagesLoaded][type] = "library"
 
 ; required by ManualCrop
 libraries[jquery.imgareaselect][download][type] = "get"
-libraries[jquery.imgareaselect][download][url] = "http://odyniec.net/projects/imgareaselect/jquery.imgareaselect-0.9.10.zip"
+libraries[jquery.imgareaselect][download][url] = "https://github.com/odyniec/imgareaselect.git"
 libraries[jquery.imgareaselect][directory_name] = "jquery.imgareaselect"
 libraries[jquery.imgareaselect][type] = "library"
