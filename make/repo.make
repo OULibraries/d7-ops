@@ -37,20 +37,7 @@ projects[bootstrap][version] = "3.14"
 
 projects[entity_iframe_theme][version] = "1.0"
 
-; Modules
-projects[oulib_repository][type] = "theme"
-projects[oulib_repository][download][type] = "git"
-projects[oulib_repository][download][url] = "https://github.com/OULibraries/oulib_repositorytheme.git"
-
-projects[oulib_repo][type] = "theme"
-projects[oulib_repo][download][type] = "git"
-projects[oulib_repo][download][url] = "https://github.com/OULibraries/oulib_repo.git"
-
-projects[islandora_embed_theme][type] = "theme"
-projects[islandora_embed_theme][download][type] = "git"
-projects[islandora_embed_theme][download][url] = "https://github.com/OULibraries/islandora_embed_theme.git"
-
-; Islandora modules
+; Modules 
 projects[islandora][type] = "module"
 projects[islandora][download][type] = "git"
 projects[islandora][download][url] = "https://github.com/Islandora/islandora.git"
@@ -147,6 +134,19 @@ projects[islandora_item_manipulator][type] = "module"
 projects[islandora_item_manipulator][download][type] = "git"
 projects[islandora_item_manipulator][download][url] = "https://github.com/oulib-datacatalog/islandora_item_manipulator.git"
 projects[islandora_item_manipulator][download][tag] = "7.x-1.0"
+
+; Themes
+projects[islandora_embed_theme][type] = "theme"
+projects[islandora_embed_theme][download][type] = "git"
+projects[islandora_embed_theme][download][url] = "https://github.com/OULibraries/islandora_embed_theme.git"
+
+projects[oulib_repository][type] = "theme"
+projects[oulib_repository][download][type] = "git"
+projects[oulib_repository][download][url] = "https://github.com/OULibraries/oulib_repositorytheme.git"
+
+projects[oulib_repo][type] = "theme"
+projects[oulib_repo][download][type] = "git"
+projects[oulib_repo][download][url] = "https://github.com/OULibraries/oulib_repo.git"
 
 ; Libraries
 libraries[tuque][type] = "library"
