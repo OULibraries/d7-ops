@@ -12,6 +12,8 @@ projects[colorbox][version] = "2.12"
 
 projects[configuration][version] = "2.0-alpha3"
 
+projects[fontyourface][version] = "2.8"
+
 projects[imagemagick][version] = "1.0"
 
 projects[jquery_update][version] = "2.7"
@@ -31,6 +33,10 @@ projects[themekey][version] = "3.4"
 projects[token][version] = "1.6"
 
 projects[xautoload][version] = "5.7"
+
+projects[panels][version] = "3.6"
+
+projects[views][version] = "3.16"
 
 ; Themes - drupal.org
 projects[bootstrap][version] = "3.14"
@@ -62,6 +68,12 @@ projects[objective_forms][type] = "module"
 projects[objective_forms][download][type] = "git"
 projects[objective_forms][download][url] = "https://github.com/Islandora/objective_forms.git"
 projects[objective_forms][download][tag] = "7.x-1.7"
+
+projects[ou_layouts][type] = "module"
+projects[ou_layouts][download][type] = "git"
+projects[ou_layouts][download][url] = "https://github.com/OULibraries/ou_layouts.git"
+projects[ou_layouts][download][branch] = "dev"
+;projects[ou_layouts][download][revision] = "4005a71973ad1bcc246a83bbcc89213322a996ce"
 
 projects[islandora_xml_forms][type] = "module"
 projects[islandora_xml_forms][download][type] = "git"
