@@ -154,6 +154,7 @@ projects[islandora_embed_theme][download][url] = "https://github.com/OULibraries
 
 projects[oulib_repository][type] = "theme"
 projects[oulib_repository][download][type] = "git"
+projects[oulib_repository][download][branch] = "dev"
 projects[oulib_repository][download][url] = "https://github.com/OULibraries/oulib_repositorytheme.git"
 
 projects[oulib_repo][type] = "theme"
