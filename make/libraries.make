@@ -3,21 +3,20 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.53"
+projects[drupal][version] = "7.56"
 
 ; Modules
 projects[views_bulk_operations][version] = "3.3"
 projects[addressfield][version] = "1.1"
 projects[admin_menu][version] = "3.0-rc4"
+projects[ctools][version] = "1.11"
 projects[apachesolr][version] = "1.8"
 projects[apachesolr_multisitesearch][version] = "1.1"
 projects[apachesolr_user][version] = "1.x-dev"
+projects[calendar][version] = "3.5"
 projects[cas][version] = "1.5"
 projects[cas_attributes][version] = "1.0-rc3"
 projects[cas_roles][version] = "1.2"
-projects[ctools][version] = "1.11"
-projects[calendar][version] = "3.5"
-projects[captcha][version] = "1.2"
 projects[ckeditor][version] = "1.16"
 projects[colorbox][version] = "2.10"
 projects[conditional_fields][version] = "3.0-alpha2"
@@ -25,6 +24,7 @@ projects[custom_search][version] = "1.18"
 projects[date][version] = "2.8"
 projects[date_ical][version] = "3.3"
 projects[devel][version] = "1.5"
+projects[fontyourface][version] = "2.8"
 projects[editableviews][version] = "1.0-beta10"
 projects[email][version] = "1.3"
 projects[entity][version] = "1.6"
@@ -45,7 +45,6 @@ projects[find_content][version] = "1.4"
 projects[fitvids][version] = "1.17"
 projects[flag][version] = "3.8"
 projects[fontawesome][version] = "1.0"
-projects[fontyourface][version] = "2.8"
 projects[geofield][version] = "2.3"
 projects[geophp][version] = "1.7"
 projects[getdirections][version] = "3.2"
@@ -92,6 +91,9 @@ projects[views_data_export][version] = "3.0"
 projects[webform][version] = "4.12"
 projects[webform_rules][version] = "1.6"
 
+; Themes
+projects[bootstrap][version] = "3.10"
+
 projects[apachesolr_onesearch][type] = "module"
 projects[apachesolr_onesearch][download][type] = "git"
 projects[apachesolr_onesearch][download][url] = "https://github.com/OULibraries/apachesolr_onesearch.git"
@@ -105,16 +107,6 @@ projects[better_contact][type] = "module"
 projects[better_contact][download][type] = "git"
 projects[better_contact][download][url] = "https://github.com/OULibraries/better_contact.git"
 
-projects[intranet_custom][type] = "module"
-projects[intranet_custom][download][type] = "git"
-projects[intranet_custom][download][url] = "https://github.com/OULibraries/intranet_custom.git"
-projects[intranet_custom][download][branch] = "dev"
-
-projects[oulib_cas][type] = "module"
-projects[oulib_cas][download][type] = "git"
-projects[oulib_cas][download][url] = "https://github.com/OULibraries/oulib_cas.git"
-projects[oulib_cas][download][branch] = "7.x-0.x"
-
 projects[giscodes][download][type] = "git"
 projects[giscodes][download][url] = "https://github.com/OULibraries/giscodes.git"
 projects[giscodes][download][branch] = "dev"
@@ -124,11 +116,10 @@ projects[illiad_sso][type] = "module"
 projects[illiad_sso][download][type] = "git"
 projects[illiad_sso][download][url] = "https://github.com/OULibraries/illiad_sso.git"
 
-projects[ldap][type] = "module"
-projects[ldap][download][type] = "git"
-projects[ldap][download][url] = "https://github.com/OULibraries/ldap.git"
-projects[ldap][download][branch] = "7.x-2.x-oulib"
-;projects[ldap][download][revision] = "6f6c7c6a2bf6d2cadcefa1f0567554b68b190aeb"
+projects[intranet_custom][type] = "module"
+projects[intranet_custom][download][type] = "git"
+projects[intranet_custom][download][url] = "https://github.com/OULibraries/intranet_custom.git"
+projects[intranet_custom][download][branch] = "dev"
 
 projects[leaflet][type] = "module"
 projects[leaflet][download][type] = "git"
@@ -162,19 +153,43 @@ projects[oulib_blocks][download][url] = "https://github.com/OULibraries/oulib_bl
 projects[oulib_blocks][download][branch] = "7.x-0.x"
 ;projects[oulib_blocks][download][revision] = "2dac3ec5b5ece8707eb62db4ecfa9ab5f6f48bd9"
 
+projects[oulib_cas][type] = "module"
+projects[oulib_cas][download][type] = "git"
+projects[oulib_cas][download][url] = "https://github.com/OULibraries/oulib_cas.git"
+projects[oulib_cas][download][branch] = "7.x-0.x"
+
 projects[views_bootstrap][download][type] = "git"
 projects[views_bootstrap][download][url] = "https://github.com/OULibraries/views_bootstrap.git"
 projects[views_bootstrap][type] = "module"
 
 ; Themes
-projects[bootstrap][version] = "3.10"
-
 projects[oulib_bootstrap][type] = "theme"
 projects[oulib_bootstrap][download][type] = "git"
 projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/oulib_bootstrap.git"
 projects[oulib_bootstrap][download][branch] = "dev"
 
 ; Libraries
+; Please fill the following out. Type may be one of ge
+; and url is the url of the download.
+libraries[slick][download][type] = ""
+libraries[slick][download][url] = ""
+libraries[slick][directory_name] = "slick"
+libraries[slick][type] = "library"
+
+; Please fill the following out. Type may be one of ge
+; and url is the url of the download.
+libraries[easing][download][type] = ""
+libraries[easing][download][url] = ""
+libraries[easing][directory_name] = "easing"
+libraries[easing][type] = "library"
+
+; Please fill the following out. Type may be one of ge
+; and url is the url of the download.
+libraries[mousewheel][download][type] = ""
+libraries[mousewheel][download][url] = ""
+libraries[mousewheel][directory_name] = "mousewheel"
+libraries[mousewheel][type] = "library"
+
 libraries[colorbox][download][type] = "git"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
 libraries[colorbox][download][branch] = "master"
