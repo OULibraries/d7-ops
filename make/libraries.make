@@ -3,7 +3,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.53"
+projects[drupal][version] = "7.56"
 
 ; Modules
 projects[views_bulk_operations][version] = "3.3"
@@ -136,12 +136,6 @@ projects[illiad_sso][type] = "module"
 projects[illiad_sso][download][type] = "git"
 projects[illiad_sso][download][url] = "https://github.com/OULibraries/illiad_sso.git"
 
-projects[ldap][type] = "module"
-projects[ldap][download][type] = "git"
-projects[ldap][download][url] = "https://github.com/OULibraries/ldap.git"
-projects[ldap][download][branch] = "7.x-2.x-oulib"
-;projects[ldap][download][revision] = "6f6c7c6a2bf6d2cadcefa1f0567554b68b190aeb"
-
 projects[leaflet][type] = "module"
 projects[leaflet][download][type] = "git"
 projects[leaflet][download][url] = "https://github.com/OULibraries/leaflet.git"
@@ -179,6 +173,27 @@ projects[views_bootstrap][download][url] = "https://github.com/OULibraries/views
 projects[views_bootstrap][type] = "module"
 
 ; Libraries
+; Please fill the following out. Type may be one of ge
+; and url is the url of the download.
+libraries[slick][download][type] = ""
+libraries[slick][download][url] = ""
+libraries[slick][directory_name] = "slick"
+libraries[slick][type] = "library"
+
+; Please fill the following out. Type may be one of ge
+; and url is the url of the download.
+libraries[easing][download][type] = ""
+libraries[easing][download][url] = ""
+libraries[easing][directory_name] = "easing"
+libraries[easing][type] = "library"
+
+; Please fill the following out. Type may be one of ge
+; and url is the url of the download.
+libraries[mousewheel][download][type] = ""
+libraries[mousewheel][download][url] = ""
+libraries[mousewheel][directory_name] = "mousewheel"
+libraries[mousewheel][type] = "library"
+
 libraries[colorbox][download][type] = "git"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
 libraries[colorbox][download][branch] = "master"
@@ -226,4 +241,28 @@ libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/release
 libraries[bootstrap][directory_name] = "bootstrap"
 libraries[bootstrap][type] = "library"
 
+; Features
+projects[news_ct_feature][type] = "module"
+projects[news_ct_feature][download][type] = "git"
+projects[news_ct_feature][download][url] = "https://github.com/OULibraries/news-ct-feature.git"
+projects[news_ct_feature][download][branch] = "user-acceptance"
 
+projects[events_ct_features][type] = "module"
+projects[events_ct_features][download][type] = "git"
+projects[events_ct_features][download][url] = "https://github.com/OULibraries/events-ct-features.git"
+projects[events_ct_features][download][branch] = "user-acceptance"
+
+projects[videos_ct_feature][type] = "module"
+projects[videos_ct_feature][download][type] = "git"
+projects[videos_ct_feature][download][url] = "https://github.com/OULibraries/videos-ct-feature.git"
+projects[videos_ct_feature][download][branch] = "user-acceptance"
+
+projects[picture_ct_feature][type] = "module"
+projects[picture_ct_feature][download][type] = "git"
+projects[picture_ct_feature][download][url] = "https://github.com/OULibraries/picture-ct-feature.git"
+projects[picture_ct_feature][download][branch] = "user-acceptance"
+
+projects[library_stories_ct_feature][type] = "module"
+projects[library_stories_ct_feature][download][type] = "git"
+projects[library_stories_ct_feature][download][url] = "https://github.com/OULibraries/library-stories-ct-feature.git"
+projects[library_stories_ct_feature][download][branch] = "user-acceptance"
