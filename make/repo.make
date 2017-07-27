@@ -12,6 +12,8 @@ projects[colorbox][version] = "2.12"
 
 projects[configuration][version] = "2.0-alpha3"
 
+projects[fontyourface][version] = "2.8"
+
 projects[imagemagick][version] = "1.0"
 
 projects[jquery_update][version] = "2.7"
@@ -31,6 +33,10 @@ projects[themekey][version] = "3.4"
 projects[token][version] = "1.6"
 
 projects[xautoload][version] = "5.7"
+
+projects[panels][version] = "3.6"
+
+projects[views][version] = "3.16"
 
 ; Themes - drupal.org
 projects[bootstrap][version] = "3.14"
@@ -142,6 +148,7 @@ projects[islandora_embed_theme][download][url] = "https://github.com/OULibraries
 
 projects[oulib_repository][type] = "theme"
 projects[oulib_repository][download][type] = "git"
+projects[oulib_repository][download][branch] = "master"
 projects[oulib_repository][download][url] = "https://github.com/OULibraries/oulib_repositorytheme.git"
 
 projects[oulib_repo][type] = "theme"
