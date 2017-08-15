@@ -90,6 +90,7 @@ projects[views][version] = "3.16"
 projects[views_accordion][version] = "1.0"
 projects[views_bootstrap][version] = "3.1"
 projects[views_data_export][version] = "3.0"
+projects[views_dependent_filters][version] = "1.1"
 projects[webform][version] = "4.12"
 projects[webform_rules][version] = "1.6"
 
