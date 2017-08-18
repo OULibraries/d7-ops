@@ -37,6 +37,7 @@ projects[bootstrap][version] = "3.10"
 projects[apachesolr_onesearch][type] = "module"
 projects[apachesolr_onesearch][download][type] = "git"
 projects[apachesolr_onesearch][download][url] = "https://github.com/OULibraries/apachesolr_onesearch.git"
+projects[intranet_custom][download][branch] = "master"
 
 projects[intranet_custom][type] = "module"
 projects[intranet_custom][download][type] = "git"
