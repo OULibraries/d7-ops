@@ -186,8 +186,8 @@ projects[oulib_bootstrap][download][branch] = "user-acceptance"
 ; Libraries
 ; Please fill the following out. Type may be one of ge
 ; and url is the url of the download.
-libraries[slick][download][type] = ""
-libraries[slick][download][url] = ""
+libraries[slick][download][type] = "get"
+libraries[slick][download][url] = "https://github.com/kenwheeler/slick/archive/1.5.9.zip"
 libraries[slick][directory_name] = "slick"
 libraries[slick][type] = "library"
 
