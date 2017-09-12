@@ -144,6 +144,7 @@ projects[loginblock][type] = "module"
 projects[opening_hours][type] = "module"
 projects[opening_hours][download][type] = "git"
 projects[opening_hours][download][url] = "https://github.com/OULibraries/openinghours.git"
+projects[opening_hours][download][branch] = "dev"
 ;projects[opening_hours][download][revision] = "f5139efd337f7bb514886da30d32616b9cf00c7c"
 
 projects[ou_layouts][type] = "module"
