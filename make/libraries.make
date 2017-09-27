@@ -208,10 +208,10 @@ libraries[mousewheel][type] = "library"
 
 libraries[colorbox][download][type] = "git"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
-libraries[colorbox][download][branch] = "master"
-libraries[colorbox][download][revision]= "d9a4e2dfaabc63751eb82eb37f0fb4de6f31f203"
+libraries[colorbox][download][tag] = "1.6.4"
 libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][type] = "library"
+libraries[colorbox][patch][] ="https://www.drupal.org/files/issues/Adding-ARIA-labels-to-colorbox-library-1.6.4.patch"
 
 libraries[iCalcreator][download][type] = "git"
 libraries[iCalcreator][download][url] = "https://github.com/iCalcreator/iCalcreator.git"
