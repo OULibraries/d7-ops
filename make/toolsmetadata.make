@@ -4,6 +4,7 @@ api = 2
 projects[drupal][version] = "7.56"
 
 ; Modules
+projects[admin_menu][version] = "3.0-rc4"
 projects[auto_entitylabel][version] = "1.3"
 projects[ctools][version] = "1.11"
 projects[ckeditor][version] = "1.16"
