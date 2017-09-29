@@ -50,10 +50,10 @@ projects[oulib_cas][download][type] = "git"
 projects[oulib_cas][download][url] = "https://github.com/OULibraries/oulib_cas.git"
 projects[oulib_cas][download][branch] = "7.x-0.x"
 
-projects[oulib_cas][type] = "module"
-projects[oulib_cas][download][type] = "git"
-projects[oulib_cas][download][url] = "https://github.com/OULibraries/paragraph-bundles-feature.git"
-projects[oulib_cas][download][branch] = "dev"
+projects[paragraph_bundles_feature][type] = "module"
+projects[paragraph_bundles_feature][download][type] = "git"
+projects[paragraph_bundles_feature][download][url] = "https://github.com/OULibraries/paragraph-bundles-feature.git"
+projects[paragraph_bundles_feature][download][branch] = "dev"
 
 ; Themes
 projects[bootstrap][version] = "3.10"
