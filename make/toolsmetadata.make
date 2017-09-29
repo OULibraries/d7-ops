@@ -55,6 +55,13 @@ projects[paragraph_bundles_feature][download][type] = "git"
 projects[paragraph_bundles_feature][download][url] = "https://github.com/OULibraries/paragraph-bundles-feature.git"
 projects[paragraph_bundles_feature][download][branch] = "dev"
 
+projects[ou_layouts][type] = "module"
+projects[ou_layouts][download][type] = "git"
+projects[ou_layouts][download][url] = "https://github.com/OULibraries/ou_layouts.git"
+projects[ou_layouts][download][branch] = "dev"
+;projects[ou_layouts][download][revision] = "4005a71973ad1bcc246a83bbcc89213322a996ce"
+
+
 ; Themes
 projects[bootstrap][version] = "3.10"
 
