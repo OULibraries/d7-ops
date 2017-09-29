@@ -38,3 +38,12 @@ projects[views][version] = "3.17"
 projects[cybcom][type] = "module"
 projects[cybcom][download][type] = "git"
 projects[cybcom][download][url] = "https://github.com/OULibraries/cybcom.git"
+
+; Themes
+projects[bootstrap][version] = "3.10"
+
+projects[oulib_bootstrap][type] = "theme"
+projects[oulib_bootstrap][download][type] = "git"
+projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/oulib_bootstrap.git"
+projects[oulib_bootstrap][download][branch] = "dev"
+
