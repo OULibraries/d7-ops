@@ -69,6 +69,11 @@ projects[oulib_authorizedsender][download][type] = "git"
 projects[oulib_authorizedsender][download][url] = "https://github.com/OULibraries/oulib_authorizedsender.git"
 projects[oulib_authorizedsender][download][branch] = "7.x-1.x"
 
+projects[fileremote][type] = "module"
+projects[fileremote][download][type] = "git"
+projects[fileremote][download][url] = "https://github.com/OULibraries/fileremote.git"
+projects[fileremote][download][branch] = "dev"
+
 ; Themes
 projects[bootstrap][version] = "3.10"
 
