@@ -63,6 +63,10 @@ projects[ou_layouts][download][type] = "git"
 projects[ou_layouts][download][url] = "https://github.com/OULibraries/ou_layouts.git"
 projects[ou_layouts][download][branch] = "master"
 
+projects[oulib_authorizedsender][type] = "module"
+projects[oulib_authorizedsender][download][type] = "git"
+projects[oulib_authorizedsender][download][url] = "https://github.com/OULibraries/oulib_authorizedsender.git"
+projects[oulib_authorizedsender][download][branch] = "7.x-1.x"
 
 ; Themes
 projects[bootstrap][version] = "3.10"
