@@ -82,3 +82,9 @@ projects[oulib_bootstrap][download][type] = "git"
 projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/oulib_bootstrap.git"
 projects[oulib_bootstrap][download][branch] = "master"
 
+; Libraries
+libraries[fine-uploader][type] = "library"
+libraries[fine-uploader][download][type] = "get"
+libraries[fine-uploader][download][url] = "https://github.com/FineUploader/fine-uploader/releases/download/5.14.5/fine-uploader.zip"
+libraries[fine-uploader][directory_name] = "fine-uploader"
+
