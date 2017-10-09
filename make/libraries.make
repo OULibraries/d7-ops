@@ -187,6 +187,11 @@ projects[oulib_bootstrap][download][type] = "git"
 projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/oulib_bootstrap.git"
 projects[oulib_bootstrap][download][branch] = "user-acceptance"
 
+projects[oulib_bootstrap_iframe][type] = "theme"
+projects[oulib_bootstrap_iframe][download][type] = "git"
+projects[oulib_bootstrap_iframe][download][url] = "https://github.com/OULibraries/oulib_bootstrap_iframe.git"
+projects[oulib_bootstrap_iframe][download][branch] = "user-acceptance"
+
 ; Libraries
 ; Please fill the following out. Type may be one of ge
 ; and url is the url of the download.
