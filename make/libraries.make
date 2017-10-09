@@ -107,11 +107,16 @@ projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/oulib
 projects[oulib_bootstrap][download][branch] = "master"
 ;projects[oulib_bootstrap][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
 
+projects[oulib_bootstrap_iframe][type] = "theme"
+projects[oulib_bootstrap_iframe][download][type] = "git"
+projects[oulib_bootstrap_iframe][download][url] = "https://github.com/OULibraries/oulib_bootstrap_iframe.git"
+projects[oulib_bootstrap_iframe][download][branch] = "master"
+
+; Modules
 projects[apachesolr_onesearch][type] = "module"
 projects[apachesolr_onesearch][download][type] = "git"
 projects[apachesolr_onesearch][download][url] = "https://github.com/OULibraries/apachesolr_onesearch.git"
 
-; Modules
 projects[assignment-calculator][type] = "module"
 projects[assignment-calculator][download][type] = "git"
 projects[assignment-calculator][download][url] = "https://github.com/OULibraries/assignment-calculator.git"
