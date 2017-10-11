@@ -23,10 +23,12 @@ projects[libraries][version] = "2.3"
 projects[link][version] = "1.3"
 
 projects[oembed][version] = "0.1-beta3"
+projects[oembed][patch][] = "https://raw.githubusercontent.com/OULibraries/islandora_patches/dev/patches/oembed/oembedcore.patch"
 
 projects[pathauto][version] = "1.3"
 
 projects[subpathauto][version] = "1.3"
+projects[subpathauto][patch][] = "https://raw.githubusercontent.com/OULibraries/islandora_patches/dev/patches/subpathauto/subpathauto.patch"
 
 projects[themekey][version] = "3.4"
 
