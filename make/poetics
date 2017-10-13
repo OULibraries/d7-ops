@@ -75,13 +75,13 @@ projects[views_bootstrap][type] = "module"
 projects[oulib_poetics][type] = "theme"
 projects[oulib_poetics][download][type] = "git"
 projects[oulib_poetics][download][url] = "https://github.com/OULibraries/oulib_poetics.git"
-projects[oulib_poetics][download][branch] = "master"
+projects[oulib_poetics][download][branch] = "user-acceptance"
 
 ;Projects
 projects[bef_bootstrap_fix][type] = "module"
 projects[bef_bootstrap_fix][download][type] = "git"
 projects[bef_bootstrap_fix][download][url] = "https://github.com/OULibraries/bef_bootstrap_fix.git"
-projects[bef_bootstrap_fix][download][branch] = "dev"
+projects[bef_bootstrap_fix][download][branch] = "user-acceptance"
 
 projects[better_contact][type] = "module"
 projects[better_contact][download][type] = "git"
@@ -90,7 +90,7 @@ projects[better_contact][download][url] = "https://github.com/OULibraries/better
 projects[ou_layouts][type] = "module"
 projects[ou_layouts][download][type] = "git"
 projects[ou_layouts][download][url] = "https://github.com/OULibraries/ou_layouts.git"
-projects[ou_layouts][download][branch] = "dev"
+projects[ou_layouts][download][branch] = "user-acceptance"
 ;projects[ou_layouts][download][revision] = "4005a71973ad1bcc246a83bbcc89213322a996ce"
 
 projects[oulib_blocks][type] = "module"
@@ -107,7 +107,7 @@ projects[oulib_cas][download][branch] = "7.x-0.x"
 projects[intranet_custom][type] = "module"
 projects[intranet_custom][download][type] = "git"
 projects[intranet_custom][download][url] = "https://github.com/OULibraries/intranet_custom.git"
-projects[intranet_custom][download][branch] = "dev"
+projects[intranet_custom][download][branch] = "user-acceptance"
 
 ; Libraries
 ; Please fill the following out. Type may be one of ge
