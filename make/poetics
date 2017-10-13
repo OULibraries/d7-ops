@@ -75,7 +75,7 @@ projects[views_bootstrap][type] = "module"
 projects[oulib_poetics][type] = "theme"
 projects[oulib_poetics][download][type] = "git"
 projects[oulib_poetics][download][url] = "https://github.com/OULibraries/oulib_poetics.git"
-projects[oulib_poetics][download][branch] = "master"
+projects[oulib_poetics][download][branch] = "dev"
 
 ;Projects
 projects[bef_bootstrap_fix][type] = "module"
