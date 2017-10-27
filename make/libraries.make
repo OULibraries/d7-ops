@@ -262,32 +262,3 @@ libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/release
 libraries[bootstrap][directory_name] = "bootstrap"
 libraries[bootstrap][type] = "library"
 
-
-
-; Features
-projects[news_ct_feature][type] = "module"
-projects[news_ct_feature][download][type] = "git"
-projects[news_ct_feature][download][url] = "https://github.com/OULibraries/news-ct-feature.git"
-projects[news_ct_feature][download][branch] = "dev"
-
-projects[events_ct_features][type] = "module"
-projects[events_ct_features][download][type] = "git"
-projects[events_ct_features][download][url] = "https://github.com/OULibraries/events-ct-features.git"
-projects[events_ct_features][download][branch] = "dev"
-
-projects[videos_ct_feature][type] = "module"
-projects[videos_ct_feature][download][type] = "git"
-projects[videos_ct_feature][download][url] = "https://github.com/OULibraries/videos-ct-feature.git"
-projects[videos_ct_feature][download][branch] = "dev"
-
-projects[picture_ct_feature][type] = "module"
-projects[picture_ct_feature][download][type] = "git"
-projects[picture_ct_feature][download][url] = "https://github.com/OULibraries/picture-ct-feature.git"
-projects[picture_ct_feature][download][branch] = "dev"
-
-
-projects[library_stories_ct_feature][type] = "module"
-projects[library_stories_ct_feature][download][type] = "git"
-projects[library_stories_ct_feature][download][url] = "https://github.com/OULibraries/library-stories-ct-feature.git"
-projects[library_stories_ct_feature][download][branch] = "dev"
-
