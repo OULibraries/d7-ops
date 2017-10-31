@@ -61,6 +61,21 @@ projects[islandora_solr_search][download][type] = "git"
 projects[islandora_solr_search][download][url] = "https://github.com/Islandora/islandora_solr_search.git"
 projects[islandora_solr_search][download][tag] = "7.x-1.7"
 
+projects[islandora_solr_views][type] = "module"
+projects[islandora_solr_views][download][type] = "git"
+projects[islandora_solr_views][download][url] = "https://github.com/Islandora/islandora_solr_views.git"
+projects[islandora_solr_views][download][tag] = "7.x-1.7"
+
+projects[islandora_solr_facet_pages][type] = "module"
+projects[islandora_solr_facet_pages][download][type] = "git"
+projects[islandora_solr_facet_pages][download][url] = "https://github.com/Islandora/islandora_solr_facet_pages.git"
+projects[islandora_solr_facet_pages][download][tag] = "7.x-1.7"
+
+projects[islandora_solr_metadata][type] = "module"
+projects[islandora_solr_metadata][download][type] = "git"
+projects[islandora_solr_metadata][download][url] = "https://github.com/Islandora/islandora_solr_metadata.git"
+projects[islandora_solr_metadata][download][tag] = "7.x-1.7"
+
 projects[php_lib][type] = "module"
 projects[php_lib][download][type] = "git"
 projects[php_lib][download][url] = "https://github.com/Islandora/php_lib.git"
