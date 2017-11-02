@@ -6,39 +6,29 @@ api = 2
 projects[drupal][version] = "7.56"
 
 ; Modules - drupal.org
+projects[admin_menu][version] = "3.0-rc4"
 projects[ctools][version] = "1.9"
-
+projects[ckeditor][version] = "1.16"
 projects[colorbox][version] = "2.12"
-
 projects[configuration][version] = "2.0-alpha3"
-
 projects[fontyourface][version] = "2.8"
-
 projects[imagemagick][version] = "1.0"
-
 projects[jquery_update][version] = "2.7"
-
 projects[libraries][version] = "2.3"
-
 projects[link][version] = "1.3"
-
 projects[oembed][version] = "0.1-beta3"
 projects[oembed][patch][] = "https://raw.githubusercontent.com/OULibraries/islandora_patches/dev/patches/oembed/oembedcore.patch"
-
+projects[panels_bootstrap_layouts][version] = "3.0"
+projects[paragraphs][version] = "1.0-rc5"
 projects[pathauto][version] = "1.3"
-
 projects[subpathauto][version] = "1.3"
 projects[subpathauto][patch][] = "https://raw.githubusercontent.com/OULibraries/islandora_patches/dev/patches/subpathauto/subpathauto.patch"
-
 projects[themekey][version] = "3.4"
-
 projects[token][version] = "1.6"
-
 projects[xautoload][version] = "5.7"
-
 projects[panels][version] = "3.6"
-
 projects[views][version] = "3.16"
+projects[webform][version] = "4.12"
 
 ; Themes - drupal.org
 projects[bootstrap][version] = "3.14"
@@ -169,6 +159,13 @@ projects[islandora_item_manipulator][download][type] = "git"
 projects[islandora_item_manipulator][download][url] = "https://github.com/oulib-datacatalog/islandora_item_manipulator.git"
 projects[islandora_item_manipulator][download][tag] = "7.x-1.0"
 
+projects[ou_layouts][type] = "module"
+projects[ou_layouts][download][type] = "git"
+projects[ou_layouts][download][url] = "https://github.com/OULibraries/ou_layouts.git"
+projects[ou_layouts][download][branch] = "dev"
+;projects[ou_layouts][download][revision] = "4005a71973ad1bcc246a83bbcc89213322a996ce"
+
+
 ; Themes
 projects[islandora_embed_theme][type] = "theme"
 projects[islandora_embed_theme][download][type] = "git"
@@ -204,4 +201,11 @@ libraries[bookreader][download][type] = "git"
 libraries[bookreader][download][url] = "https://github.com/Islandora/internet_archive_bookreader"
 libraries[bookreader][download][tag] ="7.x-1.7"
 libraries[bookreader][directory_name] ="bookreader"
+
+; Features
+
+projects[paragraph_bundles_feature][type] = "module"
+projects[paragraph_bundles_feature][download][type] = "git"
+projects[paragraph_bundles_feature][download][url] = "https://github.com/OULibraries/paragraph-bundles-feature.git"
+projects[paragraph_bundles_feature][download][branch] = "dev"
 
