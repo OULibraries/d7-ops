@@ -7,6 +7,9 @@ projects[drupal][version] = "7.56"
 
 ; Modules - drupal.org
 projects[admin_menu][version] = "3.0-rc4"
+projects[cas][version] = "1.5"
+projects[cas_attributes][version] = "1.0-rc3"
+projects[cas_roles][version] = "1.2"
 projects[ctools][version] = "1.9"
 projects[ckeditor][version] = "1.16"
 projects[colorbox][version] = "2.12"
@@ -165,6 +168,10 @@ projects[ou_layouts][download][url] = "https://github.com/OULibraries/ou_layouts
 projects[ou_layouts][download][branch] = "dev"
 ;projects[ou_layouts][download][revision] = "4005a71973ad1bcc246a83bbcc89213322a996ce"
 
+projects[oulib_cas][type] = "module"
+projects[oulib_cas][download][type] = "git"
+projects[oulib_cas][download][url] = "https://github.com/OULibraries/oulib_cas.git"
+projects[oulib_cas][download][branch] = "7.x-0.x"
 
 ; Themes
 projects[islandora_embed_theme][type] = "theme"
