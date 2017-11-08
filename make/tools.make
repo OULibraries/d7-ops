@@ -43,6 +43,7 @@ projects[unique_field][version] = "1.0-rc1"
 projects[user_import][version] = "2.3"
 projects[uuid][version] = "1.0-alpha6"
 projects[views][version] = "3.17"
+projects[webform][version] = "4.16"
 
 ;github modules
 projects[cybcom][type] = "module"
