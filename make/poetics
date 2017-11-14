@@ -63,6 +63,9 @@ projects[cas_attributes][version] = "1.0-rc3"
 projects[cas_roles][version] = "1.2"
 projects[primo_sso][version] = "1.0"
 
+;Patch for PHP 5.4 compatibility
+projects[google_tag][version] = "1.3"
+projects[google_tag][patch][] = http://cgit.drupalcode.org/google_tag/patch/?id=b525e45195d8b1a9a1dc499ce7bc20f012906a79
 
 ; Themes
 projects[bootstrap][version] = "3.10"
