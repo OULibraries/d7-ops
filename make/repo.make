@@ -6,43 +6,35 @@ api = 2
 projects[drupal][version] = "7.56"
 
 ; Modules - drupal.org
+projects[admin_menu][version] = "3.0-rc4"
+projects[cas][version] = "1.5"
+projects[cas_attributes][version] = "1.0-rc3"
+projects[cas_roles][version] = "1.2"
 projects[ctools][version] = "1.9"
-
+projects[ckeditor][version] = "1.16"
 projects[colorbox][version] = "2.12"
-
 projects[configuration][version] = "2.0-alpha3"
-
 projects[fontyourface][version] = "2.8"
-
 projects[imagemagick][version] = "1.0"
-
 projects[jquery_update][version] = "2.7"
-
 projects[libraries][version] = "2.3"
-
 projects[link][version] = "1.3"
-
 projects[oembed][version] = "0.1-beta3"
 projects[oembed][patch][] = "https://raw.githubusercontent.com/OULibraries/islandora_patches/dev/patches/oembed/oembedcore.patch"
-
+projects[panels_bootstrap_layouts][version] = "3.0"
+projects[paragraphs][version] = "1.0-rc5"
 projects[pathauto][version] = "1.3"
-
 projects[subpathauto][version] = "1.3"
 projects[subpathauto][patch][] = "https://raw.githubusercontent.com/OULibraries/islandora_patches/dev/patches/subpathauto/subpathauto.patch"
-
 projects[themekey][version] = "3.4"
-
 projects[token][version] = "1.6"
-
 projects[xautoload][version] = "5.7"
-
 projects[panels][version] = "3.6"
-
 projects[views][version] = "3.16"
+projects[webform][version] = "4.12"
 
 ; Themes - drupal.org
 projects[bootstrap][version] = "3.14"
-
 projects[entity_iframe_theme][version] = "1.0"
 
 ; Modules 
@@ -60,6 +52,21 @@ projects[islandora_solr_search][type] = "module"
 projects[islandora_solr_search][download][type] = "git"
 projects[islandora_solr_search][download][url] = "https://github.com/Islandora/islandora_solr_search.git"
 projects[islandora_solr_search][download][tag] = "7.x-1.7"
+
+projects[islandora_solr_views][type] = "module"
+projects[islandora_solr_views][download][type] = "git"
+projects[islandora_solr_views][download][url] = "https://github.com/Islandora/islandora_solr_views.git"
+projects[islandora_solr_views][download][tag] = "7.x-1.7"
+
+projects[islandora_solr_facet_pages][type] = "module"
+projects[islandora_solr_facet_pages][download][type] = "git"
+projects[islandora_solr_facet_pages][download][url] = "https://github.com/Islandora/islandora_solr_facet_pages.git"
+projects[islandora_solr_facet_pages][download][tag] = "7.x-1.7"
+
+projects[islandora_solr_metadata][type] = "module"
+projects[islandora_solr_metadata][download][type] = "git"
+projects[islandora_solr_metadata][download][url] = "https://github.com/Islandora/islandora_solr_metadata.git"
+projects[islandora_solr_metadata][download][tag] = "7.x-1.7"
 
 projects[php_lib][type] = "module"
 projects[php_lib][download][type] = "git"
@@ -117,6 +124,11 @@ projects[islandora_solution_pack_book][download][type] = "git"
 projects[islandora_solution_pack_book][download][url] = "https://github.com/Islandora/islandora_solution_pack_book.git"
 projects[islandora_solution_pack_book][download][tag] = "7.x-1.7"
 
+projects[islandora_solution_pack_newspaper][type] = "module"
+projects[islandora_solution_pack_newspaper][download][type] = "git"
+projects[islandora_solution_pack_newspaper][download][url] = "https://github.com/Islandora/islandora_solution_pack_newspaper.git"
+projects[islandora_solution_pack_newspaper][download][tag] = "7.x-1.7"
+
 projects[islandora_internet_archive_bookreader][type] = "module"
 projects[islandora_internet_archive_bookreader][download][type] = "git"
 projects[islandora_internet_archive_bookreader][download][url] = "https://github.com/OULibraries/islandora_internet_archive_bookreader_temp.git"
@@ -148,6 +160,17 @@ projects[islandora_item_manipulator][type] = "module"
 projects[islandora_item_manipulator][download][type] = "git"
 projects[islandora_item_manipulator][download][url] = "https://github.com/oulib-datacatalog/islandora_item_manipulator.git"
 projects[islandora_item_manipulator][download][tag] = "7.x-1.0"
+
+projects[ou_layouts][type] = "module"
+projects[ou_layouts][download][type] = "git"
+projects[ou_layouts][download][url] = "https://github.com/OULibraries/ou_layouts.git"
+projects[ou_layouts][download][branch] = "dev"
+;projects[ou_layouts][download][revision] = "4005a71973ad1bcc246a83bbcc89213322a996ce"
+
+projects[oulib_cas][type] = "module"
+projects[oulib_cas][download][type] = "git"
+projects[oulib_cas][download][url] = "https://github.com/OULibraries/oulib_cas.git"
+projects[oulib_cas][download][branch] = "7.x-0.x"
 
 ; Themes
 projects[islandora_embed_theme][type] = "theme"
@@ -185,3 +208,8 @@ libraries[bookreader][download][url] = "https://github.com/Islandora/internet_ar
 libraries[bookreader][download][tag] ="7.x-1.7"
 libraries[bookreader][directory_name] ="bookreader"
 
+; Features
+projects[paragraph_bundles_feature][type] = "module"
+projects[paragraph_bundles_feature][download][type] = "git"
+projects[paragraph_bundles_feature][download][url] = "https://github.com/OULibraries/paragraph-bundles-feature.git"
+projects[paragraph_bundles_feature][download][branch] = "dev"
