@@ -35,7 +35,6 @@ projects[webform][version] = "4.12"
 
 ; Themes - drupal.org
 projects[bootstrap][version] = "3.14"
-
 projects[entity_iframe_theme][version] = "1.0"
 
 ; Modules 
@@ -210,9 +209,7 @@ libraries[bookreader][download][tag] ="7.x-1.7"
 libraries[bookreader][directory_name] ="bookreader"
 
 ; Features
-
 projects[paragraph_bundles_feature][type] = "module"
 projects[paragraph_bundles_feature][download][type] = "git"
 projects[paragraph_bundles_feature][download][url] = "https://github.com/OULibraries/paragraph-bundles-feature.git"
 projects[paragraph_bundles_feature][download][branch] = "dev"
-
