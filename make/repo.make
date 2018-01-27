@@ -35,6 +35,7 @@ projects[token][version] = "1.6"
 projects[xautoload][version] = "5.7"
 projects[panels][version] = "3.6"
 projects[views][version] = "3.16"
+projects[views_bootstrap][version] = "3.1"
 projects[webform][version] = "4.12"
 
 ; Themes - drupal.org
