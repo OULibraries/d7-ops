@@ -30,7 +30,7 @@ projects[subpathauto][patch][] = "https://raw.githubusercontent.com/OULibraries/
 projects[themekey][version] = "3.4"
 projects[token][version] = "1.6"
 projects[xautoload][version] = "5.7"
-projects[views][version] = "3.16"
+projects[views][version] = "3.18"
 projects[webform][version] = "4.12"
 
 ; Themes - drupal.org
