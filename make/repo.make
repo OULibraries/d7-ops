@@ -73,6 +73,13 @@ projects[islandora_solr_metadata][download][type] = "git"
 projects[islandora_solr_metadata][download][url] = "https://github.com/Islandora/islandora_solr_metadata.git"
 projects[islandora_solr_metadata][download][tag] = "7.x-1.7"
 
+projects[islandora_solr_collection_view][type] = "module"
+projects[islandora_solr_collection_view][download][type] = "git"
+projects[islandora_solr_collection_view][download][url] = "https://github.com/Islandora-Labs/islandora_solr_collection_view"
+projects[islandora_solr_collection_view][download][branch] = "7.x"
+projects[islandora_solr_collection_view][download][revision] = "c4b2f33251e3f46bb3bc4789480a60a8efe5d351"
+; Islandora Labs module, there's no 7.x-1.7 release
+
 projects[php_lib][type] = "module"
 projects[php_lib][download][type] = "git"
 projects[php_lib][download][url] = "https://github.com/Islandora/php_lib.git"
