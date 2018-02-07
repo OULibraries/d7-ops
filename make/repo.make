@@ -219,6 +219,12 @@ libraries[bookreader][download][url] = "https://github.com/Islandora/internet_ar
 libraries[bookreader][download][tag] ="7.x-1.7"
 libraries[bookreader][directory_name] ="bookreader"
 
+libraries[owl-carousel][download][type] = "get"
+libraries[owl-carousel][download][url] = "https://github.com/OwlCarousel2/OwlCarousel2/archive/2.2.1.zip"
+libraries[owl-carousel][download][subtree] = "OwlCarousel2-2.2.1/dist"
+libraries[owl-carousel][directory_name] = "owlcarousel"
+libraries[owl-carousel][type] = "library"
+
 ; Features
 projects[paragraph_bundles_feature][type] = "module"
 projects[paragraph_bundles_feature][download][type] = "git"
