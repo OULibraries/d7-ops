@@ -174,6 +174,11 @@ projects[islandora_item_manipulator][download][type] = "git"
 projects[islandora_item_manipulator][download][url] = "https://github.com/oulib-datacatalog/islandora_item_manipulator.git"
 projects[islandora_item_manipulator][download][tag] = "7.x-1.0"
 
+projects[islandora_oulib][type] = "module"
+projects[islandora_oulib][download][type] = "git"
+projects[islandora_oulib][download][url] = "https://github.com/OULibraries/islandora_oulib.git"
+projects[islandora_oulib][download][branch] = "dev"
+
 projects[ou_layouts][type] = "module"
 projects[ou_layouts][download][type] = "git"
 projects[ou_layouts][download][url] = "https://github.com/OULibraries/ou_layouts.git"
