@@ -18,6 +18,9 @@ projects[entity][version] = "1.6"
 projects[features][version] = "2.10"
 projects[field_group][version] = "1.5"
 projects[fontyourface][version] = "2.8"
+; Patch for PHP 5.4 compatibility
+projects[google_tag][version] = "1.3"
+projects[google_tag][patch][] = http://cgit.drupalcode.org/google_tag/patch/?id=b525e45195d8b1a9a1dc499ce7bc20f012906a79
 projects[imagemagick][version] = "1.0"
 projects[jquery_update][version] = "2.7"
 projects[libraries][version] = "2.3"
