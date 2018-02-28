@@ -3,7 +3,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.56"
+projects[drupal][version] = "7.57"
 
 ; Modules
 projects[views_bulk_operations][version] = "3.3"
@@ -30,7 +30,7 @@ projects[devel][version] = "1.5"
 projects[fontyourface][version] = "2.8"
 projects[editableviews][version] = "1.0-beta10"
 projects[email][version] = "1.3"
-projects[entity][version] = "1.6"
+projects[entity][version] = "1.9"
 projects[entity_view_mode][version] = "1.0-rc1"
 projects[entity_iframe_theme][version] = "1.0"
 projects[entityreference][version] = "1.5"
@@ -40,8 +40,8 @@ projects[features][version] = "2.10"
 projects[feeds][version] = "2.0-beta1"
 projects[feeds_entity_processor][version] = "1.x-dev"
 projects[feeds_tamper][version] = "1.0"
-projects[field_collection][version] = "1.0-beta12"
 projects[field_conditional_state][version] = "2.1"
+projects[field_collection][version] = "1.0-beta12"
 projects[field_default_token][version] = "1.2"
 projects[field_group][version] = "1.5"
 projects[field_permissions][version] = "1.0-beta2"
