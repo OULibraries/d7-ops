@@ -3,7 +3,7 @@ core = 7.x
 api = 2
 
 ; Core
-projects[drupal][version] = "7.56"
+projects[drupal][version] = "7.57"
 
 ; Modules - drupal.org
 projects[admin_menu][version] = "3.0-rc4"
@@ -14,7 +14,7 @@ projects[ckeditor][version] = "1.16"
 projects[ctools][version] = "1.9"
 projects[colorbox][version] = "2.12"
 projects[configuration][version] = "2.0-alpha3"
-projects[entity][version] = "1.6"
+projects[entity][version] = "1.9"
 projects[features][version] = "2.10"
 projects[field_group][version] = "1.5"
 projects[fontyourface][version] = "2.8"
