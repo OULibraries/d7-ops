@@ -192,6 +192,11 @@ projects[oulib_cas][download][type] = "git"
 projects[oulib_cas][download][url] = "https://github.com/OULibraries/oulib_cas.git"
 projects[oulib_cas][download][branch] = "7.x-0.x"
 
+projects[token_oulib][type] = "module"
+projects[token_oulib][download][type] = "git"
+projects[token_oulib][download][url] = "https://github.com/OULibraries/token_oulib.git"
+projects[token_oulib][download][branch] = "master"
+
 ; Themes
 projects[islandora_embed_theme][type] = "theme"
 projects[islandora_embed_theme][download][type] = "git"
