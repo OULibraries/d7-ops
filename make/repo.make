@@ -3,7 +3,7 @@ core = 7.x
 api = 2
 
 ; Core
-projects[drupal][version] = "7.57"
+projects[drupal][version] = "7.58"
 
 ; Modules - drupal.org
 projects[admin_menu][version] = "3.0-rc4"
