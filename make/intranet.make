@@ -2,7 +2,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.53"
+projects[drupal][version] = "7.59"
 
 ; Modules
 projects[views_bulk_operations][version] = "3.3"
@@ -23,8 +23,8 @@ projects[devel][version] = "1.5"
 projects[fontyourface][version] = "2.8"
 projects[editableviews][version] = "1.0-beta10"
 projects[email][version] = "1.3"
-projects[entity][version] = "1.6"
-projects[entityreference][version] = "1.1"
+projects[entity][version] = "1.9"
+projects[entityreference][version] = "1.5"
 projects[exclude_node_title][version] = "1.7"
 projects[feeds][version] = "2.0-beta1"
 projects[feeds_tamper][version] = "1.0"
@@ -59,7 +59,7 @@ projects[token][version] = "1.5"
 projects[token_filter][version] = "1.1"
 projects[user_picture_field][version] = "1.0-rc1"
 projects[uuid][version] = "1.0-alpha6"
-projects[views][version] = "3.15"
+projects[views][version] = "3.17"
 projects[views_accordion][version] = "1.0"
 projects[views_bootstrap][version] = "3.1"
 projects[views_data_export][version] = "3.1"
