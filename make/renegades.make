@@ -1,7 +1,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.56"
+projects[drupal][version] = "7.59"
 
 ; Modules
 projects[admin_menu][version] = "3.0-rc4"
@@ -16,11 +16,10 @@ projects[entity][version] = "1.6"
 projects[entity_view_mode][version] = "1.0-rc1"
 projects[entityreference][version] = "1.5"
 projects[fontyourface][version] = "2.8"
-projects[features][version] = "2.10"
+projects[fontawesome][version] = "1.0"
 projects[feeds][version] = "2.0-beta1"
 projects[feeds_entity_processor][version] = "1.x-dev"
 projects[feeds_tamper][version] = "1.0"
-projects[field_collection][version] = "1.0-beta12"
 projects[field_conditional_state][version] = "2.1"
 projects[field_default_token][version] = "1.2"
 projects[field_group][version] = "1.5"
@@ -37,7 +36,7 @@ projects[rules][version] = "2.7"
 projects[token][version] = "1.5"
 projects[token_filter][version] = "1.1"
 projects[views][version] = "3.17"
-projects[views_bootstrap][version] = "3.1""
+projects[views_bootstrap][version] = "3.1"
 projects[webform][version] = "4.12"
 projects[webform_rules][version] = "1.6"
 
@@ -97,9 +96,3 @@ libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/release
 libraries[bootstrap][directory_name] = "bootstrap"
 libraries[bootstrap][type] = "library"
 
-; Features
-
-projects[paragraph_bundles_feature][type] = "module"
-projects[paragraph_bundles_feature][download][type] = "git"
-projects[paragraph_bundles_feature][download][url] = "https://github.com/OULibraries/paragraph-bundles-feature.git"
-projects[paragraph_bundles_feature][download][branch] = "dev"
