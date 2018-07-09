@@ -91,10 +91,10 @@ projects[views_bootstrap][download][url] = "https://github.com/OULibraries/views
 projects[views_bootstrap][type] = "module"
 
 ; Themes
-projects[oulib_bootstrap][type] = "theme"
-projects[oulib_bootstrap][download][type] = "git"
-projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/oulib_bootstrap.git"
-projects[oulib_bootstrap][download][branch] = "dev"
+projects[oulib_renegades][type] = "theme"
+projects[oulib_renegades][download][type] = "git"
+projects[oulib_renegades][download][url] = "https://github.com/OULibraries/oulib_renegades.git"
+projects[oulib_renegades][download][branch] = "dev"
 
 ; Libraries
 
