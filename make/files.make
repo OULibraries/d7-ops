@@ -138,6 +138,10 @@ projects[oulib_intranet][type] = "theme"
 projects[oulib_intranet][download][type] = "git"
 projects[oulib_intranet][download][url] = "https://github.com/OULibraries/oulib_intranet.git"
 
+projects[oulib_files][type] = "theme"
+projects[oulib_files][download][type] = "git"
+projects[oulib_files][download][url] = "https://github.com/OULibraries/oulib_files.git"
+
 ; Libraries
 libraries[iCalcreator][download][type] = "git"
 libraries[iCalcreator][download][url] = "https://github.com/iCalcreator/iCalcreator.git"
