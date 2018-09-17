@@ -107,3 +107,21 @@ libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/release
 libraries[bootstrap][directory_name] = "bootstrap"
 libraries[bootstrap][type] = "library"
 
+libraries[owl-carousel][download][type] = "get"
+libraries[owl-carousel][download][url] = "https://github.com/OwlCarousel2/OwlCarousel2/archive/2.2.1.zip"
+libraries[owl-carousel][download][subtree] = "OwlCarousel2-2.2.1/dist"
+libraries[owl-carousel][directory_name] = "owlcarousel"
+libraries[owl-carousel][type] = "library"
+
+libraries[fitvids][download][type] = "git"
+libraries[fitvids][download][url] = "https://github.com/davatron5000/FitVids.js.git"
+libraries[fitvids][download][branch] = "master"
+libraries[fitvids][directory_name] = "fitvids"
+libraries[fitvids][type] = "library"
+
+libraries[colorbox][download][type] = "git"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
+libraries[colorbox][download][tag] = "1.6.4"
+libraries[colorbox][directory_name] = "colorbox"
+libraries[colorbox][type] = "library"
+libraries[colorbox][patch][] ="https://www.drupal.org/files/issues/Adding-ARIA-labels-to-colorbox-library-1.6.4.patch"
