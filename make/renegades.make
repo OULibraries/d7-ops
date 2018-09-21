@@ -6,7 +6,7 @@ projects[drupal][version] = "7.59"
 ; Modules
 projects[admin_menu][version] = "3.0-rc4"
 projects[better_exposed_filters][version] = "3.4"
-projects[custom_breadcrumbs] = "2.0-beta1"
+projects[custom_breadcrumbs][version] = "2.0-beta1"
 projects[ctools][version] = "1.11"
 projects[cas][version] = "1.5"
 projects[cas_attributes][version] = "1.0-rc3"
