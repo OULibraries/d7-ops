@@ -126,3 +126,9 @@ libraries[colorbox][download][tag] = "1.6.4"
 libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][type] = "library"
 libraries[colorbox][patch][] ="https://www.drupal.org/files/issues/Adding-ARIA-labels-to-colorbox-library-1.6.4.patch"
+
+Libraries[fullpage][download][type] = "git"
+Libraries[fullpage][download][url] = "https://github.com/alvarotrigo/fullPage.js.git"
+libraries[fullpage][download][branch] = "master"
+libraries[fullpage][download][type] = "library"
+
