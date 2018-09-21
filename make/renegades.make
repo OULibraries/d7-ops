@@ -130,5 +130,6 @@ libraries[colorbox][patch][] ="https://www.drupal.org/files/issues/Adding-ARIA-l
 Libraries[fullpage][download][type] = "git"
 Libraries[fullpage][download][url] = "https://github.com/alvarotrigo/fullPage.js.git"
 libraries[fullpage][download][branch] = "master"
+libraries[fullpage][directory_name] = "fullPage.js"
 libraries[fullpage][download][type] = "library"
 
