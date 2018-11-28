@@ -140,10 +140,10 @@ projects[views_bootstrap][download][url] = "https://github.com/OULibraries/views
 projects[views_bootstrap][type] = "module"
 
 ; Themes
-projects[oulib_bootstrap][type] = "theme"
-projects[oulib_bootstrap][download][type] = "git"
-projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/oulib_bootstrap.git"
-projects[oulib_bootstrap][download][branch] = "dev"
+projects[oulib_airegisty][type] = "theme"
+projects[oulib_airegisty][download][type] = "git"
+projects[oulib_airegisty][download][url] = "https://github.com/OULibraries/oulib_airegistry.git"
+projects[oulib_airegisty][download][branch] = "dev"
 
 projects[oulib_bootstrap_iframe][type] = "theme"
 projects[oulib_bootstrap_iframe][download][type] = "git"
