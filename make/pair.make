@@ -142,10 +142,10 @@ projects[views_bootstrap][download][url] = "https://github.com/OULibraries/views
 projects[views_bootstrap][type] = "module"
 
 ; Themes
-projects[oulib_airegistry][type] = "theme"
-projects[oulib_airegistry][download][type] = "git"
-projects[oulib_airegistry][download][url] = "https://github.com/OULibraries/oulib_airegistry.git"
-projects[oulib_airegistry][download][branch] = "dev"
+projects[oulib_pair][type] = "theme"
+projects[oulib_pair][download][type] = "git"
+projects[oulib_pair][download][url] = "https://github.com/OULibraries/oulib_pair.git"
+projects[oulib_pair][download][branch] = "dev"
 
 projects[oulib_bootstrap_iframe][type] = "theme"
 projects[oulib_bootstrap_iframe][download][type] = "git"
