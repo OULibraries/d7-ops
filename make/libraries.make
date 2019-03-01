@@ -251,10 +251,8 @@ libraries[fontawesome][download][revision] = "a65bd93d81e9e6bd5ebfa41757a4474960
 libraries[fontawesome][directory_name] = "fontawesome"
 libraries[fontawesome][type] = "library"
 
-libraries[owl-carousel][download][type] = "git"
-libraries[owl-carousel][download][url] = "https://github.com/OwlCarousel2/OwlCarousel2.git"
-libraries[owl-carousel][download][branch] = "master"
-libraries[owl-carousel][directory_name] = "owl-carousel"
+libraries[owl-carousel][download][type] = "get"
+libraries[owl-carousel][download][url] = "https://github.com/OwlCarousel2/OwlCarousel2/archive/2.3.4.zip"
 libraries[owl-carousel][type] = "library"
 
 libraries[bootstrap][download][type] = "get"
