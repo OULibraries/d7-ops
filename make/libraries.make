@@ -253,7 +253,6 @@ libraries[fontawesome][type] = "library"
 
 libraries[owl-carousel][download][type] = "git"
 libraries[owl-carousel][download][url] = "https://github.com/OwlCarousel2/OwlCarousel2.git"
-libraries[owl-carousel][download][subtree] = "OwlCarousel2-master/dist"
 libraries[owl-carousel][download][branch] = "master"
 libraries[owl-carousel][directory_name] = "owl-carousel"
 libraries[owl-carousel][type] = "library"
