@@ -186,10 +186,6 @@ projects[oulib_blocks][download][url] = "https://github.com/OULibraries/oulib_bl
 projects[oulib_blocks][download][branch] = "7.x-0.x"
 ;projects[oulib_blocks][download][revision] = "2dac3ec5b5ece8707eb62db4ecfa9ab5f6f48bd9"
 
-projects[views_bootstrap][download][type] = "git"
-projects[views_bootstrap][download][url] = "https://github.com/OULibraries/views_bootstrap.git"
-projects[views_bootstrap][type] = "module"
-
 projects[studyroom][type] = "module"
 projects[studyroom][download][type] = "git"
 projects[studyroom][download][url] = "https://github.com/OULibraries/studyroom.git"
