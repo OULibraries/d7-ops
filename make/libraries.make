@@ -199,7 +199,7 @@ projects[studyroom][download][branch] = "master"
 ; Please fill the following out. Type may be one of ge
 ; and url is the url of the download.
 libraries[slick][download][type] = "get"
-libraries[slick][download][url] = "https://github.com/kenwheeler/slick/archive/1.5.9.zip"
+libraries[slick][download][url] = "https://github.com/kenwheeler/slick/archive/1.8.0.zip"
 libraries[slick][directory_name] = "slick"
 libraries[slick][type] = "library"
 
