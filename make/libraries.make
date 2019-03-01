@@ -231,12 +231,9 @@ libraries[iCalcreator][download][revision] = "e3dbec2cb3bb91a8bde989e467567ae883
 libraries[iCalcreator][directory_name] = "iCalcreator"
 libraries[iCalcreator][type] = "library"
 
-;libraries[leaflet][download][type] = "git"
-;libraries[leaflet][download][url] = "https://github.com/Leaflet/Leaflet.git"
-;libraries[leaflet][download][branch] = "master"
-;libraries[leaflet][download][revision] = "8a5fdfc6e3db2807b8f0dd617474e4ab2949142b"
-libraries[leaflet][download][type] = "get"
-libraries[leaflet][download][url] = "https://lib.ou.edu/documents/leaflet-0.7.3.zip"
+libraries[leaflet][download][type] = "git"
+libraries[leaflet][download][url] = "https://github.com/Leaflet/Leaflet.git"
+libraries[leaflet][download][branch] = "master"
 libraries[leaflet][directory_name] = "leaflet"
 libraries[leaflet][type] = "library"
 
@@ -248,19 +245,20 @@ libraries[fitvids][type] = "library"
 
 libraries[fontawesome][download][type] = "git"
 libraries[fontawesome][download][url] = "https://github.com/FortAwesome/Font-Awesome.git"
+
 libraries[fontawesome][download][branch] = "master"
 libraries[fontawesome][download][revision] = "a65bd93d81e9e6bd5ebfa41757a4474960b973b4"
 libraries[fontawesome][directory_name] = "fontawesome"
 libraries[fontawesome][type] = "library"
 
-libraries[owl-carousel][download][type] = "get"
-libraries[owl-carousel][download][url] = "https://github.com/OwlCarousel2/OwlCarousel2/archive/2.2.1.zip"
-libraries[owl-carousel][download][subtree] = "OwlCarousel2-2.2.1/dist"
+libraries[owl-carousel][download][type] = "git"
+libraries[owl-carousel][download][url] = "https://github.com/OwlCarousel2/OwlCarousel2.git"
+libraries[owl-carousel][download][branch] = "master"
 libraries[owl-carousel][directory_name] = "owlcarousel"
 libraries[owl-carousel][type] = "library"
 
 libraries[bootstrap][download][type] = "get"
-libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/releases/download/v3.3.1/bootstrap-3.3.1-dist.zip"
+libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/releases/download/v3.4.1/bootstrap-3.4.1-dist.zip"
 libraries[bootstrap][directory_name] = "bootstrap"
 libraries[bootstrap][type] = "library"
 
