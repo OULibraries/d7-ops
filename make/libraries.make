@@ -109,7 +109,6 @@ projects[oulib_bootstrap][type] = "theme"
 projects[oulib_bootstrap][download][type] = "git"
 projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/oulib_bootstrap.git"
 projects[oulib_bootstrap][download][branch] = "master"
-;projects[oulib_bootstrap][download][revision] = "80e5223c73b3b9d6a7cdc35fc138d594c4af192e"
 
 projects[oulib_bootstrap_iframe][type] = "theme"
 projects[oulib_bootstrap_iframe][download][type] = "git"
@@ -162,13 +161,11 @@ projects[opening_hours][type] = "module"
 projects[opening_hours][download][type] = "git"
 projects[opening_hours][download][url] = "https://github.com/OULibraries/openinghours.git"
 projects[opening_hours][download][branch] = "master"
-;projects[opening_hours][download][revision] = "f5139efd337f7bb514886da30d32616b9cf00c7c"
 
 projects[ou_layouts][type] = "module"
 projects[ou_layouts][download][type] = "git"
 projects[ou_layouts][download][url] = "https://github.com/OULibraries/ou_layouts.git"
 projects[ou_layouts][download][branch] = "master"
-;projects[ou_layouts][download][revision] = "4005a71973ad1bcc246a83bbcc89213322a996ce"
 
 projects[oulib_authorizedsender][type] = "module"
 projects[oulib_authorizedsender][download][type] = "git"
@@ -179,7 +176,6 @@ projects[oulib_blocks][type] = "module"
 projects[oulib_blocks][download][type] = "git"
 projects[oulib_blocks][download][url] = "https://github.com/OULibraries/oulib_blocks.git"
 projects[oulib_blocks][download][branch] = "7.x-0.x"
-;projects[oulib_blocks][download][revision] = "2dac3ec5b5ece8707eb62db4ecfa9ab5f6f48bd9"
 
 projects[studyroom][type] = "module"
 projects[studyroom][download][type] = "git"
@@ -187,22 +183,22 @@ projects[studyroom][download][url] = "https://github.com/OULibraries/studyroom.g
 projects[studyroom][download][branch] = "master"
 
 ; Libraries
-; Please fill the following out. Type may be one of ge
-; and url is the url of the download.
+libraries[leaflet][download][type] = "get"
+libraries[leaflet][download][url] = "https://github.com/Leaflet/Leaflet/archive/v1.4.0.zip"
+libraries[leaflet][download][subtree] = "Leaflet-1.4.0/dist"
+libraries[leaflet][directory_name] = "leaflet"
+libraries[leaflet][type] = "library"
+
 libraries[slick][download][type] = "get"
 libraries[slick][download][url] = "https://github.com/kenwheeler/slick/archive/1.8.0.zip"
 libraries[slick][directory_name] = "slick"
 libraries[slick][type] = "library"
 
-; Please fill the following out. Type may be one of ge
-; and url is the url of the download.
 libraries[easing][download][type] = ""
 libraries[easing][download][url] = ""
 libraries[easing][directory_name] = "easing"
 libraries[easing][type] = "library"
 
-; Please fill the following out. Type may be one of ge
-; and url is the url of the download.
 libraries[mousewheel][download][type] = ""
 libraries[mousewheel][download][url] = ""
 libraries[mousewheel][directory_name] = "mousewheel"
@@ -221,13 +217,6 @@ libraries[iCalcreator][download][branch] = "master"
 libraries[iCalcreator][download][revision] = "e3dbec2cb3bb91a8bde989e467567ae8831a4026"
 libraries[iCalcreator][directory_name] = "iCalcreator"
 libraries[iCalcreator][type] = "library"
-
-libraries[leaflet][download][type] = "git"
-libraries[leaflet][download][url] = "https://github.com/Leaflet/Leaflet.git"
-libraries[leaflet][download][branch] = "master"
-libraries[leaflet][download][subtree] = "src"
-libraries[leaflet][directory_name] = "leaflet"
-libraries[leaflet][type] = "library"
 
 libraries[fitvids][download][type] = "git"
 libraries[fitvids][download][url] = "https://github.com/davatron5000/FitVids.js.git"
