@@ -222,9 +222,10 @@ libraries[iCalcreator][download][revision] = "e3dbec2cb3bb91a8bde989e467567ae883
 libraries[iCalcreator][directory_name] = "iCalcreator"
 libraries[iCalcreator][type] = "library"
 
-libraries[leaflet][download][type] = "get"
-libraries[leaflet][download][url] = "https://github.com/Leaflet/Leaflet/archive/v1.4.0.zip"
-libraries[leaflet][download][subtree] = "Leaflet-1.4.0/dist"
+libraries[leaflet][download][type] = "git"
+libraries[leaflet][download][url] = "https://github.com/Leaflet/Leaflet.git"
+libraries[leaflet][download][branch] = "master"
+libraries[leaflet][download][subtree] = "src"
 libraries[leaflet][directory_name] = "leaflet"
 libraries[leaflet][type] = "library"
 
