@@ -184,8 +184,8 @@ projects[studyroom][download][branch] = "master"
 
 ; Libraries
 libraries[leaflet][download][type] = "get"
-libraries[leaflet][download][url] = "https://github.com/Leaflet/Leaflet/archive/v1.4.0.zip"
-libraries[leaflet][download][subtree] = "Leaflet-1.4.0/dist"
+libraries[leaflet][download][url] = "https://github.com/Leaflet/Leaflet/archive/v1.0.3.zip"
+libraries[leaflet][download][subtree] = "Leaflet-1.0.3/dist"
 libraries[leaflet][directory_name] = "leaflet"
 libraries[leaflet][type] = "library"
 
