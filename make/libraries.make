@@ -180,7 +180,7 @@ projects[oulib_blocks][download][branch] = "7.x-0.x"
 projects[studyroom][type] = "module"
 projects[studyroom][download][type] = "git"
 projects[studyroom][download][url] = "https://github.com/OULibraries/studyroom.git"
-projects[studyroom][download][branch] = "master"
+projects[studyroom][download][branch] = "php7"
 
 ; Libraries
 libraries[leaflet][download][type] = "get"
