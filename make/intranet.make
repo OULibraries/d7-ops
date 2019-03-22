@@ -180,3 +180,8 @@ libraries[bootstrap][download][type] = "get"
 libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/releases/download/v3.3.1/bootstrap-3.3.1-dist.zip"
 libraries[bootstrap][directory_name] = "bootstrap"
 libraries[bootstrap][type] = "library"
+
+libraries[cas][download][type] = "git"
+libraries[cas][download][url] = "https://github.com/apereo/phpCAS"
+libraries[cas][directory_name] = "CAS"
+libraries[cas][type] = "library"
