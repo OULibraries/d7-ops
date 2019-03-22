@@ -238,8 +238,12 @@ libraries[owl-carousel][download][subtree] = "OwlCarousel2-2.3.4/dist"
 libraries[owl-carousel][directory_name] = "owlcarousel"
 libraries[owl-carousel][type] = "library"
 
+;libraries[bootstrap][download][type] = "get"
+;libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/releases/download/v3.4.1/bootstrap-3.4.1-dist.zip"
+;libraries[bootstrap][directory_name] = "bootstrap"
+;libraries[bootstrap][type] = "library"
 libraries[bootstrap][download][type] = "get"
-libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/releases/download/v3.4.1/bootstrap-3.4.1-dist.zip"
+libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/releases/download/v3.3.1/bootstrap-3.3.1-dist.zip"
 libraries[bootstrap][directory_name] = "bootstrap"
 libraries[bootstrap][type] = "library"
 
