@@ -3,7 +3,7 @@ core = 7.x
 api = 2
 
 ; core
-projects[drupal][version] = "7.56"
+projects[drupal][version] = "7.64"
 
 ; Modules
 projects[admin_menu][version] = "3.0-rc4"
@@ -74,3 +74,10 @@ libraries[mustache.js][download][type] = "git"
 libraries[mustache.js][download][url] = "https://github.com/janl/mustache.js.git"
 libraries[mustache.js][directory_name] = "mustache.js"
 libraries[mustache.js][type] = "library"
+
+libraries[cas][download][type] = "git"
+libraries[cas][download][url] = "https://github.com/apereo/phpCAS"
+libraries[cas][directory_name] = "CAS"
+libraries[cas][type] = "library"
+
+
