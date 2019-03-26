@@ -54,7 +54,7 @@ projects[views_bootstrap][version] = "3.1"
 projects[webform][version] = "4.18"
 
 ; Themes
-projects[bootstrap][version] = "3.12"
+projects[bootstrap][version] = "3.10"
 
 ; Themes
 projects[oulib_intranet][type] = "theme"
