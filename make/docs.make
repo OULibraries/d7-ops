@@ -7,7 +7,7 @@ projects[drupal][version] = "7.64"
 ; Modules
 projects[addressfield][version] = "1.3"
 projects[admin_menu][version] = "3.0-rc6"
-projects[bootstrap_carousel][version] = "1.2"
+projects[bootstrap_carousel][version] = "1.0"
 projects[ctools][version] = "1.14"
 projects[captcha][version] = "1.5"
 projects[cas][version] = "1.7"
