@@ -79,7 +79,7 @@ projects[fileremote][download][url] = "https://github.com/OULibraries/fileremote
 projects[fileremote][download][branch] = "master"
 
 ; Themes
-projects[bootstrap][version] = "3.10"
+projects[bootstrap][version] = "3.22"
 
 projects[oulib_bootstrap][type] = "theme"
 projects[oulib_bootstrap][download][type] = "git"
