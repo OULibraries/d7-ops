@@ -103,7 +103,6 @@ projects[oulib_renegades][download][url] = "https://github.com/OULibraries/oulib
 projects[oulib_renegades][download][branch] = "master"
 
 ; Libraries
-
 libraries[bootstrap][download][type] = "get"
 libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/releases/download/v3.3.1/bootstrap-3.3.1-dist.zip"
 libraries[bootstrap][directory_name] = "bootstrap"
@@ -127,6 +126,13 @@ libraries[colorbox][download][tag] = "1.6.4"
 libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][type] = "library"
 libraries[colorbox][patch][] ="https://www.drupal.org/files/issues/Adding-ARIA-labels-to-colorbox-library-1.6.4.patch"
+
+libraries[fontawesome][download][type] = "git"
+libraries[fontawesome][download][url] = "https://github.com/FortAwesome/Font-Awesome.git"
+libraries[fontawesome][download][branch] = "master"
+libraries[fontawesome][download][revision] = "a65bd93d81e9e6bd5ebfa41757a4474960b973b4"
+libraries[fontawesome][directory_name] = "fontawesome"
+libraries[fontawesome][type] = "library"
 
 Libraries[fullpage][download][type] = "git"
 Libraries[fullpage][download][url] = "https://github.com/alvarotrigo/fullPage.js.git"
