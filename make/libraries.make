@@ -3,7 +3,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.64"
+projects[drupal][version] = "7.65"
 
 ; Modules
 projects[views_bulk_operations][version] = "3.5"
@@ -73,7 +73,7 @@ projects[panels_bootstrap_layouts][version] = "3.0"
 projects[paragraphs][version] = "1.0-rc5"
 projects[pathauto][version] = "1.3"
 projects[primo_sso][version] = "1.0"
-projects[print][version] = "2.0"
+projects[print][version] = "2.2"
 projects[realname][version] = "1.4"
 projects[redirect][version] = "1.0-rc3"
 projects[rules][version] = "2.12"
@@ -91,10 +91,10 @@ projects[token][version] = "1.7"
 projects[token_filter][version] = "1.1"
 projects[user_import][version] = "3.2"
 projects[userprotect][version] = "1.2"
-projects[uuid][version] = "1.0-alpha6"
+projects[uuid][version] = "1.2"
 projects[variable][version] = "2.5"
 projects[video_embed_field][version] = "2.0-beta11"
-projects[views][version] = "3.20"
+projects[views][version] = "3.21"
 projects[views_accordion][version] = "1.6"
 projects[views_bootstrap][version] = "3.1"
 projects[views_data_export][version] = "3.2"
@@ -103,7 +103,7 @@ projects[webform][version] = "4.19"
 projects[webform_rules][version] = "1.6"
 
 ; Themes
-projects[bootstrap][version] = "3.10"
+projects[bootstrap][version] = "3.23"
 
 projects[oulib_bootstrap][type] = "theme"
 projects[oulib_bootstrap][download][type] = "git"
