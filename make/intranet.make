@@ -43,7 +43,7 @@ projects[jquery_update][version] = "2.7"
 projects[label_help][version] = "1.2"
 projects[libraries][version] = "2.5"
 projects[link][version] = "1.6"
-projects[manualcrop][version] = "1.5"
+projects[manualcrop][version] = "1.7"
 projects[manualcrop][patch][] = "https://www.drupal.org/files/issues/manualcrop-overlay_buttons_off_screen-2612242-2.patch"
 projects[mathfield][version] = "1.0"
 projects[module_missing_message_fixer][version] = "1.7"
@@ -159,14 +159,26 @@ libraries[highcharts][download][url] = "http://code.highcharts.com/highcharts.js
 libraries[highcharts][directory_name] = "highcharts/js"
 
 ; required by ManualCrop
-libraries[jquery.imagesLoaded][download][type] = "git"
-libraries[jquery.imagesLoaded][download][url] = "https://github.com/desandro/imagesloaded.git"
+;libraries[jquery.imagesLoaded][download][type] = "git"
+;libraries[jquery.imagesLoaded][download][url] = "https://github.com/desandro/imagesloaded.git"
+;libraries[jquery.imagesLoaded][directory_name] = "jquery.imagesloaded"
+;libraries[jquery.imagesLoaded][type] = "library"
+
+; required by ManualCrop
+;libraries[jquery.imgareaselect][download][type] = "get"
+;libraries[jquery.imgareaselect][download][url] = "http://odyniec.net/projects/imgareaselect/jquery.imgareaselect-0.9.10.zip"
+;libraries[jquery.imgareaselect][directory_name] = "jquery.imgareaselect"
+;libraries[jquery.imgareaselect][type] = "library"
+
+; required by ManualCrop
+libraries[jquery.imagesLoaded][download][type] = "get"
+libraries[jquery.imagesLoaded][download][url] = "https://github.com/desandro/imagesloaded/archive/v2.1.1.zip"
 libraries[jquery.imagesLoaded][directory_name] = "jquery.imagesloaded"
 libraries[jquery.imagesLoaded][type] = "library"
 
 ; required by ManualCrop
 libraries[jquery.imgareaselect][download][type] = "get"
-libraries[jquery.imgareaselect][download][url] = "http://odyniec.net/projects/imgareaselect/jquery.imgareaselect-0.9.10.zip"
+libraries[jquery.imgareaselect][download][url] = "https://github.com/odyniec/imgareaselect/archive/v0.9.11-rc.1.zip"
 libraries[jquery.imgareaselect][directory_name] = "jquery.imgareaselect"
 libraries[jquery.imgareaselect][type] = "library"
 
