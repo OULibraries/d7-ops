@@ -129,7 +129,7 @@ projects[better_contact][download][url] = "https://github.com/OULibraries/better
 projects[manualcrop][type] = "module"
 projects[manualcrop][download][type] = "git"
 projects[manualcrop][download][url] = "https://github.com/backdrop-contrib/manualcrop.git"
-projects[manualcrop][download][branch] = "7.x-1.5"
+projects[manualcrop][download][branch] = "7.x-1.0.0"
 projects[manualcrop][patch][] = "https://www.drupal.org/files/issues/manualcrop-overlay_buttons_off_screen-2612242-2.patch"
 
 ; Libraries
