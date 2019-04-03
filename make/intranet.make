@@ -164,14 +164,14 @@ libraries[highcharts][download][url] = "http://code.highcharts.com/highcharts.js
 libraries[highcharts][directory_name] = "highcharts/js"
 
 ; required by ManualCrop
-libraries[jquery.imagesLoaded][download][type] = "git"
-libraries[jquery.imagesLoaded][download][url] = "https://github.com/desandro/imagesloaded.git"
+libraries[jquery.imagesLoaded][download][type] = "get"
+libraries[jquery.imagesLoaded][download][url] = "https://github.com/desandro/imagesloaded/archive/v2.1.1.zip"
 libraries[jquery.imagesLoaded][directory_name] = "jquery.imagesloaded"
 libraries[jquery.imagesLoaded][type] = "library"
 
 ; required by ManualCrop
 libraries[jquery.imgareaselect][download][type] = "get"
-libraries[jquery.imgareaselect][download][url] = "https://github.com/desandro/imagesloaded/archive/v2.1.2.tar.gz"
+libraries[jquery.imgareaselect][download][url] = "https://github.com/odyniec/imgareaselect/archive/v0.9.11-rc.1.zip"
 libraries[jquery.imgareaselect][directory_name] = "jquery.imgareaselect"
 libraries[jquery.imgareaselect][type] = "library"
 
