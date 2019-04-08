@@ -174,6 +174,18 @@ libraries[cas][download][url] = "https://github.com/apereo/phpCAS"
 libraries[cas][directory_name] = "CAS"
 libraries[cas][type] = "library"
 
+; required by ManualCrop
+libraries[jquery.imagesLoaded][download][type] = "get"
+libraries[jquery.imagesLoaded][download][url] = "https://github.com/desandro/imagesloaded/archive/v2.1.1.zip"
+libraries[jquery.imagesLoaded][directory_name] = "jquery.imagesloaded"
+libraries[jquery.imagesLoaded][type] = "library"
+
+; required by ManualCrop
+libraries[jquery.imgareaselect][download][type] = "get"
+libraries[jquery.imgareaselect][download][url] = "https://github.com/odyniec/imgareaselect/archive/v0.9.11-rc.1.zip"
+libraries[jquery.imgareaselect][directory_name] = "jquery.imgareaselect"
+libraries[jquery.imgareaselect][type] = "library"
+
 ; Features
 projects[paragraph_bundles_feature][type] = "module"
 projects[paragraph_bundles_feature][download][type] = "git"
