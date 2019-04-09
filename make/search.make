@@ -3,7 +3,7 @@ core = 7.x
 api = 2
 
 ; core
-projects[drupal][version] = "7.64"
+projects[drupal][version] = "7.65"
 
 ; Modules
 projects[admin_menu][version] = "3.0-rc6"
@@ -18,20 +18,21 @@ projects[ckeditor][version] = "1.18"
 projects[fontyourface][version] = "2.8"
 projects[jquery_update][version] = "2.7"
 projects[libraries][version] = "2.5"
-projects[link][version] = "1.3"
+projects[link][version] = "1.6"
+projects[module_missing_message_fixer][version] = "1.7"
 projects[panels][version] = "3.9"
 projects[panels_bootstrap_layouts][version] = "3.0"
 projects[redirect][version] = "1.0-rc3"
 projects[token][version] = "1.7"
 projects[token_filter][version] = "1.1"
-projects[views][version] = "3.20"
+projects[views][version] = "3.21"
 projects[views_accordion][version] = "1.6"
 projects[views_bootstrap][version] = "3.1"
 projects[views_data_export][version] = "3.2"
-projects[webform][version] = "4.18"
+projects[webform][version] = "4.19"
 
 ; Themes
-projects[bootstrap][version] = "3.10"
+projects[bootstrap][version] = "3.22"
 
 ; Modules
 projects[apachesolr_onesearch][type] = "module"
@@ -79,5 +80,3 @@ libraries[cas][download][type] = "git"
 libraries[cas][download][url] = "https://github.com/apereo/phpCAS"
 libraries[cas][directory_name] = "CAS"
 libraries[cas][type] = "library"
-
-
