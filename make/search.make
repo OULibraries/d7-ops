@@ -32,7 +32,8 @@ projects[views_data_export][version] = "3.2"
 projects[webform][version] = "4.19"
 
 ; Themes
-projects[bootstrap][version] = "3.x-dev"
+projects[bootstrap][version] = "3.23"
+projects[bootstrap][patch][] = "https://www.drupal.org/files/issues/2019-01-24/3027569-7.x-3.x-10.patch"
 
 ; Modules
 projects[apachesolr_onesearch][type] = "module"
