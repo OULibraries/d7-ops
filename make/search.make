@@ -32,7 +32,7 @@ projects[views_data_export][version] = "3.2"
 projects[webform][version] = "4.19"
 
 ; Themes
-projects[bootstrap][version] = "3.22"
+projects[bootstrap][version] = "3.23"
 ;projects[bootstrap][patch][] = "https://www.drupal.org/files/issues/bootstrap-2149561-18-unsupported_operand.patch"
 
 ; Modules
