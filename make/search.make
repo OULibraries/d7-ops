@@ -34,6 +34,7 @@ projects[webform][version] = "4.19"
 
 ; Themes
 projects[bootstrap][version] = "3.22"
+projects[bootstrap][patch][] = "https://www.drupal.org/files/issues/bootstrap-2149561-18-unsupported_operand.patch"
 
 ; Modules
 projects[apachesolr_onesearch][type] = "module"
@@ -69,7 +70,7 @@ projects[views_bootstrap][download][url] = "https://github.com/OULibraries/views
 projects[oulib_bootstrap][type] = "theme"
 projects[oulib_bootstrap][download][type] = "git"
 projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/oulib_bootstrap.git"
-projects[oulib_bootstrap][download][branch] = "DND_php7"
+projects[oulib_bootstrap][download][branch] = "DND-discoverregion"
 
 ; Libraries
 libraries[mustache.js][download][type] = "git"
