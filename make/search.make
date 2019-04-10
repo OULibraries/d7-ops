@@ -69,7 +69,7 @@ projects[views_bootstrap][download][url] = "https://github.com/OULibraries/views
 projects[oulib_bootstrap][type] = "theme"
 projects[oulib_bootstrap][download][type] = "git"
 projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/oulib_bootstrap.git"
-projects[oulib_bootstrap][download][branch] = "DND-discoverregion"
+projects[oulib_bootstrap][download][branch] = "DND_php7"
 
 ; Libraries
 libraries[mustache.js][download][type] = "git"
