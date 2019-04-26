@@ -3,12 +3,13 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.65"
+projects[drupal][version] = "7.66"
 
 ; Modules
 projects[views_bulk_operations][version] = "3.5"
 projects[addressfield][version] = "1.3"
 projects[admin_menu][version] = "3.0-rc6"
+projects[alt_http_client][version] = "1.0"
 projects[apachesolr][version] = "1.11"
 projects[apachesolr_multisitesearch][version] = "1.2"
 projects[apachesolr_user][version] = "1.0"
