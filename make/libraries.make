@@ -144,7 +144,7 @@ projects[intranet_custom][download][branch] = "master"
 projects[oulib_cas][type] = "module"
 projects[oulib_cas][download][type] = "git"
 projects[oulib_cas][download][url] = "https://github.com/OULibraries/oulib_cas.git"
-projects[oulib_cas][download][branch] = "7.x-0.x"
+projects[oulib_cas][download][branch] = "php7"
 
 projects[giscodes][download][type] = "git"
 projects[giscodes][download][url] = "https://github.com/OULibraries/giscodes.git"
