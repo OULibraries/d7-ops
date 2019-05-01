@@ -2,10 +2,11 @@
 core = 7.x
 api = 2
 
-projects[drupal][version] = "7.64"
+projects[drupal][version] = "7.66"
 
 ; Modules
 projects[admin_menu][version] = "3.0-rc6"
+projects[alt_http_client][version] = "1.0"
 projects[apachesolr][version] = "1.11"
 projects[apachesolr_multisitesearch][version] = "1.2"
 projects[apachesolr_user][version] = "1.0"
@@ -70,10 +71,10 @@ projects[themekey][version] = "3.4"
 projects[token][version] = "1.7"
 projects[token_filter][version] = "1.1"
 projects[user_import][version] = "3.2"
-projects[uuid][version] = "1.0-alpha6"
+projects[uuid][version] = "1.2"
 projects[variable][version] = "2.5"
 projects[video_embed_field][version] = "2.0-beta11"
-projects[views][version] = "3.20"
+projects[views][version] = "3.22"
 projects[views_accordion][version] = "1.6"
 projects[views_bootstrap][version] = "3.2"
 projects[views_bulk_operations][version] = "3.5"
@@ -122,7 +123,7 @@ projects[oulib_blocks][download][branch] = "7.x-0.x"
 projects[oulib_cas][type] = "module"
 projects[oulib_cas][download][type] = "git"
 projects[oulib_cas][download][url] = "https://github.com/OULibraries/oulib_cas.git"
-projects[oulib_cas][download][branch] = "7.x-0.x"
+projects[oulib_cas][download][branch] = "php7"
 
 projects[views_bootstrap][download][type] = "git"
 projects[views_bootstrap][download][url] = "https://github.com/OULibraries/views_bootstrap.git"
