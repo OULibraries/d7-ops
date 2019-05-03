@@ -3,11 +3,12 @@ core = 7.x
 api = 2
 
 ; Core
-projects[drupal][version] = "7.65"
+projects[drupal][version] = "7.66"
 
 ; Modules
 projects[addressfield][version] = "1.3"
 projects[admin_menu][version] = "3.0-rc6"
+projects[alt_http_client][version] = "1.0"
 projects[bootstrap_carousel][version] = "1.2"
 projects[cas][version] = "1.7"
 projects[cas_attributes][version] = "1.0-rc3"
@@ -62,7 +63,7 @@ projects[tipsy][version] = "1.0-rc1"
 projects[token][version] = "1.7"
 projects[token_filter][version] = "1.1"
 projects[variable][version] = "2.5"
-projects[views][version] = "3.21"
+projects[views][version] = "3.22"
 projects[views_bootstrap][version] = "3.1"
 projects[views_data_export][version] = "3.2"
 projects[webform][version] = "4.19"
