@@ -4,7 +4,6 @@ api = 2
 
 ; core
 projects[drupal][version] = "7.66"
-;projects[drupal][patch][] = "https://www.drupal.org/files/issues/drupal_get_library-undefined-index-version-2186281-4_0.patch"
 
 ; Modules
 projects[admin_menu][version] = "3.0-rc6"
