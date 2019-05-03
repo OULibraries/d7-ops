@@ -3,11 +3,12 @@ core = 7.x
 api = 2
 
 ; core
-projects[drupal][version] = "7.65"
-projects[drupal][patch][] = "https://www.drupal.org/files/issues/drupal_get_library-undefined-index-version-2186281-4_0.patch"
+projects[drupal][version] = "7.66"
+;projects[drupal][patch][] = "https://www.drupal.org/files/issues/drupal_get_library-undefined-index-version-2186281-4_0.patch"
 
 ; Modules
 projects[admin_menu][version] = "3.0-rc6"
+projects[alt_http_client][version] = "1.0"
 projects[apachesolr][version] = "1.11"
 projects[apachesolr_multisitesearch][version] = "1.2"
 projects[apachesolr_user][version] = "1.0"
@@ -25,7 +26,7 @@ projects[panels_bootstrap_layouts][version] = "3.0"
 projects[redirect][version] = "1.0-rc3"
 projects[token][version] = "1.7"
 projects[token_filter][version] = "1.1"
-projects[views][version] = "3.21"
+projects[views][version] = "3.22"
 projects[views_accordion][version] = "1.6"
 projects[views_bootstrap][version] = "3.1"
 projects[views_data_export][version] = "3.2"
@@ -33,7 +34,6 @@ projects[webform][version] = "4.19"
 
 ; Themes
 projects[bootstrap][version] = "3.23"
-;projects[bootstrap][patch][] = "https://www.drupal.org/files/issues/bootstrap-2149561-18-unsupported_operand.patch"
 
 ; Modules
 projects[apachesolr_onesearch][type] = "module"
