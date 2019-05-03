@@ -2,11 +2,12 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.65"
+projects[drupal][version] = "7.66"
 
 ; Modules
 projects[views_bulk_operations][version] = "3.5"
 projects[admin_menu][version] = "3.0-rc6"
+projects[alt_http_client][version] = "1.0"
 projects[ctools][version] = "1.14"
 projects[cas][version] = "1.7"
 projects[cas_attributes][version] = "1.0-rc3"
@@ -63,7 +64,7 @@ projects[token_filter][version] = "1.1"
 projects[userprotect][version] = "1.2"
 projects[uuid][version] = "1.2"
 projects[variable][version] = "2.5"
-projects[views][version] = "3.21"
+projects[views][version] = "3.22"
 projects[views_accordion][version] = "1.6"
 projects[views_bootstrap][version] = "3.1"
 projects[views_data_export][version] = "3.2"
