@@ -3,10 +3,11 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.65"
+projects[drupal][version] = "7.66"
 
 ; Modules
 projects[admin_menu][version] = "3.0-rc6"
+projects[alt_http_client][version] = "1.0"
 projects[better_exposed_filters][version] = "3.6"
 projects[ctools][version] = "1.14"
 projects[calendar][version] = "3.5"
@@ -53,7 +54,7 @@ projects[token_filter][version] = "1.1"
 projects[userprotect][version] = "1.2"
 projects[variable][version] = "2.5"
 projects[video_embed_field][version] = "2.0-beta11"
-projects[views][version] = "3.21"
+projects[views][version] = "3.22"
 projects[views][patch][] = "https://www.drupal.org/files/issues/2018-06-28/2885660-13.patch"
 projects[views_bootstrap][version] = "3.2"
 projects[views_data_export][version] = "3.2"
