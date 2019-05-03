@@ -45,7 +45,7 @@ projects[taxonomy_manager][version] = "1.0"
 projects[token][version] = "1.7"
 projects[unique_field][version] = "1.0-rc1"
 projects[user_import][version] = "3.2"
-projects[uuid][version] = "1.0-alpha6"
+projects[uuid][version] = "1.2"
 projects[views][version] = "3.22"
 projects[webform][version] = "4.19"
 
