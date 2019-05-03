@@ -1,10 +1,11 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.65"
+projects[drupal][version] = "7.66"
 
 ; Modules
 projects[admin_menu][version] = "3.0-rc6"
+projects[alt_http_client][version] = "1.0"
 projects[auto_entitylabel][version] = "1.4"
 projects[ctools][version] = "1.14"
 projects[cas][version] = "1.7"
@@ -45,7 +46,7 @@ projects[token][version] = "1.7"
 projects[unique_field][version] = "1.0-rc1"
 projects[user_import][version] = "3.2"
 projects[uuid][version] = "1.0-alpha6"
-projects[views][version] = "3.20"
+projects[views][version] = "3.22"
 projects[webform][version] = "4.19"
 
 ;github modules
