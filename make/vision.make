@@ -66,7 +66,7 @@ projects[views_data_export][version] = "3.2"
 projects[webform][version] = "4.19"
 
 ; Themes
-projects[bootstrap][version] = "3.0"
+projects[bootstrap][version] = "3.23"
 
 projects[oulib_authorizedsender][type] = "module"
 projects[oulib_authorizedsender][download][type] = "git"
@@ -169,11 +169,10 @@ libraries[fontawesome][type] = "library"
 ; and url is the url of the download.
 libraries[colorbox][download][type] = "git"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
-libraries[colorbox][download][branch] = "master"
-libraries[colorbox][download][revision]= "d9a4e2dfaabc63751eb82eb37f0fb4de6f31f203"
+libraries[colorbox][download][tag] = "1.6.4"
 libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][type] = "library"
-
+libraries[colorbox][patch][] ="https://www.drupal.org/files/issues/Adding-ARIA-labels-to-colorbox-library-1.6.4.patch"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
