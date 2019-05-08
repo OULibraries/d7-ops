@@ -68,7 +68,7 @@ projects[views_bootstrap][download][url] = "https://github.com/OULibraries/views
 projects[oulib_bootstrap][type] = "theme"
 projects[oulib_bootstrap][download][type] = "git"
 projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/oulib_bootstrap.git"
-projects[oulib_bootstrap][download][branch] = "master"
+projects[oulib_bootstrap][download][branch] = "DND-discoverregion"
 
 ; Libraries
 libraries[mustache.js][download][type] = "git"
@@ -80,3 +80,8 @@ libraries[cas][download][type] = "git"
 libraries[cas][download][url] = "https://github.com/apereo/phpCAS"
 libraries[cas][directory_name] = "CAS"
 libraries[cas][type] = "library"
+
+libraries[bootstrap][download][type] = "get"
+libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/releases/download/v3.3.1/bootstrap-3.3.1-dist.zip"
+libraries[bootstrap][directory_name] = "bootstrap"
+libraries[bootstrap][type] = "library"
