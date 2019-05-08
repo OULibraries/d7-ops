@@ -94,9 +94,9 @@ projects[oulib_admin_intranet][type] = "theme"
 projects[oulib_admin_intranet][download][type] = "git"
 projects[oulib_admin_intranet][download][url] = "https://github.com/OULibraries/oulib_admin_intranet.git"
 
-projects[oulib_intranet][type] = "theme"
-projects[oulib_intranet][download][type] = "git"
-projects[oulib_intranet][download][url] = "https://github.com/OULibraries/oulib_intranet.git"
+projects[oulib_files][type] = "theme"
+projects[oulib_files][download][type] = "git"
+projects[oulib_files][download][url] = "https://github.com/OULibraries/oulib_files_theme.git"
 
 projects[oulib_files][type] = "theme"
 projects[oulib_files][download][type] = "git"
