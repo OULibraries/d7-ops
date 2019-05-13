@@ -71,7 +71,7 @@ projects[views_data_export][version] = "3.2"
 projects[webform][version] = "4.18"
 
 ; Themes
-projects[bootstrap][version] = "3.22"
+projects[bootstrap][version] = "3.23"
 
 ; Themes
 projects[oulib_intranet][type] = "theme"
@@ -150,6 +150,19 @@ libraries[fitvids][download][url] = "https://github.com/davatron5000/FitVids.js.
 libraries[fitvids][download][branch] = "master"
 libraries[fitvids][directory_name] = "fitvids"
 libraries[fitvids][type] = "library"
+
+libraries[fontawesome][download][type] = "git"
+libraries[fontawesome][download][url] = "https://github.com/FortAwesome/Font-Awesome.git"
+libraries[fontawesome][download][branch] = "master"
+libraries[fontawesome][download][revision] = "a65bd93d81e9e6bd5ebfa41757a4474960b973b4"
+libraries[fontawesome][directory_name] = "fontawesome"
+libraries[fontawesome][type] = "library"
+
+libraries[owl-carousel][download][type] = "get"
+libraries[owl-carousel][download][url] = "https://github.com/OwlCarousel2/OwlCarousel2/archive/2.3.4.zip"
+libraries[owl-carousel][download][subtree] = "OwlCarousel2-2.3.4/dist"
+libraries[owl-carousel][directory_name] = "owlcarousel"
+libraries[owl-carousel][type] = "library"
 
 libraries[bootstrap][download][type] = "get"
 libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/releases/download/v3.3.1/bootstrap-3.3.1-dist.zip"
