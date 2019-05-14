@@ -26,14 +26,14 @@ projects[panels_bootstrap_layouts][version] = "3.0"
 projects[redirect][version] = "1.0-rc3"
 projects[token][version] = "1.7"
 projects[token_filter][version] = "1.1"
-projects[views][version] = "3.22"
+projects[views][version] = "3.23"
 projects[views_accordion][version] = "1.6"
 projects[views_bootstrap][version] = "3.1"
 projects[views_data_export][version] = "3.2"
 projects[webform][version] = "4.19"
 
 ; Themes
-projects[bootstrap][version] = "3.23"
+projects[bootstrap][version] = "3.25"
 
 ; Modules
 projects[apachesolr_onesearch][type] = "module"
