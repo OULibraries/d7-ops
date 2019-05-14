@@ -39,12 +39,11 @@ projects[bootstrap][version] = "3.23"
 projects[apachesolr_onesearch][type] = "module"
 projects[apachesolr_onesearch][download][type] = "git"
 projects[apachesolr_onesearch][download][url] = "https://github.com/OULibraries/apachesolr_onesearch.git"
-projects[intranet_custom][download][branch] = "master"
 
 projects[intranet_custom][type] = "module"
 projects[intranet_custom][download][type] = "git"
 projects[intranet_custom][download][url] = "https://github.com/OULibraries/intranet_custom.git"
-projects[intranet_custom][download][branch] = "dev"
+projects[intranet_custom][download][branch] = "master"
 
 projects[ou_layouts][type] = "module"
 projects[ou_layouts][download][type] = "git"
@@ -72,10 +71,10 @@ projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/oulib
 projects[oulib_bootstrap][download][branch] = "DND_php7"
 
 ; Libraries
-libraries[mustache.js][download][type] = "git"
-libraries[mustache.js][download][url] = "https://github.com/janl/mustache.js.git"
-libraries[mustache.js][directory_name] = "mustache.js"
-libraries[mustache.js][type] = "library"
+;libraries[mustache.js][download][type] = "git"
+;libraries[mustache.js][download][url] = "https://github.com/janl/mustache.js.git"
+;libraries[mustache.js][directory_name] = "mustache.js"
+;libraries[mustache.js][type] = "library"
 
 libraries[cas][download][type] = "git"
 libraries[cas][download][url] = "https://github.com/apereo/phpCAS"
