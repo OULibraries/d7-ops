@@ -4,7 +4,7 @@ api = 2
 
 ; core
 projects[drupal][version] = "7.67"
-;projects[drupal][patch][] = "https://www.drupal.org/files/issues/drupal_get_library-undefined-index-version-2186281-4_0.patch"
+projects[drupal][patch][] = "https://www.drupal.org/files/issues/drupal_get_library-undefined-index-version-2186281-4_0.patch"
 
 ; Modules
 projects[admin_menu][version] = "3.0-rc6"
@@ -73,7 +73,6 @@ projects[oulib_bootstrap][download][branch] = "DND_php7"
 ; Libraries
 libraries[mustache.js][download][type] = "get"
 libraries[mustache.js][download][url] = "https://github.com/janl/mustache.js/archive/v2.3.0.zip"
-;libraries[mustache.js][download][subtree] = ""
 libraries[mustache.js][directory_name] = "mustache.js"
 libraries[mustache.js][type] = "library"
 
