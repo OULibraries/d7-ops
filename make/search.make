@@ -8,7 +8,6 @@ projects[drupal][patch][] = "https://www.drupal.org/files/issues/drupal_get_libr
 
 ; Modules
 projects[admin_menu][version] = "3.0-rc6"
-projects[admin_menu][patch][] = "https://www.drupal.org/files/issues/2019-03-29/admin_menu-unsupported_operand-3044367.patch"
 projects[alt_http_client][version] = "1.0"
 projects[apachesolr][version] = "1.11"
 projects[apachesolr_multisitesearch][version] = "1.2"
