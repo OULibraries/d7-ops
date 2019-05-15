@@ -35,6 +35,7 @@ projects[webform][version] = "4.19"
 
 ; Themes
 projects[bootstrap][version] = "3.25"
+projects[bootstrap][patch][] = "https://www.drupal.org/files/issues/bootstrap-2149561-18-unsupported_operand.patch"
 
 ; Modules
 projects[apachesolr_onesearch][type] = "module"
