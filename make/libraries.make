@@ -35,7 +35,7 @@ projects[entity][version] = "1.9"
 projects[entity_iframe_theme][version] = "1.0"
 projects[entity_view_mode][version] = "1.0-rc1"
 projects[entityreference][version] = "1.5"
-projects[eu_cookie_compliance][version] = "1.28"
+projects[eu_cookie_compliance][version] = "1.29"
 projects[exclude_node_title][version] = "1.9"
 projects[ezproxy][version] = "2.2"
 projects[features][version] = "2.10"
@@ -105,7 +105,7 @@ projects[webform][version] = "4.19"
 projects[webform_rules][version] = "1.6"
 
 ; Themes
-projects[bootstrap][version] = "3.25"
+projects[bootstrap][version] = "3.26"
 
 projects[oulib_bootstrap][type] = "theme"
 projects[oulib_bootstrap][download][type] = "git"
