@@ -145,6 +145,16 @@ projects[islandora_solution_pack_newspaper][download][type] = "git"
 projects[islandora_solution_pack_newspaper][download][url] = "https://github.com/Islandora/islandora_solution_pack_newspaper.git"
 projects[islandora_solution_pack_newspaper][download][tag] = "7.x-1.7"
 
+projects[islandora_solution_pack_audio][type] = "module"
+projects[islandora_solution_pack_audio][download][type] = "git"
+projects[islandora_solution_pack_audio][download][url] = "https://github.com/Islandora/islandora_solution_pack_audio.git"
+projects[islandora_solution_pack_audio][download][tag] = "7.x-1.7"
+
+projects[islandora_videojs][type] = "module"
+projects[islandora_videojs][download][type] = "git"
+projects[islandora_videojs][download][url] = "https://github.com/Islandora/islandora_videojs.git"
+projects[islandora_videojs][download][tag] = "7.x-1.7"
+
 projects[islandora_internet_archive_bookreader][type] = "module"
 projects[islandora_internet_archive_bookreader][download][type] = "git"
 projects[islandora_internet_archive_bookreader][download][url] = "https://github.com/OULibraries/islandora_internet_archive_bookreader_temp.git"
@@ -226,6 +236,12 @@ libraries[colorbox][type] = "library"
 libraries[colorbox][download][type] = "get"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.x.zip"
 libraries[colorbox][directory_name] ="colorbox"
+
+
+libraries[colorbox][type] = "library"
+libraries[colorbox][download][type] = "get"
+libraries[colorbox][download][url] = "https://github.com/videojs/video.js/releases/download/v4.12.15/video-js-4.12.15.zip"
+libraries[colorbox][directory_name] ="video-js"
 
 libraries[bookreader][type] = "library"
 libraries[bookreader][download][type] = "git"
