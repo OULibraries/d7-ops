@@ -150,6 +150,11 @@ projects[islandora_solution_pack_audio][download][type] = "git"
 projects[islandora_solution_pack_audio][download][url] = "https://github.com/Islandora/islandora_solution_pack_audio.git"
 projects[islandora_solution_pack_audio][download][tag] = "7.x-1.7"
 
+projects[islandora_solution_pack_compound][type] = "module"
+projects[islandora_solution_pack_compound][download][type] = "git"
+projects[islandora_solution_pack_compound][download][url] = "https://github.com/Islandora/islandora_solution_pack_compound.git"
+projects[islandora_solution_pack_compound][download][tag] = "7.x-1.7"
+
 projects[islandora_videojs][type] = "module"
 projects[islandora_videojs][download][type] = "git"
 projects[islandora_videojs][download][url] = "https://github.com/Islandora/islandora_videojs.git"
@@ -237,6 +242,10 @@ libraries[colorbox][download][type] = "get"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.x.zip"
 libraries[colorbox][directory_name] ="colorbox"
 
+libraries[jail][type] = "library"
+libraries[jail][download][type] = "git"
+libraries[jail][download][url] = "https://github.com/sebarmeli/JAIL.git"
+libraries[jail][directory_name] ="JAIL"
 
 libraries[colorbox][type] = "library"
 libraries[colorbox][download][type] = "get"
