@@ -121,6 +121,16 @@ projects[islandora_solution_pack_collection][download][type] = "git"
 projects[islandora_solution_pack_collection][download][url] = "https://github.com/Islandora/islandora_solution_pack_collection.git"
 projects[islandora_solution_pack_collection][download][tag] = "7.x-1.7"
 
+projects[islandora_solution_pack_pdf][type] = "module"
+projects[islandora_solution_pack_pdf][download][type] = "git"
+projects[islandora_solution_pack_pdf][download][url] = "https://github.com/Islandora/islandora_solution_pack_pdf.git"
+projects[islandora_solution_pack_pdf][download][tag] = "7.x-1.7"
+
+projects[islandora_pdfjs][type] = "module"
+projects[islandora_pdfjs][download][type] = "git"
+projects[islandora_pdfjs][download][url] = "https://github.com/Islandora/islandora_pdfjs.git"
+projects[islandora_pdfjs][download][tag] = "7.x-1.7"
+
 projects[islandora_solution_pack_image][type] = "module"
 projects[islandora_solution_pack_image][download][type] = "git"
 projects[islandora_solution_pack_image][download][url] = "https://github.com/Islandora/islandora_solution_pack_image.git"
@@ -258,6 +268,11 @@ libraries[bookreader][download][type] = "git"
 libraries[bookreader][download][url] = "https://github.com/Islandora/internet_archive_bookreader"
 libraries[bookreader][download][tag] ="7.x-1.7"
 libraries[bookreader][directory_name] ="bookreader"
+
+libraries[pdfjs][type] = "library"
+libraries[pdfjs][download][type] = "get"
+libraries[pdfjs][download][url] = "https://github.com/mozilla/pdf.js/releases/download/v2.1.266/pdfjs-2.1.266-dist.zip"
+libraries[bookreader][directory_name] ="pdfjs"
 
 libraries[owl-carousel][download][type] = "get"
 libraries[owl-carousel][download][url] = "https://github.com/OwlCarousel2/OwlCarousel2/archive/2.2.1.zip"
