@@ -40,7 +40,7 @@ projects[panels][version] = "3.6"
 projects[variable][version] = "2.5"
 projects[views][version] = "3.21"
 projects[views_bootstrap][version] = "3.1"
-projects[webform][version] = "4.2020"
+projects[webform][version] = "4.20"
 
 ; Themes - drupal.org
 projects[bootstrap][version] = "3.22"
