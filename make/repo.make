@@ -3,7 +3,7 @@ core = 7.x
 api = 2
 
 ; Core
-projects[drupal][version] = "7.58"
+projects[drupal][version] = "7.67"
 
 ; Modules - drupal.org
 projects[admin_menu][version] = "3.0-rc4"
@@ -24,7 +24,7 @@ projects[google_tag][patch][] = http://cgit.drupalcode.org/google_tag/patch/?id=
 projects[imagemagick][version] = "1.0"
 projects[jquery_update][version] = "2.7"
 projects[libraries][version] = "2.3"
-projects[link][version] = "1.3"
+projects[link][version] = "1.6"
 projects[oembed][version] = "0.1-beta3"
 projects[oembed][patch][] = "https://raw.githubusercontent.com/OULibraries/islandora_patches/dev/patches/oembed/oembedcore.patch"
 projects[owlcarousel][version] = "2.x-dev"
@@ -38,12 +38,12 @@ projects[token][version] = "1.6"
 projects[xautoload][version] = "5.7"
 projects[panels][version] = "3.6"
 projects[variable][version] = "2.5"
-projects[views][version] = "3.18"
+projects[views][version] = "3.21"
 projects[views_bootstrap][version] = "3.1"
-projects[webform][version] = "4.12"
+projects[webform][version] = "4.2020"
 
 ; Themes - drupal.org
-projects[bootstrap][version] = "3.14"
+projects[bootstrap][version] = "3.22"
 projects[entity_iframe_theme][version] = "1.0"
 
 ; Modules 
