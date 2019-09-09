@@ -24,7 +24,7 @@ projects[google_tag][patch][] = http://cgit.drupalcode.org/google_tag/patch/?id=
 projects[imagemagick][version] = "1.0"
 projects[jquery_update][version] = "2.7"
 projects[libraries][version] = "2.3"
-projects[link][version] = "1"
+projects[link][version] = "1.6"
 projects[oembed][version] = "0.1-beta3"
 projects[oembed][patch][] = "https://raw.githubusercontent.com/OULibraries/islandora_patches/dev/patches/oembed/oembedcore.patch"
 projects[owlcarousel][version] = "2.x-dev"
