@@ -262,7 +262,7 @@ libraries[bookreader][directory_name] ="bookreader"
 libraries[pdfjs][type] = "library"
 libraries[pdfjs][download][type] = "get"
 libraries[pdfjs][download][url] = "https://github.com/mozilla/pdf.js/releases/download/v2.1.266/pdfjs-2.1.266-dist.zip"
-libraries[bookreader][directory_name] ="pdfjs"
+libraries[pdfjs][directory_name] ="pdfjs"
 
 libraries[owl-carousel][download][type] = "get"
 libraries[owl-carousel][download][url] = "https://github.com/OwlCarousel2/OwlCarousel2/archive/2.2.1.zip"
