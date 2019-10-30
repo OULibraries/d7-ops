@@ -105,6 +105,7 @@ projects[islandora_xml_forms][download][type] = "git"
 projects[islandora_xml_forms][download][url] = "https://github.com/Islandora/islandora_xml_forms.git"
 projects[islandora_xml_forms][download][tag] = "7.x-1.7"
 projects[islandora_xml_forms][patch][] = "https://patch-diff.githubusercontent.com/raw/Islandora/islandora_xml_forms/pull/229.patch"
+projects[islandora_xml_forms][patch][] = "https://patch-diff.githubusercontent.com/raw/Islandora/islandora_xml_forms/pull/232.patch"
 
 projects[islandora_marcxml][type] = "module"
 projects[islandora_marcxml][download][type] = "git"
