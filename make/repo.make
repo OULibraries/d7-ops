@@ -195,6 +195,11 @@ projects[islandora_book_batch][download][type] = "git"
 projects[islandora_book_batch][download][url] = "https://github.com/Islandora/islandora_book_batch.git"
 projects[islandora_book_batch][download][tag] = "7.x-1.7"
 
+projects[islandora_ocr][type] = "module"
+projects[islandora_ocr][download][type] = "git"
+projects[islandora_ocr][download][url] = "https://github.com/Islandora/islandora_ocr.git"
+projects[islandora_ocr][download][tag] = "7.x-1.7"
+
 projects[ou_bagit_importer][type] = "module"
 projects[ou_bagit_importer][download][type] = "git"
 projects[ou_bagit_importer][download][url] = "https://github.com/OULibraries/ou_bagit_importer.git"
