@@ -239,10 +239,6 @@ projects[oulib_repository][download][type] = "git"
 projects[oulib_repository][download][branch] = "master"
 projects[oulib_repository][download][url] = "https://github.com/OULibraries/oulib_repositorytheme.git"
 
-projects[oulib_repo][type] = "theme"
-projects[oulib_repo][download][type] = "git"
-projects[oulib_repo][download][url] = "https://github.com/OULibraries/oulib_repo.git"
-
 ; Libraries
 libraries[tuque][type] = "library"
 libraries[tuque][download][type] = "git"
