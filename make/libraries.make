@@ -177,7 +177,7 @@ projects[oulib_cas][download][branch] = "7.x-0.x"
 projects[studyroom][type] = "module"
 projects[studyroom][download][type] = "git"
 projects[studyroom][download][url] = "https://github.com/OULibraries/studyroom.git"
-projects[studyroom][download][branch] = "dev"
+projects[studyroom][download][branch] = "ts-dev-tomidnight"
 
 projects[views_bootstrap][download][type] = "git"
 projects[views_bootstrap][download][url] = "https://github.com/OULibraries/views_bootstrap.git"
