@@ -105,6 +105,7 @@ projects[islandora_xml_forms][download][type] = "git"
 projects[islandora_xml_forms][download][url] = "https://github.com/Islandora/islandora_xml_forms.git"
 projects[islandora_xml_forms][download][tag] = "7.x-1.7"
 projects[islandora_xml_forms][patch][] = "https://patch-diff.githubusercontent.com/raw/Islandora/islandora_xml_forms/pull/229.patch"
+projects[islandora_xml_forms][patch][] = "https://patch-diff.githubusercontent.com/raw/Islandora/islandora_xml_forms/pull/232.patch"
 
 projects[islandora_marcxml][type] = "module"
 projects[islandora_marcxml][download][type] = "git"
@@ -194,6 +195,11 @@ projects[islandora_book_batch][download][type] = "git"
 projects[islandora_book_batch][download][url] = "https://github.com/Islandora/islandora_book_batch.git"
 projects[islandora_book_batch][download][tag] = "7.x-1.7"
 
+projects[islandora_ocr][type] = "module"
+projects[islandora_ocr][download][type] = "git"
+projects[islandora_ocr][download][url] = "https://github.com/Islandora/islandora_ocr.git"
+projects[islandora_ocr][download][tag] = "7.x-1.7"
+
 projects[ou_bagit_importer][type] = "module"
 projects[ou_bagit_importer][download][type] = "git"
 projects[ou_bagit_importer][download][url] = "https://github.com/OULibraries/ou_bagit_importer.git"
@@ -232,10 +238,6 @@ projects[oulib_repository][type] = "theme"
 projects[oulib_repository][download][type] = "git"
 projects[oulib_repository][download][branch] = "master"
 projects[oulib_repository][download][url] = "https://github.com/OULibraries/oulib_repositorytheme.git"
-
-projects[oulib_repo][type] = "theme"
-projects[oulib_repo][download][type] = "git"
-projects[oulib_repo][download][url] = "https://github.com/OULibraries/oulib_repo.git"
 
 ; Libraries
 libraries[tuque][type] = "library"
