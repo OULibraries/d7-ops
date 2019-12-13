@@ -242,7 +242,7 @@ projects[oulib_repository][download][url] = "https://github.com/OULibraries/ouli
 libraries[tuque][type] = "library"
 libraries[tuque][download][type] = "git"
 libraries[tuque][download][url] = "https://github.com/Islandora/tuque.git"
-libraries[tuque][download][tag] = "7.x-1.13"
+libraries[tuque][download][tag] = "1.13"
 
 libraries[openseadragon][type] = "library"
 libraries[openseadragon][download][type] = "get"
@@ -257,7 +257,7 @@ libraries[colorbox][directory_name] ="colorbox"
 libraries[bookreader][type] = "library"
 libraries[bookreader][download][type] = "git"
 libraries[bookreader][download][url] = "https://github.com/Islandora/internet_archive_bookreader"
-libraries[bookreader][download][tag] ="7.x-1.13"
+libraries[bookreader][download][tag] ="7.x-1.7"
 libraries[bookreader][directory_name] ="bookreader"
 
 libraries[pdfjs][type] = "library"
