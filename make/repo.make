@@ -3,7 +3,7 @@ core = 7.x
 api = 2
 
 ; Core
-projects[drupal][version] = "7.58"
+projects[drupal][version] = "7.67"
 
 ; Modules - drupal.org
 projects[admin_menu][version] = "3.0-rc4"
@@ -24,7 +24,7 @@ projects[google_tag][patch][] = http://cgit.drupalcode.org/google_tag/patch/?id=
 projects[imagemagick][version] = "1.0"
 projects[jquery_update][version] = "2.7"
 projects[libraries][version] = "2.3"
-projects[link][version] = "1.3"
+projects[link][version] = "1.6"
 projects[oembed][version] = "0.1-beta3"
 projects[oembed][patch][] = "https://raw.githubusercontent.com/OULibraries/islandora_patches/dev/patches/oembed/oembedcore.patch"
 projects[owlcarousel][version] = "2.x-dev"
@@ -38,12 +38,12 @@ projects[token][version] = "1.6"
 projects[xautoload][version] = "5.7"
 projects[panels][version] = "3.6"
 projects[variable][version] = "2.5"
-projects[views][version] = "3.18"
+projects[views][version] = "3.21"
 projects[views_bootstrap][version] = "3.1"
-projects[webform][version] = "4.12"
+projects[webform][version] = "4.20"
 
 ; Themes - drupal.org
-projects[bootstrap][version] = "3.14"
+projects[bootstrap][version] = "3.22"
 projects[entity_iframe_theme][version] = "1.0"
 
 ; Modules 
@@ -104,6 +104,8 @@ projects[islandora_xml_forms][type] = "module"
 projects[islandora_xml_forms][download][type] = "git"
 projects[islandora_xml_forms][download][url] = "https://github.com/Islandora/islandora_xml_forms.git"
 projects[islandora_xml_forms][download][tag] = "7.x-1.7"
+projects[islandora_xml_forms][patch][] = "https://patch-diff.githubusercontent.com/raw/Islandora/islandora_xml_forms/pull/229.patch"
+projects[islandora_xml_forms][patch][] = "https://patch-diff.githubusercontent.com/raw/Islandora/islandora_xml_forms/pull/232.patch"
 
 projects[islandora_marcxml][type] = "module"
 projects[islandora_marcxml][download][type] = "git"
@@ -119,6 +121,16 @@ projects[islandora_solution_pack_collection][type] = "module"
 projects[islandora_solution_pack_collection][download][type] = "git"
 projects[islandora_solution_pack_collection][download][url] = "https://github.com/Islandora/islandora_solution_pack_collection.git"
 projects[islandora_solution_pack_collection][download][tag] = "7.x-1.7"
+
+projects[islandora_solution_pack_pdf][type] = "module"
+projects[islandora_solution_pack_pdf][download][type] = "git"
+projects[islandora_solution_pack_pdf][download][url] = "https://github.com/Islandora/islandora_solution_pack_pdf.git"
+projects[islandora_solution_pack_pdf][download][tag] = "7.x-1.7"
+
+projects[islandora_pdfjs][type] = "module"
+projects[islandora_pdfjs][download][type] = "git"
+projects[islandora_pdfjs][download][url] = "https://github.com/Islandora/islandora_pdfjs.git"
+projects[islandora_pdfjs][download][tag] = "7.x-1.7"
 
 projects[islandora_solution_pack_image][type] = "module"
 projects[islandora_solution_pack_image][download][type] = "git"
@@ -145,6 +157,21 @@ projects[islandora_solution_pack_newspaper][download][type] = "git"
 projects[islandora_solution_pack_newspaper][download][url] = "https://github.com/Islandora/islandora_solution_pack_newspaper.git"
 projects[islandora_solution_pack_newspaper][download][tag] = "7.x-1.7"
 
+projects[islandora_solution_pack_audio][type] = "module"
+projects[islandora_solution_pack_audio][download][type] = "git"
+projects[islandora_solution_pack_audio][download][url] = "https://github.com/Islandora/islandora_solution_pack_audio.git"
+projects[islandora_solution_pack_audio][download][tag] = "7.x-1.7"
+
+projects[islandora_solution_pack_compound][type] = "module"
+projects[islandora_solution_pack_compound][download][type] = "git"
+projects[islandora_solution_pack_compound][download][url] = "https://github.com/Islandora/islandora_solution_pack_compound.git"
+projects[islandora_solution_pack_compound][download][tag] = "7.x-1.7"
+
+projects[islandora_videojs][type] = "module"
+projects[islandora_videojs][download][type] = "git"
+projects[islandora_videojs][download][url] = "https://github.com/Islandora/islandora_videojs.git"
+projects[islandora_videojs][download][tag] = "7.x-1.7"
+
 projects[islandora_internet_archive_bookreader][type] = "module"
 projects[islandora_internet_archive_bookreader][download][type] = "git"
 projects[islandora_internet_archive_bookreader][download][url] = "https://github.com/OULibraries/islandora_internet_archive_bookreader_temp.git"
@@ -167,6 +194,11 @@ projects[islandora_book_batch][type] = "module"
 projects[islandora_book_batch][download][type] = "git"
 projects[islandora_book_batch][download][url] = "https://github.com/Islandora/islandora_book_batch.git"
 projects[islandora_book_batch][download][tag] = "7.x-1.7"
+
+projects[islandora_ocr][type] = "module"
+projects[islandora_ocr][download][type] = "git"
+projects[islandora_ocr][download][url] = "https://github.com/Islandora/islandora_ocr.git"
+projects[islandora_ocr][download][tag] = "7.x-1.7"
 
 projects[ou_bagit_importer][type] = "module"
 projects[ou_bagit_importer][download][type] = "git"
@@ -207,10 +239,6 @@ projects[oulib_repository][download][type] = "git"
 projects[oulib_repository][download][branch] = "master"
 projects[oulib_repository][download][url] = "https://github.com/OULibraries/oulib_repositorytheme.git"
 
-projects[oulib_repo][type] = "theme"
-projects[oulib_repo][download][type] = "git"
-projects[oulib_repo][download][url] = "https://github.com/OULibraries/oulib_repo.git"
-
 ; Libraries
 libraries[tuque][type] = "library"
 libraries[tuque][download][type] = "git"
@@ -232,6 +260,11 @@ libraries[bookreader][download][type] = "git"
 libraries[bookreader][download][url] = "https://github.com/Islandora/internet_archive_bookreader"
 libraries[bookreader][download][tag] ="7.x-1.7"
 libraries[bookreader][directory_name] ="bookreader"
+
+libraries[pdfjs][type] = "library"
+libraries[pdfjs][download][type] = "get"
+libraries[pdfjs][download][url] = "https://github.com/mozilla/pdf.js/releases/download/v2.1.266/pdfjs-2.1.266-dist.zip"
+libraries[pdfjs][directory_name] ="pdfjs"
 
 libraries[owl-carousel][download][type] = "get"
 libraries[owl-carousel][download][url] = "https://github.com/OwlCarousel2/OwlCarousel2/archive/2.2.1.zip"

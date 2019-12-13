@@ -187,7 +187,7 @@ projects[views_bootstrap][type] = "module"
 projects[studyroom][type] = "module"
 projects[studyroom][download][type] = "git"
 projects[studyroom][download][url] = "https://github.com/OULibraries/studyroom.git"
-projects[studyroom][download][branch] = "php7"
+projects[studyroom][download][branch] = "master"
 
 ; Libraries
 libraries[leaflet][download][type] = "get"
