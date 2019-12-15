@@ -3,27 +3,26 @@ core = 7.x
 api = 2
 
 ; Core
-projects[drupal][version] = "7.67"
+projects[drupal][version] = "7.68"
 
 ; Modules - drupal.org
 projects[admin_menu][version] = "3.0-rc4"
 projects[cas][version] = "1.5"
 projects[cas_attributes][version] = "1.0-rc3"
 projects[cas_roles][version] = "1.2"
-projects[ckeditor][version] = "1.16"
-projects[ctools][version] = "1.9"
-projects[colorbox][version] = "2.12"
+projects[ckeditor][version] = "1.18"
+projects[ctools][version] = "1.15"
+projects[colorbox][version] = "2.13"
 projects[configuration][version] = "2.0-alpha3"
 projects[entity][version] = "1.9"
-projects[features][version] = "2.10"
-projects[field_group][version] = "1.5"
+projects[features][version] = "2.11"
+projects[field_group][version] = "1.6"
 projects[fontyourface][version] = "2.8"
-; Patch for PHP 5.4 compatibility
-projects[google_tag][version] = "1.3"
+projects[google_tag][version] = "1.6"
 projects[imagemagick][version] = "1.0"
 projects[jquery_update][version] = "2.7"
-projects[libraries][version] = "2.3"
-projects[link][version] = "1.6"
+projects[libraries][version] = "2.5"
+projects[link][version] = "1.7"
 projects[oembed][version] = "0.1-beta3"
 projects[oembed][patch][] = "https://raw.githubusercontent.com/OULibraries/islandora_patches/dev/patches/oembed/oembedcore.patch"
 projects[owlcarousel][version] = "2.x-dev"
@@ -33,16 +32,16 @@ projects[pathauto][version] = "1.3"
 projects[subpathauto][version] = "1.3"
 projects[subpathauto][patch][] = "https://raw.githubusercontent.com/OULibraries/islandora_patches/dev/patches/subpathauto/subpathauto.patch"
 projects[themekey][version] = "3.4"
-projects[token][version] = "1.6"
+projects[token][version] = "1.7"
 projects[xautoload][version] = "5.7"
-projects[panels][version] = "3.6"
+projects[panels][version] = "3.9"
 projects[variable][version] = "2.5"
-projects[views][version] = "3.21"
-projects[views_bootstrap][version] = "3.1"
-projects[webform][version] = "4.20"
+projects[views][version] = "3.23"
+projects[views_bootstrap][version] = "3.2"
+projects[webform][version] = "4.21"
 
 ; Themes - drupal.org
-projects[bootstrap][version] = "3.22"
+projects[bootstrap][version] = "3.26"
 projects[entity_iframe_theme][version] = "1.0"
 
 ; Modules 
@@ -246,7 +245,7 @@ libraries[tuque][download][tag] = "1.13"
 
 libraries[openseadragon][type] = "library"
 libraries[openseadragon][download][type] = "get"
-libraries[openseadragon][download][url] = "http://openseadragon.github.io/releases/openseadragon-bin-0.9.129.zip"
+libraries[openseadragon][download][url] = "https://github.com/openseadragon/openseadragon/releases/download/v2.3.1/openseadragon-bin-2.3.1.zip"
 libraries[openseadragon][directory_name] ="openseadragon"
 
 libraries[colorbox][type] = "library"
