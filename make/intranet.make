@@ -64,7 +64,7 @@ projects[views][version] = "3.17"
 projects[views_accordion][version] = "1.0"
 projects[views_bootstrap][version] = "3.1"
 projects[views_data_export][version] = "3.1"
-projects[webform][version] = "4.12"
+projects[webform][version] = "4.10"
 
 ; Themes
 projects[bootstrap][version] = "3.10"
