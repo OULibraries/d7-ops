@@ -2,7 +2,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.67"
+projects[drupal][version] = "7.70"
 
 ; Modules
 projects[views_bulk_operations][version] = "3.5"
@@ -15,7 +15,7 @@ projects[cas][version] = "1.7"
 projects[cas_attributes][version] = "1.0-rc3"
 projects[cas_roles][version] = "1.2"
 projects[charts][version] = "2.1"
-projects[ckeditor][version] = "1.18"
+projects[ckeditor][version] = "1.19"
 projects[colorbox][version] = "2.10"
 projects[custom_breadcrumbs] = "2.0-beta1"
 projects[date][version] = "2.10"
@@ -35,7 +35,7 @@ projects[find_content][version] = "1.7"
 projects[fitvids][version] = "1.17"
 projects[flag][version] = "3.9"
 projects[panels][version] = "3.9"
-projects[google_analytics][version] = "2.1"
+projects[google_analytics][version] = "2.6"
 projects[google_analytics_reports][version] = "3.0"
 projects[highcharts][version] = "1.0-alpha6"
 projects[imagefield_focus][version] = "1.0"
@@ -59,12 +59,12 @@ projects[telephone][version] = "1.0-alpha1"
 projects[token][version] = "1.7"
 projects[token_filter][version] = "1.1"
 projects[user_picture_field][version] = "1.0-rc1"
-projects[uuid][version] = "1.2"
+projects[uuid][version] = "1.3"
 projects[views][version] = "3.22"
 projects[views_accordion][version] = "1.6"
 projects[views_bootstrap][version] = "3.1"
 projects[views_data_export][version] = "3.2"
-projects[webform][version] = "4.19"
+projects[webform][version] = "4.22"
 
 ; Themes
 projects[bootstrap][version] = "3.22"
