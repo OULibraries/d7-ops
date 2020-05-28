@@ -133,6 +133,14 @@ projects[better_contact][download][url] = "https://github.com/OULibraries/better
 ; Libraries
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
+
+libraries[fontawesome][download][type] = "git"
+libraries[fontawesome][download][url] = "https://github.com/FortAwesome/Font-Awesome.git"
+libraries[fontawesome][download][branch] = "master"
+libraries[fontawesome][download][revision] = "a65bd93d81e9e6bd5ebfa41757a4474960b973b4"
+libraries[fontawesome][directory_name] = "fontawesome"
+libraries[fontawesome][type] = "library"
+
 libraries[iCalcreator][download][type] = "git"
 libraries[iCalcreator][download][url] = "https://github.com/iCalcreator/iCalcreator.git"
 libraries[iCalcreator][download][branch] = "master"
