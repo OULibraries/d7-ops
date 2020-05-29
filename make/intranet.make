@@ -198,3 +198,9 @@ libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/release
 libraries[bootstrap][directory_name] = "bootstrap"
 libraries[bootstrap][type] = "library"
 
+libraries[cas][download][type] = "git"	
+libraries[cas][download][url] = "https://github.com/apereo/phpCAS"	
+libraries[cas][directory_name] = "CAS"	
+libraries[cas][type] = "library"
+ibraries[cas][tag] = "https://github.com/apereo/phpCAS/releases/tag/1.3.8"
+
