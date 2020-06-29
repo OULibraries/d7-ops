@@ -193,7 +193,8 @@ projects[views_bootstrap][download][branch] = "main"
 projects[studyroom][type] = "module"
 projects[studyroom][download][type] = "git"
 projects[studyroom][download][url] = "https://github.com/OULibraries/studyroom.git"
-projects[studyroom][download][branch] = "main"
+projects[studyroom][download][revision] = "cc23c943c69ea7910bfeeb446bcd5b50a7b13026"
+; projects[studyroom][download][branch] = "main"
 
 ; Libraries
 libraries[leaflet][download][type] = "get"
