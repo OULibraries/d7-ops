@@ -143,6 +143,11 @@ projects[intranet_custom][download][type] = "git"
 projects[intranet_custom][download][url] = "https://github.com/OULibraries/intranet_custom.git"
 projects[intranet_custom][download][branch] = "master"
 
+projects[labstats_stats][type] = "module"
+projects[labstats_stats][download][type] = "git"
+projects[labstats_stats][download][url] = "https://github.com/OULibraries/labstats_stats.git"
+projects[labstats_stats][download][branch] = "master"
+
 projects[oulib_cas][type] = "module"
 projects[oulib_cas][download][type] = "git"
 projects[oulib_cas][download][url] = "https://github.com/OULibraries/oulib_cas.git"
