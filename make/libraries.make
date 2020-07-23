@@ -149,6 +149,11 @@ projects[labstats_stats][download][type] = "git"
 projects[labstats_stats][download][url] = "https://github.com/OULibraries/labstats_stats.git"
 projects[labstats_stats][download][branch] = "master"
 
+projects[occuspace][type] = "module"
+projects[occuspace][download][type] = "git"
+projects[occuspace][download][url] = "https://github.com/OULibraries/occuspace.git"
+projects[occuspace][download][branch] = "master"
+
 projects[oulib_cas][type] = "module"
 projects[oulib_cas][download][type] = "git"
 projects[oulib_cas][download][url] = "https://github.com/OULibraries/oulib_cas.git"
