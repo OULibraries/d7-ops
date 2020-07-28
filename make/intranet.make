@@ -2,7 +2,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.69"
+projects[drupal][version] = "7.70"
 
 ; Modules
 projects[views_bulk_operations][version] = "3.5"
@@ -35,7 +35,7 @@ projects[field_permissions][version] = "1.0"
 projects[find_content][version] = "1.7"
 projects[fitvids][version] = "1.17"
 projects[flag][version] = "3.9"
-projects[fontawesome][version] = "1.0"
+projects[fontawesome][version] = "3.12"
 projects[panels][version] = "3.9"
 projects[google_analytics][version] = "2.6"
 projects[google_analytics_reports][version] = "3.0"
@@ -66,7 +66,7 @@ projects[views][version] = "3.22"
 projects[views_accordion][version] = "1.6"
 projects[views_bootstrap][version] = "3.1"
 projects[views_data_export][version] = "3.2"
-projects[webform][version] = "4.21"
+projects[webform][version] = "4.22"
 
 ; Themes
 projects[bootstrap][version] = "3.22"
