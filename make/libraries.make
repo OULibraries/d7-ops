@@ -3,7 +3,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.69"
+projects[drupal][version] = "7.72"
 
 ; Modules
 projects[views_bulk_operations][version] = "3.5"
@@ -21,7 +21,7 @@ projects[captcha][version] = "1.5"
 projects[cas][version] = "1.7"
 projects[cas_attributes][version] = "1.0-rc3"
 projects[cas_roles][version] = "1.2"
-projects[ckeditor][version] = "1.18"
+projects[ckeditor][version] = "1.19"
 projects[colorbox][version] = "2.13"
 projects[composer_manager][version] = "1.8"
 projects[conditional_fields][version] = "3.0-alpha2"
