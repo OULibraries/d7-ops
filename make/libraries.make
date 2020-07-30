@@ -113,7 +113,7 @@ projects[bootstrap][version] = "3.26"
 projects[oulib_bootstrap][type] = "theme"
 projects[oulib_bootstrap][download][type] = "git"
 projects[oulib_bootstrap][download][url] = "https://github.com/OULibraries/oulib_bootstrap.git"
-projects[oulib_bootstrap][download][branch] = "user_acceptance"
+projects[oulib_bootstrap][download][branch] = "user-acceptance"
 
 projects[oulib_bootstrap_iframe][type] = "theme"
 projects[oulib_bootstrap_iframe][download][type] = "git"
@@ -199,7 +199,7 @@ projects[views_bootstrap][type] = "module"
 projects[studyroom][type] = "module"
 projects[studyroom][download][type] = "git"
 projects[studyroom][download][url] = "https://github.com/OULibraries/studyroom.git"
-projects[studyroom][download][branch] = "user_acceptance"
+projects[studyroom][download][branch] = "user-acceptance"
 
 ; Libraries
 libraries[leaflet][download][type] = "get"
