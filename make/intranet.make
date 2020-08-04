@@ -34,6 +34,7 @@ projects[field_permissions][version] = "1.0"
 projects[find_content][version] = "1.7"
 projects[fitvids][version] = "1.17"
 projects[flag][version] = "3.9"
+projects[fontawesome][version] = "3.12"
 projects[panels][version] = "3.9"
 projects[google_analytics][version] = "2.6"
 projects[google_analytics_reports][version] = "3.0"
@@ -59,7 +60,7 @@ projects[telephone][version] = "1.0-alpha1"
 projects[token][version] = "1.7"
 projects[token_filter][version] = "1.1"
 projects[user_picture_field][version] = "1.0-rc1"
-projects[uuid][version] = "1.2"
+projects[uuid][version] = "1.3"
 projects[views][version] = "3.22"
 projects[views_accordion][version] = "1.6"
 projects[views_bootstrap][version] = "3.1"
@@ -132,6 +133,15 @@ projects[better_contact][download][url] = "https://github.com/OULibraries/better
 ; Libraries
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
+
+libraries[fontawesome][download][type] = "git"
+libraries[fontawesome][download][url] = "https://github.com/FortAwesome/Font-Awesome.git"
+libraries[fontawesome][download][branch] = "master"
+libraries[fontawesome][download][revision] = "a65bd93d81e9e6bd5ebfa41757a4474960b973b4"
+libraries[fontawesome][directory_name] = "fontawesome"
+libraries[fontawesome][type] = "library"
+
+
 libraries[iCalcreator][download][type] = "git"
 libraries[iCalcreator][download][url] = "https://github.com/iCalcreator/iCalcreator.git"
 libraries[iCalcreator][download][branch] = "master"
