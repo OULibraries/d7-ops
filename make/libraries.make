@@ -273,3 +273,7 @@ libraries[cas][download][type] = "git"
 libraries[cas][download][url] = "https://github.com/apereo/phpCAS"
 libraries[cas][directory_name] = "CAS"
 libraries[cas][type] = "library"
+
+libraries[highcharts/js][download][type] = file
+libraries[highcharts/js][download][url] = http://code.highcharts.com/highcharts.js
+libraries[highcharts/js][type] = "library"
