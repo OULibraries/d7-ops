@@ -31,7 +31,6 @@ projects[date][version] = "2.11-beta2"
 projects[date_ical][version] = "3.9"
 projects[devel][version] = "1.7"
 projects[fontyourface][version] = "2.8"
-projects[easychart][version] = "3.7"
 projects[editableviews][version] = "1.0-beta10"
 projects[email][version] = "1.3"
 projects[entity][version] = "1.9"
@@ -279,13 +278,3 @@ libraries[cas][type] = "library"
 
 libraries[highcharts/js][download][type] = file
 libraries[highcharts/js][download][url] = http://code.highcharts.com/highcharts.js
-
-libraries[highcharts][download][type] = file
-libraries[highcharts][download][url] = https://code.highcharts.com/4.1.9/highcharts.js
-libraries[highcharts][directory_name] = "highcharts"
-libraries[highcharts][type] = "library"
-
-libraries[easychart][download][type] = "get"
-libraries[easychart][download][url] = "https://github.com/daemth/easychart/archive/v2.2.1.zip"
-libraries[easychart][directory_name] = "easychart"
-libraries[easychart][type] = "library"
