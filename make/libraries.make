@@ -280,6 +280,6 @@ libraries[highcharts/js][download][type] = file
 libraries[highcharts/js][download][url] = http://code.highcharts.com/highcharts.js
 libraries[highcharts/js][type] = "library"
 
-libraries[highcharts/js][download][type] = file
-libraries[highcharts/js][download][url] = http://code.highcharts.com/highcharts.js.map
-libraries[highcharts/js][type] = "library"
+#libraries[highcharts/js][download][type] = file
+#libraries[highcharts/js][download][url] = http://code.highcharts.com/highcharts.js.map
+#libraries[highcharts/js][type] = "library"
