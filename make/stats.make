@@ -115,6 +115,11 @@ projects[labstats_stats][download][type] = "git"
 projects[labstats_stats][download][url] = "https://github.com/OULibraries/labstats_stats.git"
 projects[labstats_stats][download][branch] = "master"
 
+projects[labstats_stats][type] = "module"
+projects[labstats_stats][download][type] = "git"
+projects[labstats_stats][download][url] = "https://github.com/OULibraries/trafsys.git"
+projects[labstats_stats][download][branch] = "master"
+
 projects[libanswers_stats][type] = "module"
 projects[libanswers_stats][download][type] = "git"
 projects[libanswers_stats][download][url] = "https://github.com/OULibraries/libanswers_stats.git"
