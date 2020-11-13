@@ -118,7 +118,7 @@ projects[labstats_stats][download][branch] = "master"
 projects[labstats_stats][type] = "module"
 projects[labstats_stats][download][type] = "git"
 projects[labstats_stats][download][url] = "https://github.com/OULibraries/trafsys.git"
-projects[labstats_stats][download][branch] = "master"
+projects[labstats_stats][download][branch] = "main"
 
 projects[libanswers_stats][type] = "module"
 projects[libanswers_stats][download][type] = "git"
