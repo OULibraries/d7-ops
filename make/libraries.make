@@ -217,6 +217,7 @@ libraries[slick][download][type] = "get"
 libraries[slick][download][url] = "https://github.com/kenwheeler/slick/archive/1.8.0.zip"
 libraries[slick][directory_name] = "slick"
 libraries[slick][type] = "library"
+libraries[slick][patch][] = "https://www.drupal.org/files/issues/2021-03-18/slick-mousewheel-3204431-2.patch"
 
 libraries[easing][download][type] = ""
 libraries[easing][download][url] = ""
