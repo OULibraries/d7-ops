@@ -223,11 +223,6 @@ libraries[easing][download][url] = ""
 libraries[easing][directory_name] = "easing"
 libraries[easing][type] = "library"
 
-;libraries[mousewheel][download][type] = "get"
-;libraries[mousewheel][download][url] = "https://github.com/brandonaaron/jquery-mousewheel/archive/main.zip"
-;libraries[mousewheel][directory_name] = "mousewheel"
-;libraries[mousewheel][type] = "library"
-
 libraries[colorbox][download][type] = "git"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
 libraries[colorbox][download][tag] = "1.6.4"
