@@ -109,16 +109,12 @@ projects[oulib_docreg][download][url] = "https://github.com/OULibraries/oulib_do
 projects[oulib_docreg][download][revision] = "d6cc7d5c5863f80ccbedf40af171d7800bfd8356"
 
 ; Libraries
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
-libraries[bootstrap][download][type] = ""
-libraries[bootstrap][download][url] = ""
+libraries[cas][download][type] = "git"
+libraries[cas][download][url] = "https://github.com/apereo/phpCAS"
+libraries[cas][directory_name] = "CAS"
+libraries[cas][type] = "library"
+
+libraries[bootstrap][download][type] = "get"
+libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/releases/download/v3.3.1/bootstrap-3.3.1-dist.zip"
 libraries[bootstrap][directory_name] = "bootstrap"
 libraries[bootstrap][type] = "library"
-
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
-libraries[CAS][download][type] = ""
-libraries[CAS][download][url] = ""
-libraries[CAS][directory_name] = "CAS"
-libraries[CAS][type] = "library"
